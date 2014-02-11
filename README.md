@@ -2,9 +2,14 @@
 
 La presente repository ha come scopo quello di raccogliere tutto il codice per il progetto di Tecnologie Web del gruppo [group_name]. 
 
+
+
 ## Stato del progetto
 
-Il progetto è attualmente in fase embrionale e si stanno definendo le procedure di lavoro e la struttura principale del sito.
+Version: 0.0.1
+
+* Created index.html;
+* Created screen.css
 
 ## Link esterni per il progetto
 
