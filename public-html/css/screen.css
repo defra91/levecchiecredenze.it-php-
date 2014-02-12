@@ -14,6 +14,8 @@ div#container {
 	border: 1px solid #000;
 	margin-left: auto;
 	margin-right: auto;
+	overflow: auto;
+
 }
 
 /* Sezione banner */
@@ -21,8 +23,8 @@ div#container {
 div#banner {
 	width: 100%;
 	padding: 2% 0%;
-	border-bottom: 1px solid #000;
 	background-image: url();
+	border-bottom: 1px solid #000;
 }
 
 div#banner h1 {
@@ -34,10 +36,9 @@ div#banner h1 {
 
 div#navigation {
 	width: 100%;
-	
-	border-bottom: 1px solid #000;
 	background-image: url();
 	float: left;
+	border-bottom: 1px solid #000;
 
 }
 
@@ -60,25 +61,33 @@ span.menu_item_selected {
 /* Sezione contenuto */
 
 div#content {
-
+	width: 100%;
+	float: left;
+	
 }
 
 /* Spalla sinistra */
 
 div#left_section {
-
+	width: 70%;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	float: left;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 div#left_section h1 {
+	text-align:center;
 
 }
 
 div#left_section h2 {
-
+	text-align:center;
 }
 
 div#left_section h3 {
-
+	text-align:center;
 }
 
 div#left_section div {
@@ -92,7 +101,10 @@ div#left_section div + div {
 
 
 div#right_section {
-
+	padding-top: 2%;
+	width: 29%;
+	float: left;
+	text-align: center;
 }
 
 /* Spalla destra */
@@ -128,7 +140,9 @@ span.news_date {
 /* Sezione footer */
 
 div#footer {
-
+	width: 25%;
+	
+	float: left;
 }
 
 div#footer p {
@@ -141,4 +155,5 @@ div#footer a {
 
 img.social_icon {
 
+width: 50px;
 }
