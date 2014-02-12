@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- 
+set transition number from 1 to 9
+set transition number to 0 for random effect
+ -->
+<RSS PAUSE="4000">
+	<IMAGE TRANSITION="1" LINK="">images/eve/1.jpg</IMAGE>
+	<IMAGE TRANSITION="1" LINK="">images/eve/2.jpg</IMAGE>
+	<IMAGE TRANSITION="1" LINK="">images/eve/3.jpg</IMAGE>
+<IMAGE TRANSITION="1" LINK="" PAUSE="5000">images/eve/4.jpg</IMAGE>	
+</RSS>
+
