@@ -32,12 +32,12 @@ jQuery.fn.fadeSlideShow = function(options) {
 			PlayText: 'Play', // default play text
 			PauseText: 'Pause', // default pause text
 			NextElement: 'fssNext', // default id for next button
-			NextElementText: 'Next >', // default text for next button
+			NextElementText: 'Successiva >', // default text for next button
 			PrevElement: 'fssPrev', // default id for prev button
-			PrevElementText: '< Prev', // default text for prev button
-			ListElement: 'fssList', // default id for image / content controll list
-			ListLi: 'fssLi', // default class for li's in the image / content controll 
-			ListLiActive: 'fssActive', // default class for active state in the controll list
+			PrevElementText: '< Precedente', // default text for prev button
+			//ListElement: 'fssList', // default id for image / content controll list
+			//ListLi: 'fssLi', // default class for li's in the image / content controll 
+			//ListLiActive: 'fssActive', // default class for active state in the controll list
 			addListToId: false, // add the controll list to special id in your code - default false
 			allowKeyboardCtrl: true, // allow keyboard controlls left / right / space
 			autoplay: true // autoplay the slideshow
