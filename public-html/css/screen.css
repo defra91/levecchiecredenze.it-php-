@@ -5,31 +5,59 @@
 }
 
 body {
-	background-color: #FAFAD2;
+	
 }
+
+div#container {
+	width: 1024px;
+	border: 1px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
 
 /* Sezione banner */
 
 div#banner {
-
+	width: 100%;
+	padding: 2% 0%;
+	border-bottom: 1px solid #000;
+	background-image: url();
 }
 
 div#banner h1 {
+	text-align: center;
 
 }
 
 /* Sezione menu di navigazione */
 
 div#navigation {
+	width: 100%;
 	
+	border-bottom: 1px solid #000;
+	background-image: url();
+	float: left;
+
 }
 
 span.menu_item {
+	float: left;
+    width: 10.89173%;
+	text-align:center;
+	padding: 2% 0%;
+	
 
 }
 
 span.menu_item_selected {
-
+	float: left;
+    width: 11.11%;
+	text-align:center;
+	padding: 2% 0%;
 }
 
 /* Sezione contenuto */
