@@ -6,10 +6,13 @@ La presente repository ha come scopo quello di raccogliere tutto il codice per i
 
 ## Stato del progetto
 
-Version: 0.0.1
+Version: 0.0.2
 
 * Created index.html;
-* Created screen.css
+* Created screen.css;
+* Created smartphone.css;
+* Created tablet.css;
+* Created print.css.
 
 ## Link esterni per il progetto
 
@@ -44,3 +47,9 @@ Version: 0.0.1
   * Inserimento di dati;
   * Estrazione di dati;
   * Modifica di dati;
+
+## Programmi e tool da utilizzare
+
+Fondamentalmente ci sarà da scrivere codice e lavorare su alcune immagini. Per le immagini è un discorso libero e da fare a parte. Per quanto riguarda il codice possiamo usare qualsiasi editor di testo che preferiamo, è indifferente. L'unico strumento veramente utile al momento è il validatore online del W3C. Sconsiglierei assolutamente di utilizzare programmi WYSWYG tipo Dreamweaver. 
+Per quanto riguarda Perl avremo bisogno dell'installazione di quest'ultimo e di un server apache in grado di interpretare questi script. Inoltre avremo bisogno di CPAN per il caricamento dei diversi moduli di Perl. Per quanto riguarda javascript ci possiamo avvalere di tutte le librerie che vogliamo (jQuery, Prototype, ...), purchè non compromettano l'accessibilità generale del sito. Ricordo che non è importante la parte javascript, servirà solo per alcune cose. 
+Come sistema operativo di riferimento possiamo usare quello che preferiamo ma quando il sito inizierà ad essere dinamico dovremo per forza affidarci a linux, in quanto Perl è molto difficile da usare in ambiente Windows.
