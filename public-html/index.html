@@ -10,6 +10,15 @@
 	<link rel="stylesheet" type="text/css" href="css/tablet-landscape.css" media=" only screen and (min-width: 480px) and (max-width: 1024px) and (orientation:landscape)" /> 
 	<link rel="stylesheet" type="text/css" href="css/tablet-portrait.css" media="only screen and (min-widht: 480px) and (max-width: 1024px) and (orientation:portrait)" /> 
 	<link rel="stylesheet" type="text/css" href="css/smartphone-portrait.css" media="only screen and (max-width: 480px) and (orientation: portrait" />
+
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/fadeSlideShow.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#slideshow').fadeSlideShow();
+		});
+	</script>
 </head>
 
 <body>
@@ -39,7 +48,14 @@
 				<h2>Le Vecchie Credenze</h2>
 				<h3>di Vittorio e Valeria</h3>
 			</div>
-			<div></div> <!-- Qui ci andrà una slideshow di immagini -->
+			<div id="slideshowWrapper">
+    			<ul id="slideshow">
+        			<li><img src="images/loc/4.jpg" alt="" /></li> <!-- This is the last image in the slideshow -->
+        			<li><img src="images/loc/3.jpg" alt="" /></li>
+       				<li><img src="images/loc/2.jpg" alt="" /></li>
+        			<li><img src="images/loc/1.jpg" alt="" /></li> <!-- This is the first image in the slideshow -->
+    			</ul>
+			</div>
 		</div>
 		<div id="right_section">
 			<h1>Ultime <span xml:lang="en" lang="en">news</span></h1>
