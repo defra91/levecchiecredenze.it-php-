@@ -15,10 +15,6 @@ div#container {
 	margin-right: auto;
 }
 
-
-
-
-
 /* Sezione banner */
 
 div#banner {
@@ -72,13 +68,26 @@ div#left_section {
 
 }
 
-div#lect_section h1 {
+div#left_section h1 {
 
 }
 
 div#left_section h2 {
 
 }
+
+div#left_section h3 {
+
+}
+
+div#left_section div {
+	/* sezione in cui ci andrà l'intestazione della home */
+}
+
+div#left_section div + div {
+	/* sezione in cui ci andrà l'immagine di slideshow */
+}
+
 
 div#right_section {
 
