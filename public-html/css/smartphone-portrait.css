@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #cb8f6f;
+	background-color: #000;
 }
 
 div#container {
@@ -18,10 +18,14 @@ div#container {
 div#banner {
 	width: 100%;
 	padding: 5% 0;
+	border-bottom: 1px solid #A3856F;
+	background-image: url("../images/banner_alt_smartphone.png");
+	background-size: 100%; /* CSS3 */
 }
 
 div#banner h1 {
 	text-align: center;
+	display: none;
 }
 
 /* Sezione menu di navigazione */
@@ -35,18 +39,21 @@ span.menu_item {
 	width: 100%;
 	float: left;
 	padding: 10% 0;
-	background-color: #FFF;
 	text-align: center;
 	font-size: 0.8em;
+	border: 1px solid #A3856F;
+	color: #FFF;
 }
 
 span.menu_item_selected {
 	width: 100%;
 	float: left;
 	padding: 10% 0;
-	background-color: #FFF;
 	text-align: center;
 	font-size: 0.8em;
+	border: 1px solid #A3856F;
+	color: #FFF;
+	text-decoration: none;
 }
 
 /* Sezione contenuto */
@@ -55,7 +62,9 @@ div#content {
 	width: 60%;
 	margin-left: 5%;
 	margin-right: 5%;
+	margin-top: 5%;
 	float: left;
+	color: #A3856F;
 }
 
 /* Spalla sinistra */
@@ -82,12 +91,13 @@ div#left_section h3 {
 	font-style: italic;
 }
 
+/* Spalla destra */
+
 div#right_section {
 	width: 100%;
-	margin-top: 10%;
+	margin-top: 5%;
+	color: #A3856F;
 }
-
-/* Spalla destra */
 
 div#right_section h1 {
 	font-size: 1em;
@@ -100,13 +110,15 @@ div.news {
 	margin-left: 8%;
 	margin-bottom: 10%;
 	float: left;
-	border: 1px solid #000;
+	border: 1px solid #A3856F;
 	padding: 10% 2%;
 	text-align: center;
+	color: #A3856F;
 }
 
 div.news a {
 	font-size: 0.8em;
+	color: #A3856F
 }
 
 div.news p {
@@ -123,6 +135,8 @@ div#footer {
 	padding: 4%;
 	clear: left;
 	text-align: center;
+	border-top: 1px solid #A3856F;
+	color: #A3856F;
 }
 
 div#footer p {
@@ -133,17 +147,42 @@ div#footer p {
 #credits_link {
 	clear: left;
 	display: block;
-	margin: 4% 0;
+	font-size: 0.7em;
+	margin: 2% 0;
 }
 
 img.social_icon {
-	float: left;
-	width: 10%;
+	width: 5%;
 	margin-top: 4%;
-	margin-bottom: 4%;
-	margin-left: 12%;
+	margin-left: 4%;
 }
 
 img#private_key {
-	width: 10%;
+	width: 5%;
+}
+
+/* La slideshow iniziale non verrà mostrate nella versione per smartphone */
+
+#slideshowWrapper {
+	display: none;
+}
+
+#slideshowWrapper img {
+	display: none;
+}
+
+#fssPrev {
+	display: none;
+}
+
+#fssNext {
+	display: none;
+}
+
+#fssPlayPause {
+	display: none;
+}
+
+ul#slideshow {
+	display: none;
 }
