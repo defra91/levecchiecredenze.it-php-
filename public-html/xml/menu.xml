@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <menu>
+ 	<evento></evento>
+ 	<data>
+ 		<giorno></giorno>
+ 		<mese></mese>
+ 		<anno></anno>
+ 	</data>
+ 	<portata>
+ 		<nome></nome>
+ 		<piatto>
+ 			<nome></nome>
+ 			<costo></costo>
+ 			<descrizione></descrizione>
+ 			<calorie></calorie>
+ 			<ingredienti>
+ 				<nome></nome>
+ 				<surgelato></surgelato>
+ 			</ingredienti>
+ 		</piatto>
+ 	</portata>
+ </menu>
