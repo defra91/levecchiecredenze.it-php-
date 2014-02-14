@@ -9,7 +9,7 @@
  </data>
 <evento id="1" />
 </news>
-<!-- Titolo= della new 
+<!-- Titolo= della news
 Descrizione = contenuto della news
 Data = data di creazione/fino a quando verrà visualizzata (da decidere) 
 Evento= impostato a 0 se la news non è collegata ad eventi, altrimenti l'id indica a quale evento è connessa. I dettagli dell'evento (data, etc...saranno nel file xml riguardante l'evento)

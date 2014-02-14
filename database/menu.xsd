@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="menu" >
+	<xs:complexType>
+		<xs:sequence>
+
+<!-- INIZIO DATA -->
+
+			<xs:element name="data">
+			  <xs:complexType>
+			    <xs:sequence>
+
+			    	<xs:element name="giorno" >
+			      		<xs:simpleType>
+					    	<xs:restriction base="xs:integer">
+					        	<xs:minInclusive value="1" />
+					        	<xs:maxInclusive value="31" />
+					    	</xs:restriction>
+				    	</xs:simpleType>
+					</xs:element>
+
+				    <xs:element name="mese" >
+			      		<xs:simpleType>
+				        	<xs:restriction base="xs:integer">
+				        		<xs:minInclusive value="1" />
+				        		<xs:maxInclusive value="12" />
+				        	</xs:restriction>
+				    	</xs:simpleType>
+					</xs:element>
+
+				    <xs:element name="anno" >
+			      		<xs:simpleType>
+				        	<xs:restriction base="xs:integer">
+				        		<xs:minInclusive value="2014" />
+				       		</xs:restriction>
+				    	</xs:simpleType>
+					</xs:element>
+
+				</xs:sequence>
+			   </xs:complexType>
+			</xs:element> 
+
+<!-- FINE DATA -->
+
+	<!-- INIZIO PORTATA -->
+			<xs:element name="portata">
+				<xs:complexType>
+			    	<xs:sequence>
+			    		<xs:element name="nomePortata" type="xs:string" />
+			    		<!-- INIZIO PIATTO -->
+			    		<xs:element name="piatto" >
+			    			<xs:complexType>
+			    				<xs:sequence>
+			    					<xs:element name="nomePiatto" type="xs:string" />
+			    					<xs:element name="costo" type="xs:float" />
+			    					<xs:element name="descrizione" type="xs:string" />
+			    					<xs:element name="calorie" type="xs:positiveInteger" />
+			    					<!-- INIZIO INGREDIENTE -->
+			    					<xs:element name="ingrediente" >
+			    						<xs:complexType>
+			    							<xs:sequence>
+			    								<xs:element name="nomeIngrediente" type="xs:string" />
+			    								<xs:element name="surgelato" type="xs:boolean" />
+			    							</xs:sequence>
+										</xs:complexType>
+									</xs:element> 
+			    					<!-- FINE INGREDIENTE -->
+			    				</xs:sequence>
+							</xs:complexType>
+						</xs:element> 
+						<!-- FINE PIATTO -->
+			    	</xs:sequence>
+				</xs:complexType>
+			</xs:element> 
+	<!-- FINE PORTATA -->
+
+	<!-- INIZIO EVENTO -->
+
+			<xs:element name="evento">
+				<xs:complexType>
+		   			<xs:simpleContent>
+		        		<xs:extension base="xs:string">
+		        			<xs:attribute name="id" type="xs:integer" use="required" />
+		     			</xs:extension>
+		    		</xs:simpleContent>
+		  		</xs:complexType>	
+			</xs:element> 
+
+<!-- FINE EVENTO -->
+
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

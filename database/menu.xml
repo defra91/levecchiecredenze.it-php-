@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
  	<data>
- 		<giorno></giorno>
- 		<mese></mese>
- 		<anno></anno>
+ 		<giorno>28</giorno>
+ 		<mese>08</mese>
+ 		<anno>2014</anno>
  	</data>
  	<portata>
- 		<nome></nome>
+ 		<nomePortata>antipasto</nomePortata>
  		<piatto>
- 			<nome></nome>
- 			<costo></costo>
- 			<descrizione></descrizione>
- 			<calorie></calorie>
- 			<ingredienti>
- 				<nome></nome>
- 				<surgelato></surgelato>
- 			</ingredienti>
+ 			<nomePiatto>filetto</nomePiatto>
+ 			<costo>15</costo>
+ 			<descrizione>prova</descrizione>
+ 			<calorie>250</calorie>
+ 			<ingrediente>
+ 				<nomeIngrediente>pomodoro</nomeIngrediente>
+ 				<surgelato>1</surgelato>
+ 			</ingrediente>
  		</piatto>
  	</portata>
  	<evento id="1" />
