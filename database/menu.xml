@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
+ 	<data>
+ 		<giorno>28</giorno>
+ 		<mese>08</mese>
+ 		<anno>2014</anno>
+ 	</data>
+ 	<portata>
+ 		<nomePortata>antipasto</nomePortata>
+ 		<piatto>
+ 			<nomePiatto>filetto</nomePiatto>
+ 			<costo>15</costo>
+ 			<descrizione>prova</descrizione>
+ 			<calorie>250</calorie>
+ 			<ingrediente>
+ 				<nomeIngrediente>pomodoro</nomeIngrediente>
+ 				<surgelato>1</surgelato>
+ 			</ingrediente>
+ 		</piatto>
+ 	</portata>
+ 	<evento id="1" />
+ </menu>
+ <!--
+	Data= data di creazione/ultima modifica del menu
+	portata=(antipasto, primo, secondo blabla)
+	piatto= mi pare si capisca, esempio:
+		nome=filetto alla pizzaiola
+		costo=15,00
+		descrizione=manzo con pomodoro blabla
+		calorie=250
+		ingredienti= lista di ingredienti, surgelato vale 1 se può essere un ingrediente surgelato, 0 altrimenti
+	evento= se vuoto si tratta del menu standard, altrimenti l'id indica a quale evento è connessa. I dettagli dell'evento (data, etc...saranno nel file xml riguardante l'evento)
+
+ 	-->
