@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<news>
+<news xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="news.xsd">
 <titolo></titolo>
 <descrizione></descrizione>
-<data></data>
+<data>
+ 		<giorno></giorno>
+ 		<mese></mese>
+ 		<anno></anno>
+ </data>
 <evento id="" />
 </news>
