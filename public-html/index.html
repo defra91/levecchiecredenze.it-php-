@@ -7,97 +7,82 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> 
-	<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen and (min-width: 1024px)" /> <!-- css per gli schermi con 1024px o + -->
+	<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen and (min-width: 1024px)" />
 	<link rel="stylesheet" type="text/css" href="css/tablet-landscape.css" media=" only screen and (min-width: 480px) and (max-width: 1024px) and (orientation:landscape)" /> 
 	<link rel="stylesheet" type="text/css" href="css/tablet-portrait.css" media="only screen and (min-widht: 480px) and (max-width: 1024px) and (orientation:portrait)" /> 
 	<link rel="stylesheet" type="text/css" href="css/smartphone-portrait.css" media="only screen and (max-width: 480px) and (orientation: portrait" />
-
-	<link rel="stylesheet" type="text/css" href="css/slideshow.css" media="only screen and (min-width: 1024px)" />
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/fadeSlideShow.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function(){
-			jQuery('#slideshow').fadeSlideShow();
-		});
-	</script>
+	<link rel="stylesheet" type="text/css" href="css/smartphone-landscape.css" media="only screen and (max-width: 480px) and (orientation: landscape" />
 </head>
 
 <body>
 
-<div id="container">
+	<div id="header">
+	
+		<div id="banner">
+			Le Vecchie Credenze
+		</div>
 
-	<div id="banner">
-		<h1>Le Vecchie Credenze</h1>	
+		<div id="navigation">
+			<ul>
+				<li>Home</li>
+				<li>La storia</li>
+				<li>Il nostro menu</li>
+				<li>La nostra cantina</li>
+				<li>Galleria</li>
+				<li>I nostri eventi</li>
+				<li>Le nostre news</li>
+				<li>Come raggiungerci</li>
+				<li>Contattaci</li>
+			</ul>
+		</div>
+
+		<div id="footer">
+			<img class="language" src="images/ita.gif" alt="cambia la lingua del sito in Italiano" title="italiano" />
+			<img class="language" src="images/eng.gif" alt="change the language of the site in English" title="english" />
+			<h1>Ristorante le Vecchie Credenze</h1>
+			<p>Via Alberassa, 16 Santena (TO)</p>
+			<p>Tel. 011-9456455</p>
+			<p>P.IVA 04781560489</p>
+			<p>info@levecchiecredenze.it</p>
+			<p>Chiuso il Lunedì</p>
+			<p>Orario: 12:30 - 14:30, 19:00 - 00:00</p>
+			<a href="#">Credits</a>
+			<a href="#">Admin</a> 
+		</div>
+
 	</div>
-	<div id="navigation">
-		<span class="menu_item_selected" xml:lang="en" lang="en">Home</span>
-		<span class="menu_item"><a href="#">La storia</a></span>
-		<span class="menu_item"><a href="#">Il locale</a></span>
-		<span class="menu_item"><a href="#">La cucina</a></span>
-		<span class="menu_item"><a href="#">La cantina</a></span>
-		<span class="menu_item" xml:lang="en" lang="en"><a href="#">Fotogallery</a></span>
-		<span class="menu_item"><a href="#">Menù</a></span>
-		<span class="menu_item" xml:lang="en" lang="en"><a href="#">News</a></span>
-		<span class="menu_item">Contatti</span>
-	</div>
-	<!-- Da valutare i breadcrumb -->
 
 	<div id="content">
-		<div id="left_section">
-			<div>
-				<h1>Ristorante</h1>
-				<h2>Le Vecchie Credenze</h2>
-				<h3>di Vittorio e Valeria</h3>
-			</div>
-			<div id="slideshowWrapper">
-    			<ul id="slideshow">
-        			<li><img src="images/loc/4.jpg" alt="" /></li> <!-- This is the last image in the slideshow -->
-        			<li><img src="images/loc/3.jpg" alt="" /></li>
-       				<li><img src="images/loc/2.jpg" alt="" /></li>
-        			<li><img src="images/loc/1.jpg" alt="" /></li> <!-- This is the first image in the slideshow -->
-    			</ul>
-			</div>
-		</div>
-		<div id="right_section">
-			<h1>Ultime <span xml:lang="en" lang="en">news</span></h1>
-			<div class="news">
-				<a href="#">Titolo news</a>
-				<p>Descrizione news</p>
-				<span class="news_date">11 Febbraio 2014</span>
-			</div>
-			<div class="news">
-				<a href="#">Titolo news</a>
-				<p>Descrizione news</p>
-				<span class="news_date">11 Febbraio 2014</span>
-			</div>
-			<div class="news">
-				<a href="#">Titolo news</a>
-				<p>Descrizione news</p>
-				<span class="news_date">11 Febbraio 2014</span>
-			</div>
-			<div class="news">
-				<a href="#">Titolo news</a>
-				<p>Descrizione news</p>
-				<span class="news_date">11 Febbraio 2014</span>
-			</div>
-		</div>
-	</div>
-	<div id="footer">
-		<p>Ristorante le vecchie credenze</p>
-		<p>Via Alberassa, 16 Santena (TO)</p>
-		<p>Tel. 011-9456455</p>
-		<a href="#"><img class="social_icon" src="images/facebook-icon.png" alt="logo di facebook" title="Aggiungici su Facebook" /></a>
-		<a href="#"><img class="social_icon" src="images/twitter-icon.png" alt="logo di twitter" title="Seguici su Twitter" /></a>
-		<a href="#"><img class="social_icon" src="images/tripadvisor-icon.png" alt="logo di tripadvisor" title="Trovaci su Trip Advisor" /></a>
-		<a href="#"><img class="social_icon" src="images/gplus-icon.png" alt="logo di google plus" title="Aggiungici a Google Plus" /></a>
-		<a href="#" id="credits_link">Credits</a>
-		<a href="#"><img src="images/key-icon.png" 
-			alt="una chiave per l'accesso alla sezione privata" title="amministrazione" id="private_key" /></a>
-	</div>
+		<h1>Ristorante</h1>
+		<h2>Le Vecchie Credenze</h2>
+		<h3>di Vittorio e Valeria</h3>
+		<hr/>
+		<p>
+			“Le Vecchie Credenze” è situato in un'ala di un’antica cascina, dove l'abitato di Santena lascia spazio alla campagna circostante.
+		</p>
+		<p>
+			Il ristorante è frutto di una ristrutturazione accurata, studiata per accogliere comodamente gli ospiti mantenendo la ruralità e il calore del contesto, sia nella sala interna che nell'ampio porticato. Tra dentro e fuori i coperti sono circa 130. 
+		</p>
+		<p>
+			Un ampio parcheggio ed uno spazio esterno dedicato ai bambini sono disponibili all'interno della proprietà, completamente recintata. 
+		</p>
+		<p>
+			Gli ospiti vengono accolti subito dal profumo del pane appena sfornato, come era consuetudine (un tempo) nelle case rurali. Nei mesi invernali la fiamma del caminetto rallegra i commensali, coinvolgendoli in un'atmosfera tranquilla e raffinata: quello che ci vuole per assaporare al meglio i piaceri della buona tavola.
+		</p>
+		<p>
+			La prossimità all'uscita Santena della tangenziale Villanova–Torino consente al ristorante di essere facilmente raggiungibile e di essere una mèta ideale anche per veloci pranzi o cene di lavoro.
+		</p>
+		<p>
+			È a disposizione, su richiesta, una saletta per pochi intimi nella cantina con voltini in mattoni a vista.
+		</p>
+		<p>
+			La cucina è guidata dallo chef patron Vittorio Dalla Vecchia, che persegue un giusto equilibrio tra tradizione e innovazione, promozione dei prodotti del territorio e ricerca, in un ambiente piacevole e con un servizio particolarmente curato.
+		</p>
+		<p>
+			I menù vengono studiati con grande professionalità: tutte le proposte tengono conto della stagionalità, del territorio, della qualità dei cibi e della ricchezza delle portate, con particolare attenzione all'abbinamento dei vini. E’ da evidenziare un grande apprezzamento e il più rigoroso rispetto per la produzione di allevatori e produttori che forniscono a Vittorio gli ingredienti per le sue ricette.
+		</p>
 
-</div>
-
-<!-- contenuto della pagina -->
+	</div>
 
 </body>
 
