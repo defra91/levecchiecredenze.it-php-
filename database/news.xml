@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<news xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="news.xsd">
+<titolo>Prova</titolo>
+<descrizione>Prova</descrizione>
+<data>
+ 		<giorno>28</giorno>
+ 		<mese>08</mese>
+ 		<anno>2015</anno>
+ </data>
+<evento id="1" />
+</news>
+<!-- Titolo= della new 
+Descrizione = contenuto della news
+Data = data di creazione/fino a quando verrà visualizzata (da decidere) 
+Evento= impostato a 0 se la news non è collegata ad eventi, altrimenti l'id indica a quale evento è connessa. I dettagli dell'evento (data, etc...saranno nel file xml riguardante l'evento)
+-->
