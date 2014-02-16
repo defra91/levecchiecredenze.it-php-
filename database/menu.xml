@@ -1,26 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="menu.xsd">
  	<data>
- 		<giorno>28</giorno>
- 		<mese>08</mese>
+ 		<giorno>16</giorno>
+ 		<mese>02</mese>
  		<anno>2014</anno>
  	</data>
  	<portata>
- 		<nomePortata>antipasto</nomePortata>
+ 		<nomePortata>Antipasti</nomePortata>
  		<piatto>
- 			<nomePiatto>filetto</nomePiatto>
- 			<costo>15</costo>
- 			<descrizione>prova</descrizione>
- 			<calorie>250</calorie>
+ 			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>
+ 			<costo>9</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>
+ 			<costo>9</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
  			<ingrediente>
- 				<nomeIngrediente>pomodoro</nomeIngrediente>
+ 				<nomeIngrediente>capesante</nomeIngrediente>
  				<surgelato>1</surgelato>
  			</ingrediente>
  		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>
+ 			<costo>9</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>
+ 			<costo>9</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Affettati di cascina</nomePiatto>
+ 			<costo>9</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
  	</portata>
- 	<evento id="1" />
+
+
+
+ 	<portata>
+ 		<nomePortata>Primi piatti</nomePortata>
+ 		<piatto>
+ 			<nomePiatto>Risotto ai funghi porcini</nomePiatto>
+ 			<costo>10</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>
+ 			<costo>10</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 			<ingrediente>
+ 				<nomeIngrediente>capesante</nomeIngrediente>
+ 				<surgelato>1</surgelato>
+ 			</ingrediente>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>
+ 			<costo>9</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>
+ 			<costo>10</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>
+ 			<costo>9</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 	</portata>
+
+
+
+ 	<portata>
+ 		<nomePortata>Secondi piatti</nomePortata>
+ 		<piatto>
+ 			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>
+ 			<costo>19</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>
+ 			<costo>14</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 			<ingrediente>
+ 				<nomeIngrediente>capesante</nomeIngrediente>
+ 				<surgelato>1</surgelato>
+ 			</ingrediente>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>
+ 			<costo>15</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>
+ 			<costo>15</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Cervo in salmì con polenta</nomePiatto>
+ 			<costo>14/costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>
+ 			<costo>13/costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 	</portata>
+
+
+
+ 	<portata>
+ 		<nomePortata>Dessert</nomePortata>
+ 		<piatto>
+ 			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>
+ 			<costo>6</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>
+ 			<costo>6</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 			<ingrediente>
+ 				<nomeIngrediente>capesante</nomeIngrediente>
+ 				<surgelato>1</surgelato>
+ 			</ingrediente>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>
+ 			<costo>6</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>
+ 			<costo>6</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>
+ 			<costo>6</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 		<piatto>
+ 			<nomePiatto>Sorbetti</nomePiatto>
+ 			<costo>5</costo>
+ 			<descrizione></descrizione>
+ 			<calorie xsi:nil="true"></calorie>
+ 		</piatto>
+
+ 	</portata>
+ 	<evento id="0" />
  </menu>
  <!--
+
+<ingrediente>
+ 				<nomeIngrediente></nomeIngrediente>
+ 				<surgelato></surgelato>
+ 			</ingrediente>
+
+
 	Data= data di creazione/ultima modifica del menu
 	portata=(antipasto, primo, secondo blabla)
 	piatto= mi pare si capisca, esempio:
