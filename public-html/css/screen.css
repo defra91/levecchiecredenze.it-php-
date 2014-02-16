@@ -57,6 +57,7 @@ li.menu_item_selected {
 	text-align: center;
 	border-bottom: 1px solid #555;
 	font-size: 0.8em;
+	background: url(../images/list.png) left no-repeat;
 }
 
 .menu_item a {
@@ -64,7 +65,7 @@ li.menu_item_selected {
 	text-decoration: none;
 }
 .menu_item_selected a {
-	color: #FFF;
+	color: red;
 	text-decoration: none;
 }
 
