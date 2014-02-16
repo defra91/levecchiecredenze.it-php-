@@ -6,7 +6,7 @@ La presente repository ha come scopo quello di raccogliere tutto il codice per i
 
 ## Stato del progetto
 
-Version: 0.0.2
+Version: 0.1.4
 
 * Created index.html;
 * Created screen.css;

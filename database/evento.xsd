@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name="news" >
+<xs:element name="evento" >
 	<xs:complexType>
-		<xs:sequence>
+		<xs:all>
+
+			<xs:element name="nome" type="xs:string" />
+			<xs:element name="id" type="xs:positiveInteger" />
 			
-			<xs:element name="titolo" type="xs:string" />
-			<xs:element name="descrizione" type="xs:string" />
-
-
 			<xs:element name="data">
 			  <xs:complexType>
 			    <xs:sequence>
@@ -42,20 +41,10 @@
 			  </xs:complexType>
 			</xs:element> 
 
-			<xs:element name="evento">
-				<xs:complexType>
-		   			<xs:simpleContent>
-		        		<xs:extension base="xs:string">
-		        			<xs:attribute name="id" type="xs:ipositiveInteger" use="required" />
-		     			</xs:extension>
-		    		</xs:simpleContent>
-		  		</xs:complexType>	
-			</xs:element> 
+			<xs:element name="descrizione" type="xs:string" />
+			<xs:element name="prenotazione" type="xs:boolean" />
 
-		</xs:sequence>
+		</xs:all>
 	</xs:complexType>
-
 </xs:element>
 </xs:schema>
-
-
