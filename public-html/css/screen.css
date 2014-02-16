@@ -47,6 +47,7 @@ li.menu_item {
 	text-align: center;
 	border-bottom: 1px solid #555;
 	font-size: 0.8em;
+	cursor: pointer;
 }
 
 li.menu_item_selected {
@@ -105,7 +106,7 @@ div#content {
 	margin-left: 2%;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	width: 600px;
+	width: 500px;
 	color: #FFF;
 	background: url(../images/dotted-bg.png);
 }
