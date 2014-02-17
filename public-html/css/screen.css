@@ -177,3 +177,51 @@ div#social_tab {
 div#social_tab img {
 	width: 70%;
 }
+
+/* Credits section */
+
+div.author {
+	width: 40%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+div.author h1 {
+	font-size: 1em;
+}
+
+div.author a {
+	color: #FFF;
+	font-size: 0.7em;
+	display: block;
+	margin-top: 3%;
+	height: 16px;
+	text-indent: 30px;
+}
+
+
+div.author img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+}
+
+a.mail_author {
+	background: url(../images/credits/mail.png) center left no-repeat;
+}
+
+a.facebook_author {
+	background: url(../images/credits/facebook.png) center left no-repeat;
+}
+
+a.twitter_author {
+	background: url(../images/credits/twitter.png) center left no-repeat;
+}
+
+a.github_author {
+	background: url(../images/credits/github.png) center left no-repeat;
+}
