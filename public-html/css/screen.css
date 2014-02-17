@@ -112,8 +112,27 @@ div#content {
 	background: url(../images/dotted-bg.png);
 }
 
+span#increaseFont {
+	float: right;
+	width: 2%;
+	margin-right: 2%;
+	height: 10px;
+	background: url(../images/increase_font.png) center no-repeat;
+	cursor: pointer;
+}
+
+span#decreaseFont {
+	float: right;
+	width: 2%;
+	margin-right: 2%;
+	height: 10px;
+	background: url(../images/decrease_font.png) center no-repeat;
+	cursor: pointer;
+}
+
 div#content h1 {
 	text-align: center;
+	clear: right;
 }
 
 div#content h2 {
@@ -131,6 +150,12 @@ div#content p {
 	text-align: justify;
 	margin-top: 4%;
 	font-size: 0.8em;
+}
+
+div#content img {
+	margin: 4% auto;
+	display: block;
+	width: 70%;
 }
 
 div#social_tab {
