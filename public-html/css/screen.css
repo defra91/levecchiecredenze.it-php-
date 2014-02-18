@@ -225,3 +225,11 @@ a.twitter_author {
 a.github_author {
 	background: url(../images/credits/github.png) center left no-repeat;
 }
+
+/* Cellar section */
+
+div#content table {
+	border: 1px solid #FFF;
+	width: 100%;
+	margin: 4% 0;
+}
