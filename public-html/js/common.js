@@ -9,7 +9,7 @@ $(document).ready(
 	/* Imposto il comportamento per le voci di menu */
 
 	$(".menu_item").mouseover(function() {
-		$(this).children("a").css("color", "red");
+		$(this).children("a").css("color", "#ab8d77");
 		$(this).css("border-color", "#FFF");
 	});
 

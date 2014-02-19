@@ -257,3 +257,78 @@ div#content table td {
 div#content em {
 	font-size: 0.6em;
 }
+
+a.download {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	float: right;
+	font-size: 0.8em;
+	color: #FFF;
+	text-indent: 20px;
+	background: url(../images/pdf-icon.png) center left no-repeat;
+}
+
+/* Eventi */
+
+div.event {
+	width: 96%;
+	border-bottom: 1px solid #FFF;
+	padding: 2% 2%;
+	margin: 6% 0;
+	float: left;
+}
+
+div.event a {
+	color: #FFF;
+	font-size: 1.5em;
+	float: right;
+	margin-bottom: 2%;
+}
+
+div.event a:visited {
+	color: #ab8d77;
+	font-size: 1.5em;
+	float: right;
+	margin-bottom: 2%;
+}
+
+div.event p {
+	clear: right;
+	font-size: 0.8em;
+	font-style: italic;
+	line-height: 1.5em;
+}
+
+div.event div {
+	width: 100px;
+	height: 100px;
+	background: url(../images/calendar-icon.png) center no-repeat;
+	float: left;
+	margin-right: 4%;
+	margin-bottom: 4%; 
+}
+
+div.event div span {
+	position: relative;
+	left: 10px;
+	top: 25px;
+	float: left;
+	font-weight: bold;
+}
+
+div.event div span + span {
+	position: relative;
+	left: 20px;
+	top: 25px;
+	float: left;
+	font-weight: bold;
+}
+
+div.event div span + span + span {
+	clear: left;
+	position: relative;
+	left: 30%;
+	top: 35px;	
+	font-size: 2em;
+	color: #000;
+}
