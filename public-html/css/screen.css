@@ -229,7 +229,31 @@ a.github_author {
 /* Cellar section */
 
 div#content table {
-	border: 1px solid #FFF;
 	width: 100%;
 	margin: 4% 0;
+}
+
+div#content table caption {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 4%;
+	padding: 2% 0;
+	border-bottom: 1px solid #FFF;
+}
+
+div#content table th {
+	text-align: left;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 2% 0;
+}
+
+div#content table td {
+	text-align: left;
+	font-size: 0.8em;
+	padding: 1% 0;
+}
+
+div#content em {
+	font-size: 0.6em;
 }
