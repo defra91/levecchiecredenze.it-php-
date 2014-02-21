@@ -25,12 +25,15 @@ $(document).ready(
 	
 	/* Imposto la slideshow di sfondo */
 
- 	i = 1;
-	setInterval(function(){
-		$('body').css({backgroundImage : 'url(' + images[i] + ')'});
-		i++;
-		if (i == images.length) i = 0;
-	}, 5000);
+	if ($(window).width() >= 1024)
+	{
+		i = 1;
+		setInterval(function(){
+			$('body').css({backgroundImage : 'url(' + images[i] + ')'});
+			i++;
+			if (i == images.length) i = 0;
+		}, 5000);
+	}
 
 	/* cript per allargare o restringere il font */
 
