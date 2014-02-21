@@ -1,105 +1,338 @@
 /* Regole globali per la stampa */
 
 * {
-
+	margin: 0;
+	padding: 0;
 }
 
 body {
 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #000;
+	font-family: 'Antic', sans-serif;
+	padding: 2%;
 }
 
-/* Sezione banner */
+div#header {
+	padding: 2%;
+	float: none;
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: auto;
+	display: none;
+}
 
 div#banner {
-
+	width: 100%;
+	background: url(../images/banner.png);
+	background-size: 100%;
+	height: 81px;
 }
 
 div#banner h1 {
-
+	display: none;
 }
-
-/* Sezione menu di navigazione */
 
 div#navigation {
-	
+	width: 100%;
 }
 
-span.menu_item {
-
+li.menu_item {
+	list-style: none;
+	width: 100%;
+	padding: 8% 0;
+	text-align: center;
+	border-bottom: 1px solid #555;
+	font-size: 0.8em;
+	cursor: pointer;
 }
 
-span.menu_item_selected {
-
+li.menu_item_selected {
+	list-style: none;
+	width: 100%;
+	padding: 8% 0;
+	text-align: center;
+	border-bottom: 1px solid #555;
+	font-size: 0.8em;
+	background: url(../images/list.png) left no-repeat;
 }
 
-/* Sezione contenuto */
-
-div#content {
-
+.menu_item a {
+	color: #FFF;
+	text-decoration: none;
+}
+.menu_item_selected a {
+	color: red;
+	text-decoration: none;
 }
 
-/* Spalla sinistra */
-
-div#left_section {
-
+img.language {
+	width: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
-
-div#lect_section h1 {
-
-}
-
-div#left_section h2 {
-
-}
-
-div#right_section {
-
-}
-
-/* Spalla destra */
-
-div#right_section h1 {
-
-}
-
-span.news {
-
-}
-
-div.news {
-
-}
-
-div.news h1 {
-
-}
-
-div.news a {
-
-}
-
-div.news p {
-
-}
-
-span.news_date {
-
-}
-
-/* Sezione footer */
 
 div#footer {
+	width: 100%;
+	color: #000;
+}
 
+div#footer h1 {
+	font-size: 1em;
+	text-align: center;
+	margin-bottom: 10%;
 }
 
 div#footer p {
-
+	text-align: center;
+	font-size: 0.6em;
+	margin-top: 2%;
 }
 
 div#footer a {
+	text-align: center;
+	color: #FFF;
+	display: block;
+	font-size: 0.6em;
+	margin-top: 4%;
+}
+
+div#content {
+	padding: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 500px;
+	color: #000;
 
 }
 
-img.social_icon {
+span#increaseFont {
+	float: right;
+	width: 2%;
+	margin-right: 2%;
+	height: 10px;
+	background: url(../images/increase_font.png) center no-repeat;
+	cursor: pointer;
+}
 
+span#decreaseFont {
+	float: right;
+	width: 2%;
+	margin-right: 2%;
+	height: 10px;
+	background: url(../images/decrease_font.png) center no-repeat;
+	cursor: pointer;
+}
+
+div#content h1 {
+	text-align: center;
+	clear: right;
+}
+
+div#content h2 {
+	text-align: center;
+	margin-top: 2%;
+}
+
+div#content h3 {
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+div#content p {
+	text-align: justify;
+	margin-top: 4%;
+	font-size: 0.8em;
+}
+
+div#content img {
+	margin: 4% auto;
+	display: block;
+	width: 70%;
+}
+
+div#social_tab {
+	position: fixed;
+	left: 95%;
+	width: 25px;
+	border: 1px solid #FFF;
+	background: url(../images/dotted-bg.png);
+	float: right;
+	margin-top: 2%;
+	margin-right: 2%;
+	text-align: center;
+	padding: 1% 0;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	display: none;
+}
+
+div#social_tab img {
+	width: 70%;
+}
+
+/* Credits section */
+
+div.author {
+	width: 40%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+div.author h1 {
+	font-size: 1em;
+}
+
+div.author a {
+	color: #000;
+	font-size: 0.7em;
+	display: block;
+	margin-top: 3%;
+	height: 16px;
+	text-indent: 30px;
+}
+
+
+div.author img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+}
+
+a.mail_author {
+	background: url(../images/credits/mail.png) center left no-repeat;
+}
+
+a.facebook_author {
+	background: url(../images/credits/facebook.png) center left no-repeat;
+}
+
+a.twitter_author {
+	background: url(../images/credits/twitter.png) center left no-repeat;
+}
+
+a.github_author {
+	background: url(../images/credits/github.png) center left no-repeat;
+}
+
+/* Cellar section */
+
+div#content table {
+	width: 100%;
+	margin: 4% 0;
+	
+}
+
+div#content table caption {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 4%;
+	padding: 2% 0;
+	border-bottom: 1px solid #FFF;
+}
+
+div#content table th {
+	text-align: left;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 2% 0;
+}
+
+div#content table td {
+	/*text-align: left;*/
+	font-size: 0.8em;
+	padding: 1% 0;
+}
+
+div#content em {
+	font-size: 0.6em;
+}
+
+a.download {
+	margin-top: 4%;
+	margin-bottom: 4%;
+	float: right;
+	font-size: 0.8em;
+	color: #FFF;
+	text-indent: 20px;
+	background: url(../images/pdf-icon.png) center left no-repeat;
+	display: none;
+}
+
+/* Eventi */
+
+div.event {
+	width: 96%;
+	border-bottom: 1px solid #FFF;
+	padding: 2% 2%;
+	margin: 6% 0;
+	float: left;
+}
+
+div.event a {
+	color: #FFF;
+	font-size: 1.5em;
+	float: right;
+	margin-bottom: 2%;
+}
+
+div.event a:visited {
+	color: #ab8d77;
+	font-size: 1.5em;
+	float: right;
+	margin-bottom: 2%;
+}
+
+div.event p {
+	clear: right;
+	font-size: 0.8em;
+	font-style: italic;
+	line-height: 1.5em;
+}
+
+div.event div {
+	width: 100px;
+	height: 100px;
+	background: url(../images/calendar-icon.png) center no-repeat;
+	float: left;
+	margin-right: 4%;
+	margin-bottom: 4%; 
+}
+
+div.event div span {
+	position: relative;
+	left: 10px;
+	top: 25px;
+	float: left;
+	font-weight: bold;
+}
+
+div.event div span + span {
+	position: relative;
+	left: 20px;
+	top: 25px;
+	float: left;
+	font-weight: bold;
+}
+
+div.event div span + span + span {
+	clear: left;
+	position: relative;
+	left: 30%;
+	top: 35px;	
+	font-size: 2em;
+	color: #000;
 }
