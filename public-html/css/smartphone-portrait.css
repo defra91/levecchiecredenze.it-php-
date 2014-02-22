@@ -204,9 +204,11 @@ div.author a {
 	color: #FFF;
 	font-size: 0.7em;
 	display: block;
-	margin-top: 3%;
-	height: 16px;
-	text-indent: 30px;
+	margin-top: 8%;
+	height: 14px;
+	text-indent: 15px;
+	float:left;
+
 }
 
 
@@ -217,22 +219,24 @@ div.author img {
 	border-radius: 500px;
 	-webkit-border-radius: 500px;
 	-moz-border-radius: 500px;
+	
 }
 
 a.mail_author {
-	background: url(../images/credits/mail.png) center left no-repeat;
+	background: url(../images/credits/mail1.png) center left no-repeat;
+	
 }
 
 a.facebook_author {
-	background: url(../images/credits/facebook.png) center left no-repeat;
+	background: url(../images/credits/facebook1.png) center left no-repeat;
 }
 
 a.twitter_author {
-	background: url(../images/credits/twitter.png) center left no-repeat;
+	background: url(../images/credits/twitter1.png) center left no-repeat;
 }
 
 a.github_author {
-	background: url(../images/credits/github.png) center left no-repeat;
+	background: url(../images/credits/github1.png) center left no-repeat;
 }
 
 /* Cellar section */
@@ -312,27 +316,28 @@ div.event p {
 }
 
 div.event div {
-	width: 100px;
-	height: 100px;
-	background: url(../images/calendar-icon.png) center no-repeat;
+	width: 40px;
+	height: 40px;
+	background: url(../images/calendar-icon1.png) center no-repeat;
 	float: left;
 	margin-right: 4%;
 	margin-bottom: 4%; 
+	font-size: 0.7em;
 	
 }
 
 div.event div span {
 	position: relative;
-	left: 10px;
-	top: 25px;
+	left: 4px;
+	top: 3px;
 	float: left;
 	font-weight: bold;
 }
 
 div.event div span + span {
 	position: relative;
-	left: 20px;
-	top: 25px;
+	left: 7px;
+	top: 3px;
 	float: left;
 	font-weight: bold;
 }
@@ -341,7 +346,7 @@ div.event div span + span + span {
 	clear: left;
 	position: relative;
 	left: 30%;
-	top: 35px;	
+	top: 12px;	
 	font-size: 2em;
 	color: #000;
 }
