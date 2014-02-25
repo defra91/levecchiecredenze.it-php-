@@ -11,7 +11,8 @@ I motivi per cui gli attributi sono poco presenti sono tre:
 \end{itemize}
 
 \paragraph{Formato della data}
-In molti file è richiesta una data. Si è scelto di salvare tale data in modo esteso, suddividendo l'elemento data in sottoelementi, cosi facendo è possibile indicare dei range di valore accettabili per giorno, mese ed anno.
+In molti file è richiesta una data. Si è scelto di salvare tale data in modo esteso, suddividendo l'elemento data in sottoelementi, cosi facendo è possibile indicare dei range di valore accettabili per giorno, mese ed anno. 
+Non è stato utilizzato il tipo \emph{Data} offerto da XMLSchema per evitare di dover utilizzare il formato americano.
 
 \paragraph{Elementi opzionali}
 Nel file riguardante il menù sono presenti elementi non obbligatori. Nel caso di elementi semplici si è scelto di utilizzare l'attributo nillable="true" per indicare che tale elemento è opzionale. Nel file XML dunque l'elemento dovrà sempre essere presente, e nel caso in cui non lo si voglia definire vi si assegnerà xsi:nil="true".  
@@ -19,3 +20,5 @@ Nel caso di elementi complessi si è scelto di utilizzare l'attributo minOccurs=
 
 Questi approcci sono necessari in quanto lasciare semplicemente vuoto l'elemento comporterà un errore di validazione, tranne che per gli elementi di tipo stringa.
 
+\paragraph{Modello adottato}
+Il modello adottato è \emph{Bambole russe} in quanto non si è ritenuto il riutilizzo del codice di primaria importanza.
