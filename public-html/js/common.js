@@ -35,7 +35,7 @@ $(document).ready(
 		}, 5000);
 	}
 
-	/* cript per allargare o restringere il font */
+	/* Script per allargare o restringere il font */
 
 	$("#increaseFont").click(function() {
 		t1 = 0; t2 = 0;
