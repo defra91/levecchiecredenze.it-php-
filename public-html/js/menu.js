@@ -11,20 +11,37 @@ window.onload = function() {
 	};
 $(document).ready(function () {
   $("#antipasti").click(function(){ 
-	if( $("#antipasti").hasClass("box")){
-alert("ha box");
-		$("#menu_antipasti").addClass("box");
+	if( $("#menu_antipasti").hasClass("box")){
+		$("#menu_antipasti").removeClass("box");
 	}
 	else{
-alert("non ha box");
-		$("#menu_antipasti").removeClass("box");
+		$("#menu_antipasti").addClass("box");
+		
 	} });
  $("#primi").click(function(){ 
-	$("#menu_primi").removeClass("box"); });
+	if( $("#menu_primi").hasClass("box")){
+		$("#menu_primi").removeClass("box");
+	}
+	else{
+		$("#menu_primi").addClass("box");
+		
+	} });
  $("#secondi").click(function(){ 
-	$("#menu_secondi").removeClass("box"); });
+	if( $("#menu_secondi").hasClass("box")){
+		$("#menu_secondi").removeClass("box");
+	}
+	else{
+		$("#menu_secondi").addClass("box");
+		
+	} });
  $("#dessert").click(function(){ 
-	$("#menu_dessert").removeClass("box"); });
+	if( $("#menu_dessert").hasClass("box")){
+		$("#menu_dessert").removeClass("box");
+	}
+	else{
+		$("#menu_dessert").addClass("box");
+		
+	} });
 });
 
 
