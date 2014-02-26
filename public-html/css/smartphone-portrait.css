@@ -294,19 +294,13 @@ div.news {
 	float: left;
 }
 
-div.news a {
-	color: #FFF;
-	font-size: 1.5em;
+div.news h2 {
+	color: #ab8d77;
+	font-size: 1.3em;
 	margin-bottom: 1%;
 	margin-top: 1%;
 }
 
-div.news a:visited {
-	color: #ab8d77;
-	font-size: 1.5em;
-	margin-bottom: 1%;
-	margin-top: 1%;
-}
 
 div.news p {
 	clear: right;

@@ -270,6 +270,49 @@ a.download {
 	background: url(../images/pdf-icon.png) center left no-repeat;
 }
 
+/* Menu - Lisitno */
+
+li.listino{
+	list-style: none;
+	width: 100%;
+	padding: 7% 0;
+	text-align: center;
+	border-bottom: 1px solid #555;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.listino a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.listino a:hover {
+	color: #ab8d77;
+	text-decoration: none;
+}
+
+
+div#menu_primi{
+	position: absolute; 
+	overflow:hidden; 
+	height:0;
+}
+
+div#menu_secondi{
+	position: absolute; 
+	overflow:hidden; 
+	height:0;
+}
+
+div#menu_dessert{
+	position: absolute; 
+	overflow:hidden; 
+	height:0;
+}
+
+
+
 /* News */
 
 div.news {
@@ -280,17 +323,11 @@ div.news {
 	float: left;
 }
 
-div.news a {
-	color: #FFF;
-	font-size: 1.5em;
+div.news h2 {
+	color: #ab8d77;
+	font-size: 1.3em;
 	margin-bottom: 1%;
 	margin-top: 1%;
-}
-
-div.news a:visited {
-	color: #ab8d77;
-	font-size: 1.5em;
-	margin-bottom: 1%;
 }
 
 div.news p {
