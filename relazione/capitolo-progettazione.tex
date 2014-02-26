@@ -22,3 +22,20 @@ Questi approcci sono necessari in quanto lasciare semplicemente vuoto l'elemento
 
 \paragraph{Modello adottato}
 Il modello adottato è \emph{Bambole russe} in quanto non si è ritenuto il riutilizzo del codice di primaria importanza.
+
+\section{Il nostro menu e JQuery}
+La pagina \emph{il nostro menu} ha come obbiettivo visualizzare il menu proposto dal ristorante. 
+Per rendere più pulita e piacevole la visualizzazione si è messo il contenuto all'interno di vari div (uno per portata) non visibili.
+Cliccando sulla portata verranno visualizzati i relativi piatti e cliccando normalmente verranno nuovamente nascosti.
+Questa tecnica è stata utilizzata nei css per desktop, tablet e smartphone. 
+Per la stampa l'intero menù è stato reso visibile.
+L'accessibilità è garantita da due fattori:
+\begin{itemize}
+\item I div sono nascosti tramite una classe avente il seguente codice, che garantisce la lettura del contenuto da parte dello screen reader
+\begin{lstlisting}
+	position: absolute; 
+	overflow:hidden; 
+	height:0;
+\end{lstlisting}
+\item La classe è applicata ai div tramite JQuery. In tal modo se il browser non supporta javascript, o esso è disabilitato il contenuto resta accessibile.
+\end{itemize}
