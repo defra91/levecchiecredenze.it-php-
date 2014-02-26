@@ -272,6 +272,12 @@ a.download {
 
 /* Menu - Lisitno */
 
+.box{
+	position: absolute; 
+	overflow:hidden; 
+	height:0;
+}
+
 li.listino{
 	list-style: none;
 	width: 100%;
@@ -291,26 +297,6 @@ li.listino{
 	color: #ab8d77;
 	text-decoration: none;
 }
-
-
-div#menu_primi{
-	position: absolute; 
-	overflow:hidden; 
-	height:0;
-}
-
-div#menu_secondi{
-	position: absolute; 
-	overflow:hidden; 
-	height:0;
-}
-
-div#menu_dessert{
-	position: absolute; 
-	overflow:hidden; 
-	height:0;
-}
-
 
 
 /* News */
