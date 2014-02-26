@@ -272,6 +272,32 @@ a.download {
 	display: none;
 }
 
+
+/* Menu - Lisitno */
+.menu_evento{
+	display: none;
+}
+
+.box{
+	
+}
+
+li.listino{
+	list-style: none;
+	width: 100%;
+	padding: 7% 0;
+	text-align: center;
+	border-bottom: 1px solid #555;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.listino a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+
 /* News */
 
 div.news {
