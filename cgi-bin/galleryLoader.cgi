@@ -10,22 +10,36 @@
 #########################################################################
 
 use HTML::Template;
+use XML::LibXML;
 
-$path = "../public-html/images/fotogallery/"; # Imposto il path delle foto
-@photos = (); # creo un array per i path
-@alt = (); # creo un array per gli alt
-# Al momento non prelevo da xml ma direttamente da dentro la cartella. Io so a priori che ci sono 26 foto
-for ($i=0; $i<26; $i++) {
-	push(@photos, $path . ($i+1) . ".jpg");
-	push(@alt, "Descrizione della foto" . ($i+1) . ".jpg");
+$filename = "../database/gallery.xml"; # indica il file xml su cui effettuare il parsing
+$parser = XML::LibXML->new();	# creo un parser per il file xml
+$xml_doc = $parser->parse_file($filename); # effettuo parsing sul file xml e ottengo un oggetto di 'documento xml'
+
+$root = $xml_doc->getDocumentElement();	# ottengo il nodo radice
+
+@children = $root->childNodes();	# mi prendo tutti i figli del nodo radice gallery
+
+@name = ();		# inizializzo l'array dei nomi delle immagini
+@alt = (); 		# inizializzo l'array degli 'alt' delle immagini
+@title = ();	# inizializzo l'array dei 'title' delle immagini
+@path = ();		# inizializzo l'array dei 'path' delle immagini
+
+foreach $child (@children) {	# scorro tutti i nodi figli della radice
+	push(@name, $child->findnodes("nome/text()"));		# aggiungo all'array dei nomi il contenuto testuale del nodo 'nome'
+	push(@alt, $child->findnodes("alt/text()"));		# aggiungo all'array degli 'alt' il contenuto testuale del nodo 'alt'
+	push(@title, $child->findnodes("title/text()"));	# aggiungo all'array dei 'title' il contenuto testuale del nodo 'title'
+	push(@path, $child->findnodes("percorso/text()"));	# aggiungo all'array dei path il contenuto testuale del nodo 'percorso'
 }
+
 
 my @loop_data = (); # questo array mi servirà per raccogliere i dati quando faccio il ciclo
 
-for ($i=0; $i<scalar(@photos); $i++) {
+for ($i=0; $i<scalar(@children); $i++) {
 	my %row_data; # dichiaro un hash ausiliario
 	$row_data{alt} = $alt[$i]; # inserisco l'i-esimo alt
-	$row_data{src} = $photos[$i]; # inserisco l'i-esimo photos
+	$row_data{src} = $path[$i] . $name[$i]; # inserisco l'i-esima immagine
+	$row_data{title} = $title[$i]; # inserisco l'i-esimo title
 
 	push(@loop_data, \%row_data); # aggiungo a loop_data l'array associativo temporaneo creato nell'iterazione
 }
