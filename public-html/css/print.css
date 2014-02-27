@@ -150,7 +150,7 @@ div#content h3 {
 div#content p {
 	text-align: justify;
 	margin-top: 4%;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 div#content img {
@@ -179,6 +179,8 @@ div#social_tab {
 div#social_tab img {
 	width: 70%;
 }
+
+
 
 /* Credits section */
 
@@ -386,4 +388,16 @@ div.event div span + span + span {
 	top: 35px;	
 	font-size: 2em;
 	color: #000;
+}
+
+div#content input{
+display:block;
+margin-bottom: 2%;
+}
+
+div#content label{
+display:block;
+margin-top: 2%;
+margin-bottom: 2%;
+font-size: 1em;
 }
