@@ -463,3 +463,17 @@ ul#social_list li a {
 	text-decoration: underline;
 	color: #FFF;
 }
+
+/* Gallery Item */
+
+div.image_container {
+	width: 25%;
+	overflow: hidden;
+	height: 100px;
+	float: left;
+	margin-top: 5%;
+}
+
+img.gallery_item {
+	width: 100%;
+}

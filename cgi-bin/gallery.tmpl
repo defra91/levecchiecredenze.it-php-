@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+	<title>Gallery</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="icon" href="images/favicon.ico" type="../public-html/image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="../public-html/css/print.css" media="print" /> 
+	<link rel="stylesheet" type="text/css" href="../public-html/css/screen.css" media="screen and (min-width: 1024px)" />
+	<link rel="stylesheet" type="text/css" href="../public-html/css/tablet-landscape.css" media=" only screen and (min-width: 480px) and (max-width: 1024px) and (orientation:landscape)" /> 
+	<link rel="stylesheet" type="text/css" href="../public-html/css/tablet-portrait.css" media="only screen and (min-widht: 480px) and (max-width: 1024px) and (orientation:portrait)" /> 
+	<link rel="stylesheet" type="text/css" href="../public-html/css/smartphone-portrait.css" media="only screen and (max-width: 480px) and (orientation: portrait" />
+	<link rel="stylesheet" type="text/css" href="../public-html/css/smartphone-landscape.css" media="only screen and (max-width: 480px) and (orientation: landscape" />
+	<script type="text/javascript" src="../public-html/js/jquery.js"></script>
+	<script type="text/javascript" src="../public-html/js/common.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<div id="banner">
+			<h1>Le Vecchie Credenze</h1>
+		</div>
+
+		<div id="navigation">
+			<ul>
+				<li class="menu_item" lang="en"><a href="../public-html/index.html">Home</a></li>
+				<li class="menu_item"><a href="../public-html/storia.html">La storia</a></li>
+				<li class="menu_item"><a href="../public-html/menu.html">Il nostro menu</a></li>
+				<li class="menu_item"><a href="../public-html/cantina.html">La nostra cantina</a></li>
+				<li class="menu_item_selected">Galleria</li>
+				<li class="menu_item"><a href="../public-html/eventi.html">I nostri eventi</a></li>
+				<li class="menu_item"><a href="../public-html/news.html">Le nostre news</a></li>
+				<li class="menu_item"><a href="#">Come raggiungerci</a></li>
+				<li class="menu_item"><a href="../public-html/contatti.html">Contattaci</a></li>
+			</ul>
+		</div>
+
+		<div id="footer">
+			<img class="language" src="../public-html/images/ita.gif" alt="cambia la lingua del sito in Italiano" title="italiano" />
+			<img class="language" src="../public-html/images/eng.gif" alt="change the language of the site in English" title="english" />
+			<h1>Ristorante Le Vecchie Credenze</h1>
+			<p>Via Alberassa, 16 Santena (TO)</p>
+			<p>Tel. 011-9456455</p>
+			<p>P.IVA 04781560489</p>
+			<p>info@levecchiecredenze.it</p>
+			<p>Chiuso il Lunedì</p>
+			<p>Orario: 12:30 - 14:30, 19:00 - 00:00</p>
+			<a href="../public-html/credits.html" lang="en">Credits</a>
+			<a href="../public-html/login.html" lang="en">Admin</a> 
+		</div>
+
+	</div>
+	
+	<div id="content">
+		<h1>Gallery</h1>
+		<hr/>
+
+		<!-- Begin of section -->
+		<tmpl_loop name="gallery">
+			<div class="image_container">
+				<img class="gallery_item" alt="<tmpl_var name="alt">" title="<tmpl_var name="title">" src="<tmpl_var name="src">" />
+			</div>
+		</tmpl_loop>
+
+		<!-- End of template section -->
+	</div>
+
+	<div id="social_tab">
+		<a href="#"><img src="../public-html/images/facebook-icon.png" alt="logo di Facebook" title="aggiungici su facebook" /></a>
+		<a href="#"><img src="../public-html/images/twitter-icon.png" alt="logo di Twitter" title="seguici su twitter" /></a>
+		<a href="#"><img src="../public-html/images/gplus-icon.png" alt="logo di Google Plus" title="aggiungici su Google+" /></a>
+		<a href="#"><img src="../public-html/images/tripadvisor-icon.png" alt="logo di Tripadvisor" title="trovaci su Tripadvisor" /></a>
+	</div>
+
+</body>
+
+</html>
