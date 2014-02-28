@@ -271,6 +271,19 @@ a.download {
 }
 
 /* Menu - Lisitno */
+.menu_evento{
+	font-size: 0.7em;
+}
+
+#content hr{
+	margin-bottom: 2%;
+}
+
+.box{
+	position: absolute; 
+	overflow:hidden; 
+	height:0;
+}
 
 li.listino{
 	list-style: none;
@@ -284,33 +297,13 @@ li.listino{
 
 .listino a {
 	color: #FFF;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .listino a:hover {
 	color: #ab8d77;
-	text-decoration: none;
+	text-decoration: underline;
 }
-
-
-div#menu_primi{
-	position: absolute; 
-	overflow:hidden; 
-	height:0;
-}
-
-div#menu_secondi{
-	position: absolute; 
-	overflow:hidden; 
-	height:0;
-}
-
-div#menu_dessert{
-	position: absolute; 
-	overflow:hidden; 
-	height:0;
-}
-
 
 
 /* News */
@@ -469,4 +462,18 @@ ul#social_list li + li + li + li {
 ul#social_list li a {
 	text-decoration: underline;
 	color: #FFF;
+}
+
+/* Gallery Item */
+
+div.image_container {
+	width: 25%;
+	overflow: hidden;
+	height: 100px;
+	float: left;
+	margin-top: 5%;
+}
+
+img.gallery_item {
+	width: 100%;
 }

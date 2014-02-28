@@ -1,7 +1,6 @@
 $(document).ready(
 	
 	function() {
-	
 	/* Imposto le due colonne con altezza uguale */
 
 	setColumns();
@@ -80,7 +79,7 @@ $(document).ready(
 
 /* Array di immagini da visualizzare nella slideshow di sfondo */
 
-var images = ['images/slideshow/1.jpg', 'images/slideshow/2.jpg', 'images/slideshow/3.jpg', 'images/slideshow/4.jpg', 'images/slideshow/5.jpg'];
+var images = ['../public-html/images/slideshow/1.jpg', '../public-html/images/slideshow/2.jpg', '../public-html/images/slideshow/3.jpg', '../public-html/images/slideshow/4.jpg', '../public-html/images/slideshow/5.jpg'];
 
 /* funzione imposta a pari altezza le due colonne */
 

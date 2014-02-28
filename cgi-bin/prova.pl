@@ -1,6 +1,3 @@
-#!/usr/bin/perl
-
+#!/usr/bin/perl -w
 use strict;
-use warnings;
-
-print "Il server è in grado di eseguire script perl!";
+print "Hello world!"
