@@ -323,21 +323,20 @@ li.listino{
 
 /* News */
 
-div.news {
-	width: 96%;
-	border-bottom: 1px solid #FFF;
-	padding: 1% 2%;
-	margin: 4% 0;
-	float: left;
+div#content li {
+	list-style: none;
+	margin-bottom: 5%;
 }
 
-div.news h2 {
-	color: #ab8d77;
-	font-size: 1.3em;
+.news {
+	font-size: 1em;
 	margin-bottom: 1%;
 	margin-top: 1%;
 }
 
+.hrNews{
+  	width: 50%;
+}
 
 div.news p {
 	clear: right;
