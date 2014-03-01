@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<evento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="immagine.xsd">
- 	<nome>San Valentino</nome>
- 	<id>3</id>
- 	<data>
- 		<giorno>14</giorno>
- 		<mese>02</mese>
- 		<anno>2014</anno>
- 	</data>
- 	<descrizione>Festa blabla</descrizione>
- 	<prenotazione>0</prenotazione>
- </evento>
+<eventi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="immagine.xsd">
+	<evento>
+	 	<nome>San Valentino</nome>
+	 	<id>3</id>
+	 	<data>
+	 		<giorno>14</giorno>
+	 		<mese>02</mese>
+	 		<anno>2014</anno>
+	 	</data>
+	 	<descrizione>Festa blabla</descrizione>
+	 	<prenotazione>0</prenotazione>
+ 	</evento>
+ </eventi>

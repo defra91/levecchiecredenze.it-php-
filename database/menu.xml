@@ -131,14 +131,14 @@
 
  		<piatto>
  			<nomePiatto>Cervo in salmì con polenta</nomePiatto>
- 			<costo>14/costo>
+ 			<costo>14</costo>
  			<descrizione></descrizione>
  			<calorie xsi:nil="true"></calorie>
  		</piatto>
 
  		<piatto>
  			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>
- 			<costo>13/costo>
+ 			<costo>13</costo>
  			<descrizione></descrizione>
  			<calorie xsi:nil="true"></calorie>
  		</piatto>

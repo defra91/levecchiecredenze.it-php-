@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <news xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="news.xsd">
-<titolo>Prova</titolo>
-<descrizione>Prova</descrizione>
-<data>
- 		<giorno>28</giorno>
- 		<mese>08</mese>
- 		<anno>2015</anno>
- </data>
-<evento id="1" />
+	<notizia>
+		<titolo>Prova</titolo>
+		<descrizione>Prova</descrizione>
+		<data>
+		 		<giorno>28</giorno>
+		 		<mese>08</mese>
+		 		<anno>2015</anno>
+		 </data>
+		<evento id="1" />
+	</notizia>
 </news>
 <!-- Titolo= della news
 Descrizione = contenuto della news

@@ -2,15 +2,14 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 <xs:element name="immagine" >
 	<xs:complexType>
-		<xs:all>
+		<xs:sequence>
 
 			<xs:element name="nome" type="xs:string" />
-			<xs:element name="alt" type="xs:string" />
+			<xs:element name="alt" type="xs:string"  />
 			<xs:element name="title" type="xs:string" />
 			<xs:element name="percorso" type="xs:string" />
-			<xs:element name="categoria" type="xs:string" />
 
-		</xs:all>
+		</xs:sequence>
 	</xs:complexType>
 </xs:element>
 </xs:schema>

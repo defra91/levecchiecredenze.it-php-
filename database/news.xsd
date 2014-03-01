@@ -3,59 +3,60 @@
 <xs:element name="news" >
 	<xs:complexType>
 		<xs:sequence>
-			
-			<xs:element name="titolo" type="xs:string" />
-			<xs:element name="descrizione" type="xs:string" />
 
-
-			<xs:element name="data">
-			  <xs:complexType>
-			    <xs:sequence>
-
-			    	<xs:element name="giorno" >
-			      		<xs:simpleType>
-					    	<xs:restriction base="xs:integer">
-					        	<xs:minInclusive value="1" />
-					        	<xs:maxInclusive value="31" />
-					    	</xs:restriction>
-				    	</xs:simpleType>
-					</xs:element>
-
-				    <xs:element name="mese" >
-			      		<xs:simpleType>
-				        	<xs:restriction base="xs:integer">
-				        		<xs:minInclusive value="1" />
-				        		<xs:maxInclusive value="12" />
-				        	</xs:restriction>
-				    	</xs:simpleType>
-					</xs:element>
-
-				    <xs:element name="anno" >
-			      		<xs:simpleType>
-				        	<xs:restriction base="xs:integer">
-				        		<xs:minInclusive value="2014" />
-				       		</xs:restriction>
-				    	</xs:simpleType>
-					</xs:element>
-			    
-			    </xs:sequence>
-			  </xs:complexType>
-			</xs:element> 
-
-			<xs:element name="evento">
+			<xs:element name="notizia" >
 				<xs:complexType>
-		   			<xs:simpleContent>
-		        		<xs:extension base="xs:string">
-		        			<xs:attribute name="id" type="xs:ipositiveInteger" use="required" />
-		     			</xs:extension>
-		    		</xs:simpleContent>
-		  		</xs:complexType>	
-			</xs:element> 
+					<xs:sequence>
+			
+						<xs:element name="titolo" type="xs:string" />
+						<xs:element name="descrizione" type="xs:string" />
+
+
+						<xs:element name="data">
+						  <xs:complexType>
+						    <xs:sequence>
+
+						    	<xs:element name="giorno" >
+						      		<xs:simpleType>
+								    	<xs:restriction base="xs:integer">
+								        	<xs:minInclusive value="1" />
+								        	<xs:maxInclusive value="31" />
+								    	</xs:restriction>
+							    	</xs:simpleType>
+								</xs:element>
+
+							    <xs:element name="mese" >
+						      		<xs:simpleType>
+							        	<xs:restriction base="xs:integer">
+							        		<xs:minInclusive value="1" />
+							        		<xs:maxInclusive value="12" />
+							        	</xs:restriction>
+							    	</xs:simpleType>
+								</xs:element>
+
+							    <xs:element name="anno" >
+						      		<xs:simpleType>
+							        	<xs:restriction base="xs:integer">
+							        		<xs:minInclusive value="2014" />
+							       		</xs:restriction>
+							    	</xs:simpleType>
+								</xs:element>
+						    
+						    </xs:sequence>
+						  </xs:complexType>
+						</xs:element> 
+
+						<xs:element name="evento">
+							<xs:complexType>
+					        	<xs:attribute name="id" type="xs:positiveInteger" use="required" />
+					  		</xs:complexType>	
+						</xs:element> 
+
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
 
 		</xs:sequence>
 	</xs:complexType>
-
 </xs:element>
 </xs:schema>
-
-

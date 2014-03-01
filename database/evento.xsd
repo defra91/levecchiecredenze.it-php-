@@ -1,50 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name="evento" >
+<xs:element name="eventi" >
 	<xs:complexType>
-		<xs:all>
+		<xs:sequence>
+			<xs:element name="evento" maxOccurs="unbounded" >
+				<xs:complexType>
+					<xs:sequence>
 
-			<xs:element name="nome" type="xs:string" />
-			<xs:element name="id" type="xs:positiveInteger" />
-			
-			<xs:element name="data">
-			  <xs:complexType>
-			    <xs:sequence>
+						<xs:element name="nome" type="xs:string" />
+						<xs:element name="id" type="xs:positiveInteger" />
+						
+						<xs:element name="data">
+						  <xs:complexType>
+						    <xs:sequence>
 
-			    	<xs:element name="giorno" >
-			      		<xs:simpleType>
-					    	<xs:restriction base="xs:integer">
-					        	<xs:minInclusive value="1" />
-					        	<xs:maxInclusive value="31" />
-					    	</xs:restriction>
-				    	</xs:simpleType>
-					</xs:element>
+						    	<xs:element name="giorno" >
+						      		<xs:simpleType>
+								    	<xs:restriction base="xs:integer">
+								        	<xs:minInclusive value="1" />
+								        	<xs:maxInclusive value="31" />
+								    	</xs:restriction>
+							    	</xs:simpleType>
+								</xs:element>
 
-				    <xs:element name="mese" >
-			      		<xs:simpleType>
-				        	<xs:restriction base="xs:integer">
-				        		<xs:minInclusive value="1" />
-				        		<xs:maxInclusive value="12" />
-				        	</xs:restriction>
-				    	</xs:simpleType>
-					</xs:element>
+							    <xs:element name="mese" >
+						      		<xs:simpleType>
+							        	<xs:restriction base="xs:integer">
+							        		<xs:minInclusive value="1" />
+							        		<xs:maxInclusive value="12" />
+							        	</xs:restriction>
+							    	</xs:simpleType>
+								</xs:element>
 
-				    <xs:element name="anno" >
-			      		<xs:simpleType>
-				        	<xs:restriction base="xs:integer">
-				        		<xs:minInclusive value="2014" />
-				       		</xs:restriction>
-				    	</xs:simpleType>
-					</xs:element>
-			    
-			    </xs:sequence>
-			  </xs:complexType>
-			</xs:element> 
+							    <xs:element name="anno" >
+						      		<xs:simpleType>
+							        	<xs:restriction base="xs:integer">
+							        		<xs:minInclusive value="2014" />
+							       		</xs:restriction>
+							    	</xs:simpleType>
+								</xs:element>
+						    
+						    </xs:sequence>
+						  </xs:complexType>
+						</xs:element> 
 
-			<xs:element name="descrizione" type="xs:string" />
-			<xs:element name="prenotazione" type="xs:boolean" />
-
-		</xs:all>
+						<xs:element name="descrizione" type="xs:string" />
+						<xs:element name="prenotazione" type="xs:boolean" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
 	</xs:complexType>
 </xs:element>
 </xs:schema>
