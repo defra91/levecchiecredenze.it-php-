@@ -477,3 +477,9 @@ div.image_container {
 img.gallery_item {
 	width: 100%;
 }
+
+/* Come raggiungerci*/
+
+iframe{
+	margin-top: 5%;
+}

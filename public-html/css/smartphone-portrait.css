@@ -412,3 +412,9 @@ div.event div span + span + span {
 	font-size: 2em;
 	color: #000;
 }
+
+/*Come raggiungerci*/
+
+iframe{
+	margin-top: 5%;
+}
