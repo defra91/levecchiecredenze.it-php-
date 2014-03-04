@@ -18,7 +18,7 @@ $xml_doc = $parser->parse_file($filename); # effettuo parsing sul file xml e ott
 
 $root = $xml_doc->getDocumentElement();	# ottengo il nodo radice
 
-@children = $root->childNodes();	# mi prendo tutti i figli del nodo radice gallery
+@children = $root->findnodes("immagine");	# mi prendo tutti i figli immagine del nodo radice gallery
 
 @name = ();		# inizializzo l'array dei nomi delle immagini
 @alt = (); 		# inizializzo l'array degli 'alt' delle immagini
@@ -32,7 +32,6 @@ foreach $child (@children) {	# scorro tutti i nodi figli della radice
 	push(@path, $child->findnodes("percorso/text()"));	# aggiungo all'array dei path il contenuto testuale del nodo 'percorso'
 }
 
-
 my @loop_data = (); # questo array mi servirà per raccogliere i dati quando faccio il ciclo
 
 for ($i=0; $i<scalar(@children); $i++) {
@@ -43,7 +42,6 @@ for ($i=0; $i<scalar(@children); $i++) {
 
 	push(@loop_data, \%row_data); # aggiungo a loop_data l'array associativo temporaneo creato nell'iterazione
 }
-
 
 $template = HTML::Template->new(filename => 'gallery.tmpl'); # raccolgo il file di template
 $template->param(gallery => \@loop_data); #rimpiazzo i parametri con i valori corretti
