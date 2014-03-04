@@ -395,7 +395,17 @@ display:block;
 margin-bottom: 2%;
 }
 
-div#content label{
+div#content textarea{
+
+margin-bottom: 4%;
+}
+
+#social_list{
+	margin-top: 4%;
+}
+
+div#content label
+{
 display:block;
 margin-top: 2%;
 margin-bottom: 2%;
