@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
-	<title>Gallery</title>
+	<title>I nostri eventi</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="../public-html/images/favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="../public-html/css/print.css" media="print" /> 
@@ -12,10 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="../public-html/css/tablet-portrait.css" media="only screen and (min-widht: 480px) and (max-width: 1024px) and (orientation:portrait)" /> 
 	<link rel="stylesheet" type="text/css" href="../public-html/css/smartphone-portrait.css" media="only screen and (max-width: 480px) and (orientation: portrait" />
 	<link rel="stylesheet" type="text/css" href="../public-html/css/smartphone-landscape.css" media="only screen and (max-width: 480px) and (orientation: landscape" />
-	<link href="../public-html/css/lightbox.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="../public-html/js/jquery.js"></script>
 	<script type="text/javascript" src="../public-html/js/common.js"></script>
-	<script type="text/javascript" src="../public-html/js/lightbox-2.6.min.js"></script>
 </head>
 
 <body>
@@ -30,8 +28,8 @@
 				<li class="menu_item"><a href="../public-html/storia.html">La storia</a></li>
 				<li class="menu_item"><a href="../public-html/menu.html">Il nostro menu</a></li>
 				<li class="menu_item"><a href="../public-html/cantina.html">La nostra cantina</a></li>
-				<li class="menu_item_selected">Galleria</li>
-				<li class="menu_item"><a href="eventsLoader.cgi">I nostri eventi</a></li>
+				<li class="menu_item"><a href="galleryLoader.cgi">Galleria</a></li>
+				<li class="menu_item_selected">I nostri eventi</li>
 				<li class="menu_item"><a href="newsLoader.cgi">Le nostre news</a></li>
 				<li class="menu_item"><a href="../public-html/raggiungerci.html">Come raggiungerci</a></li>
 				<li class="menu_item"><a href="../public-html/contatti.html">Contattaci</a></li>
@@ -49,26 +47,27 @@
 			<p>Chiuso il Lunedì</p>
 			<p>Orario: 12:30 - 14:30, 19:00 - 00:00</p>
 			<a href="../public-html/credits.html" lang="en">Credits</a>
-			<a href="../public-html/login.html" lang="en">Admin</a> 
+			<a href="../public-html/admin.html" lang="en">Admin</a> 
 		</div>
 
 	</div>
 	
 	<div id="content">
-		<h1>Gallery</h1>
-		<p>Di seguito viene riportata una galleria di immagini del nostro ristorante:</p>
+		<h1>I nostri eventi</h1>
 		<hr/>
-
-		<!-- Begin of section -->
-		<tmpl_loop name="gallery">
-			<div class="image_container">
-				<a href="<tmpl_var name="src">" data-lightbox="roadtrip">
-					<img class="gallery_item" alt="<tmpl_var name="alt">" title="<tmpl_var name="title">" src="<tmpl_var name="src">" />
-				</a>
-			</div>
-		</tmpl_loop>
-
-		<!-- End of template section -->
+		<ul>
+			<tmpl_loop name="events">
+				<li class="event">
+					<div>
+						<span><tmpl_var name="month"></span>
+						<span><tmpl_var name="year"></span>
+						<span><tmpl_var name="day"></span>
+					</div>
+					<h1><a href="eventShow.cgi?id=<tmpl_var name="id">"><tmpl_var name="title"></a></h1>
+					<p><tmpl_var name="text"></p>
+				</li>
+			</tmpl_loop>
+		</ul>
 	</div>
 
 	<div id="social_tab">
