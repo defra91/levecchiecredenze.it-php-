@@ -32,7 +32,7 @@ foreach $child (@children) {	# scorro tutti i nodi figli della radice
 	push(@months, $child->findnodes("data/mese/text()"));	# aggiungo il mese del nodo corrente
 	push(@years, $child->findnodes("data/anno/text()"));	# aggiungo l'anno del nodo corrente
 	push(@title, $child->findnodes("nome/text()"));			# aggiungo il nome del nodo corrente
-	push(@id, $child->findnodes("id/text()"));				# aggiungo l'id del nodo corrente
+	push(@id, $child->getAttribute("id"));					# aggiungo l'id del nodo corrente
 	push(@texts, $child->findnodes("descrizione/text()"));	# aggiungo la descrizione del nodo corrente
 }
 

@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
-	<title lang="en"><tmpl_var name="name"></title>
+	<title lang="en">Errore</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="images/favicon.ico" type="../public-html/image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="../public-html/css/print.css" media="print" /> 
@@ -53,21 +53,8 @@
 	</div>
 	
 	<div id="content">
-		<h1><tmpl_var name="name"></h1>
-		<span id="event_date"><tmpl_var name="date"></span>
-		<hr/>
+		<h1>Errore <tmpl_var name="code"></h1>
 		<p><tmpl_var name="desc"></p>
-		<h2>Menu</h2>
-		<ul>
-			<tmpl_loop name="menu">
-				<li>
-					<tmpl_var name="menu_item">
-				</li>
-			</tmpl_loop>
-		</ul>
-		<span id="event_price">
-			<tmpl_var name="price"> €
-		</span>
 	</div>
 
 	<div id="social_tab">
