@@ -11,6 +11,7 @@
 
 use HTML::Template;
 use CGI;
+HTML::Template->config(utf8 => 1);
 
 $cgi = CGI->new();
 

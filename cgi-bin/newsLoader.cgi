@@ -11,6 +11,7 @@
 
 use HTML::Template;
 use XML::LibXML;
+HTML::Template->config(utf8 => 1);
 
 $filename = "../database/news.xml"; # indica il file xml su cui effettuare il parsing
 $parser = XML::LibXML->new();	# creo un parser per il file xml
