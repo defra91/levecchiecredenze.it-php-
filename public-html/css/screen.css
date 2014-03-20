@@ -154,6 +154,13 @@ div#content p {
 	font-size: 0.8em;
 }
 
+div#content p a{
+	text-align: justify;
+	margin-top: 4%;
+	font-size: 1em;
+	color: #ab8d77;
+}
+
 div#content img {
 	margin: 4% auto;
 	display: block;
