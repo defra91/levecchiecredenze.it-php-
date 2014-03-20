@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user id="">
+		<email>admin@levecchiecredenze.it</email>
+		<password>pass</password>
+	</user>
+	<user id="">
+		<email>luca.defranceschi.91@gmail.com</email>
+		<password>pass</password>
+	</user>
+</users>

@@ -37,10 +37,9 @@ if ($input{"id"}) {
 	$_id = $input{"id"};
 }
 else {
-	# $code = "404";
-	# $desc = "Evento non trovato";
-	# print $cgi->redirect("errorHandler.cgi?code=$code&desc=$desc");
-	$_id = 2;
+	$code = "404";
+	$desc = "Evento non trovato";
+	print $cgi->redirect("errorHandler.cgi?code=$code&desc=$desc");
 }
 
 
