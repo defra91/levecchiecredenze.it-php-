@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
-	<title>Gallery</title>
+	<title>Il nostro menu</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="../public-html/images/favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="../public-html/css/print.css" media="print" /> 
@@ -12,10 +12,9 @@
 	<link rel="stylesheet" type="text/css" href="../public-html/css/tablet-portrait.css" media="only screen and (min-widht: 480px) and (max-width: 1024px) and (orientation:portrait)" /> 
 	<link rel="stylesheet" type="text/css" href="../public-html/css/smartphone-portrait.css" media="only screen and (max-width: 480px) and (orientation: portrait" />
 	<link rel="stylesheet" type="text/css" href="../public-html/css/smartphone-landscape.css" media="only screen and (max-width: 480px) and (orientation: landscape" />
-	<link href="../public-html/css/lightbox.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="../public-html/js/jquery.js"></script>
 	<script type="text/javascript" src="../public-html/js/common.js"></script>
-	<script type="text/javascript" src="../public-html/js/lightbox-2.6.min.js"></script>
+	<script type="text/javascript" src="../public-html/js/menu.js"></script>
 </head>
 
 <body>
@@ -28,13 +27,13 @@
 			<ul>
 				<li class="menu_item" lang="en"><a href="../public-html/index.html">Home</a></li>
 				<li class="menu_item"><a href="../public-html/storia.html">La storia</a></li>
-				<li class="menu_item"><a href="menuLoader.cgi">Il nostro menu</a></li>
+				<li class="menu_item_selected">Il nostro menu</li>
 				<li class="menu_item"><a href="../public-html/cantina.html">La nostra cantina</a></li>
-				<li class="menu_item_selected">Galleria</li>
+				<li class="menu_item"><a href="galleryLoader.cgi">Galleria</a></li>
 				<li class="menu_item"><a href="eventsLoader.cgi">I nostri eventi</a></li>
 				<li class="menu_item"><a href="newsLoader.cgi">Le nostre news</a></li>
 				<li class="menu_item"><a href="../public-html/raggiungerci.html">Come raggiungerci</a></li>
-				<li class="menu_item"><a href="../public-html/contatti.html">Contattaci</a></li>
+				<li class="menu_item"><a href="../public-html/contact.html">Contattaci</a></li>
 			</ul>
 		</div>
 
@@ -49,26 +48,92 @@
 			<p>Chiuso il Lunedì</p>
 			<p>Orario: 12:30 - 14:30, 19:00 - 00:00</p>
 			<a href="../public-html/credits.html" lang="en">Credits</a>
-			<a href="../public-html/login.html" lang="en">Admin</a> 
+			<a href="../public-html/login.h" lang="en">Admin</a> 
 		</div>
 
 	</div>
 	
 	<div id="content">
-		<h1>Gallery</h1>
-		<p>Di seguito viene riportata una galleria di immagini del nostro ristorante:</p>
+		<h1>Il nostro menu</h1>
 		<hr/>
+		<p class="menu_evento">Per i menù relativi ad eventi o festività particolari visitare la sezione <a href="eventsLoader.cgi">eventi</a></p>
 
-		<!-- Begin of section -->
-		<tmpl_loop name="gallery">
-			<div class="image_container">
-				<a href="<tmpl_var name="src">" data-lightbox="roadtrip">
-					<img class="gallery_item" alt="<tmpl_var name="alt">" title="<tmpl_var name="title">" src="<tmpl_var name="src">" />
-				</a>
-			</div>
-		</tmpl_loop>
+		<span id="last_modify">
+			Ultima modifica: <tmpl_var name="date">
+		</span>
+		<table summary="La tabella seguente illustra l'elenco degli antipasti presenti nel nostro menu. Ciascun piatto è caratterizzato dal suo nome e dal suo prezzo espresso in euro.">
+			<caption>Antipasti</caption>
+			<tr>
+				<th scope="col">Nome piatto</th>
+				<th scope="col">Prezzo</th>
+			</tr>
+			<tmpl_loop name="antipasti">
+				<tr>
+					<td><tmpl_var name="menu_item"></td>
+					<td><tmpl_var name="price"> &euro;</td>
+				</tr>
+			</tmpl_loop>
+		</table>
 
-		<!-- End of template section -->
+		<table summary="La tabella seguente illustra l'elenco dei primi piatti presenti nel nostro menu. Ciascun piatto è caratterizzato dal suo nome e dal suo prezzo espresso in euro.">
+			<caption>Primi piatti</caption>
+			<tr>
+				<th scope="col">Nome piatto</th>
+				<th scope="col">Prezzo</th>
+			</tr>
+			<tmpl_loop name="primi">
+				<tr>
+					<td><tmpl_var name="menu_item"></td>
+					<td><tmpl_var name="price"> &euro;</td>
+				</tr>
+			</tmpl_loop>
+		</table>
+
+		<table summary="La tabella seguente illustra l'elenco dei secondi piatti presenti nel nostro menu. Ciascun piatto è caratterizzato dal suo nome e dal suo prezzo espresso in euro.">
+			<caption>Secondi piatti</caption>
+			<tr>
+				<th scope="col">Nome piatto</th>
+				<th scope="col">Prezzo</th>
+			</tr>
+			<tmpl_loop name="secondi">
+				<tr>
+					<td><tmpl_var name="menu_item"></td>
+					<td><tmpl_var name="price"> &euro;</td>
+				</tr>
+			</tmpl_loop>
+		</table>
+
+		<table summary="La tabella seguente illustra l'elenco dei dessert presenti nel nostro menu. Ciascun piatto è caratterizzato dal suo nome e dal suo prezzo espresso in euro.">
+			<caption>Dessert</caption>
+			<tr>
+				<th scope="col">Nome piatto</th>
+				<th scope="col">Prezzo</th>
+			</tr>
+			<tmpl_loop name="dessert">
+				<tr>
+					<td><tmpl_var name="menu_item"></td>
+					<td><tmpl_var name="price"> &euro;</td>
+				</tr>
+			</tmpl_loop>
+		</table>
+
+		<table summary="La tabella seguente illustra il nostro menu di degustazione.">
+			<caption>Menu degustazione</caption>
+			<tr>
+				<th scope="col">Nome piatto</th>
+			</tr>
+			<tmpl_loop name="degustazione">
+				<tr>
+					<td>
+						<tmpl_var name="deg_item">
+					</td>
+				</tr>
+			</tmpl_loop>
+		</table>
+		<span id="prezzo_degustazione">
+			<tmpl_var name="deg_price"> &euro;
+		</span>
+
 	</div>
 
 	<div id="social_tab">

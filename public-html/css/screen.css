@@ -154,6 +154,13 @@ div#content p {
 	font-size: 0.8em;
 }
 
+div#content p a{
+	text-align: justify;
+	margin-top: 4%;
+	font-size: 1em;
+	color: #ab8d77;
+}
+
 div#content img {
 	margin: 4% auto;
 	display: block;
@@ -308,31 +315,19 @@ li.listino{
 
 /* News */
 
-div#content li {
+ul#news_list {
+}
+
+ul#news_list li {
 	list-style: none;
 	margin-bottom: 4%;
-}
-
-.news {
-	font-size: 1em;
-	margin-bottom: 1%;
-	margin-top: 1%;
-}
-
-.hrNews{
-  	width: 50%;
-}
-
-div.news p {
-	clear: right;
-	font-size: 0.8em;
-	font-style: italic;
-	line-height: 1.5em;
+	border-bottom: 1px solid #FFF;
+	padding: 4% 0;
 }
 
 /* Eventi */
 
-div.event {
+li.event {
 	width: 96%;
 	border-bottom: 1px solid #FFF;
 	padding: 2% 2%;
@@ -340,53 +335,55 @@ div.event {
 	float: left;
 }
 
-div.event a {
+li.event a {
 	color: #FFF;
-	font-size: 1.5em;
+	font-size: 1em;
 	float: right;
 	margin-bottom: 2%;
 }
 
-div.event a:visited {
+li.event a:visited {
 	color: #ab8d77;
 	font-size: 1.5em;
 	float: right;
 	margin-bottom: 2%;
 }
 
-div.event p {
+li.event p {
 	clear: right;
 	font-size: 0.8em;
 	font-style: italic;
 	line-height: 1.5em;
 }
 
-div.event div {
+li.event div {
 	width: 100px;
 	height: 100px;
 	background: url(../images/calendar-icon.png) center no-repeat;
 	float: left;
 	margin-right: 4%;
-	margin-bottom: 4%; 
+	margin-bottom: 4%;
 }
 
-div.event div span {
+li.event div span {
 	position: relative;
-	left: 10px;
+	left: 5px;
+	top: 30px;
+	float: left;
+	font-weight: bold;
+	font-size: 0.6em;
+}
+
+li.event div span + span {
+	position: relative;
+	left: 15px;
 	top: 25px;
 	float: left;
 	font-weight: bold;
+	font-size: 1em;
 }
 
-div.event div span + span {
-	position: relative;
-	left: 20px;
-	top: 25px;
-	float: left;
-	font-weight: bold;
-}
-
-div.event div span + span + span {
+li.event div span + span + span {
 	clear: left;
 	position: relative;
 	left: 30%;
@@ -480,6 +477,8 @@ img.gallery_item {
 
 /* Come raggiungerci*/
 
-iframe{
-	margin-top: 5%;
+div#google_map_canvas {
+	width: 80%;
+	height: 500px;
+	margin: 4% auto;
 }
