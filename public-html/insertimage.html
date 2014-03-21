@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/screenadmin.css" media="screen and (min-width: 1024px)" />
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/image.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -29,9 +30,15 @@
 			<fieldset id="immagini">
     			<legend >Inserimento immagine</legend>
     			<p>
-    				<input type="file" name="immagine" />
+    				<input type="file" name="immagine" id="filePhoto" />
+    				<img src="" id="previewHolder" alt="anteprima immagine da inserire"/>
+    				<label for="nimmaine">Nome immagine</label>
+    				<input type="text" name="nome_immagine" id="nimmagine" /> 
+    				<label for="altimmagine">Alt immagine</label>
+    				<input type="text" name="alt_immagine"  id="altimmagine"/> 
     			</p>
 			</fieldset>
+		</form>
 	</div>
 
 </body>
