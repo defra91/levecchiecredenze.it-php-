@@ -199,3 +199,6 @@ div#content label {
 input {
 	margin:5px;
 }
+label{
+	display:inline;
+}
