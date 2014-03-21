@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+	<title>Aggungi men&ugrave;</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="css/screenadmin.css" media="screen and (min-width: 1024px)" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/addmenu.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div id="title">
+			<h1>Pannello amministrazione</h1>
+		</div>
+		<div id="navigation">
+			<ul>
+				<li class="menu_item" lang="en">Home</li>
+				<li class="menu_item_selected"><a href="">Modifica <span lang="en">Men&ugrave;</span></a></li>
+				<li class="menu_item"><a href="">Modifica menu</a></li>
+				<li class="menu_item"><a href="">Gestione<span lang="en"> photogallery</a></span></li>
+			</ul>
+		</div>
+	</div>
+	<div id="content">
+		<h1>Inserisci un nuovo <span lang="en">Men&ugrave;</span></h1>
+		<p>
+			Completare i seguenti <span lang="en">form</span> per inserire un nuovo Men&ugrave;
+		</p>
+		<form method="post" action="">
+			<fieldset id="antipasti">
+    			<legend >Antipasti</legend>
+    			<p>
+    				<input type=\"text\" name=\"antipasto0\" placeholder="Nome antipasto" />
+    				<input type=\"text\" name=\"costo0\" placeholder="Costo antipasto" />
+    			</p>
+			</fieldset>
+			<input type="button" value="Aggiungi antipasto" id="add_antipasto" />
+			<fieldset id="primi">
+    			<legend >Primi Piatti</legend>
+    			<p>
+    				<input type=\"text\" name=\"antipasto0\" placeholder="Nome antipasto" />
+    				<input type=\"text\" name=\"costo0\" placeholder="Costo antipasto" />
+    			</p>
+			</fieldset>
+			<input type="button" value="Aggiungi primo piatto" id="add_primo" />
+		</form>
+	</div>
+
+</body>
+</html>

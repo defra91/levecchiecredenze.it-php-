@@ -34,8 +34,8 @@
 		<p>
 			Attenzione! Stai per entrare nella sezione privata di amministrazione. Prima di poter entrare devi effettuare l'accesso. Inserisci il tuo <span lang="en">username</span> e la tua <span lang="en">password</span> nel <span lang="en">form</span> sottostante.
 		</p>
-		<form method="post" action="">
-			<label lang="en" for="Username">Username</label>
+		<form method="post" action="#">
+			<label lang="en"for="Username">Username</label>
 			<input type="text" name="username" class="text_input" value="Username" />
 			<label lang="en">Password</label>
 			<input type="password" name="password" class="text_input" value="Password" />
