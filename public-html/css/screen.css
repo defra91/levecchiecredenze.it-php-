@@ -482,3 +482,11 @@ div#google_map_canvas {
 	height: 500px;
 	margin: 4% auto;
 }
+
+/* Login */
+
+span#loginError {
+	color: red;
+	float: right;
+	margin: 2% 0;
+}

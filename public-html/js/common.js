@@ -84,11 +84,11 @@ var images = ['../public-html/images/slideshow/1.jpg', '../public-html/images/sl
 /* funzione imposta a pari altezza le due colonne */
 
 var setColumns = function() {
-	var height = Math.max($("#header").height(), $("#content").height());
-	var h1 = $("#header").height();
+	var height = Math.max($("#navigation").height(), $("#content").height());
+	var h1 = $("#navigation").height();
 	var h2 = $("#content").height();
 	var finalHeight = (h1 > h2) ? h1 : h2;
-	$("#header").height(finalHeight);
+	$("#navigation").height(finalHeight);
 	$("#content").height(finalHeight);
 }
 

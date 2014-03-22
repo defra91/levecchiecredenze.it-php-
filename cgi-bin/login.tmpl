@@ -17,12 +17,8 @@
 </head>
 
 <body>
-	<div id="header">
-		<div id="banner">
-			<h1>Le Vecchie Credenze</h1>
-		</div>
-
-		<div id="navigation">
+	<div id="navigation">
+		<img src="../public-html/images/banner.png" />
 			<ul>
 				<li class="menu_item" lang="en"><a href="../public-html/index.html">Home</a></li>
 				<li class="menu_item"><a href="../public-html/storia.html">La storia</a></li>
@@ -34,11 +30,8 @@
 				<li class="menu_item"><a href="../public-html/raggiungerci.html">Come raggiungerci</a></li>
 				<li class="menu_item"><a href="../public-html/contatti.html">Contattaci</a></li>
 			</ul>
-		</div>
 
 		<div id="footer">
-			<img class="language" src="../public-html/images/ita.gif" alt="cambia la lingua del sito in Italiano" title="italiano" />
-			<img class="language" src="../public-html/images/eng.gif" alt="change the language of the site in English" title="english" />
 			<h1>Ristorante Le Vecchie Credenze</h1>
 			<p>Via Alberassa, 16 Santena (TO)</p>
 			<p>Tel. 011-9456455</p>
@@ -47,14 +40,13 @@
 			<p>Chiuso il Lunedì</p>
 			<p>Orario: 12:30 - 14:30, 19:00 - 00:00</p>
 			<a href="../public-html/credits.html" lang="en">Credits</a>
-			Admin
+			<a href="loginView.cgi" lang="en">Admin</a> 
 		</div>
 
 	</div>
 	
 	<div id="content">
 		<h1>Area riservata</h1>
-		<h2><tmpl_var name="logged"></h2>
 		<p>
 			Attenzione! Stai per entrare nella sezione privata di amministrazione. Prima di poter entrare devi effettuare l'accesso. Inserisci il tuo <span lang="en">username</span> e la tua <span lang="en">password</span> nel <span lang="en">form</span> sottostante.
 		</p>
@@ -65,6 +57,7 @@
 			<input type="password" name="password" class="text_input" />
 			<input type="submit" lang="en" value="Login" class="submit_input" />
 		</form>
+		<span id="loginError"><tmpl_var name="logged"></span>
 	</div>
 
 	<div id="social_tab">

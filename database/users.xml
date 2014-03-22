@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <users>
-	<user id="">
+	<user id="1">
 		<email>admin@levecchiecredenze.it</email>
 		<password>pass</password>
 	</user>
-	<user id="">
+	<user id="2">
 		<email>defra91</email>
 		<password>pass</password>
 	</user>

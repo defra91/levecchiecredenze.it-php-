@@ -6,6 +6,7 @@
 
 use CGI;
 use CGI::Session;
+use CGI::Carp qw(warningsToBrowser fatalsToBrowser); 
 use XML::LibXML;
 
 $filename = "../database/users.xml"; 		# indica il file xml su cui effettuare il parsing
@@ -22,18 +23,17 @@ foreach $pair (@pairs) {
 	($name, $value) = split(/=/, $pair); 
 	$value =~ tr/+/ /; 							# effettuo una serie di operazioni per pulire la stringa									
 	$value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C", hex($1))/eg; 
+	$value =~ s/@/"\/@"/eg;
 	$name =~ tr/+/ /; 
 	$name =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C",hex($1))/eg; 
 	$input{$name} = $value;						# inserisco il valore nell'array associativo
 }
 
-# rimpiazzare la @ con \@
-
-$exists = $root->exists("user[email=$input{\"email\"} and password=$input{\"password\"}]");
+$exists = $root->exists("user[email=\"$input{\"email\"}\" and password=\"$input{\"password\"}\"]");
 
 if ($exists) {
 	$session = CGI::Session->new();
-	$session->param(-name => "email", -value => $input{email});
+	$session->param("email", $input{email});
 	print $session->header(-location => "loginView.cgi");
 }
 else {
