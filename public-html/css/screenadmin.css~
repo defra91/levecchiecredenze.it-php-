@@ -190,15 +190,3 @@ a.download {
 	text-indent: 20px;
 	background: url(../images/pdf-icon.png) center left no-repeat;
 }
-/*  FORM */ 
-div#content label {
-	margin: 4% 0;
-	display: block;
-}
-
-input {
-	margin:5px;
-}
-label{
-	display:inline;
-}

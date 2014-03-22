@@ -6,14 +6,10 @@
 	<title>Pannello admin</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-	<!--<link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> -->
 	<link rel="stylesheet" type="text/css" href="css/screenadmin.css" media="screen and (min-width: 1024px)" />
-	<!--<link rel="stylesheet" type="text/css" href="css/tablet-landscape.css" media=" only screen and (min-width: 480px) and (max-width: 1024px) and (orientation:landscape)" /> 
-	<link rel="stylesheet" type="text/css" href="css/tablet-portrait.css" media="only screen and (min-widht: 480px) and (max-width: 1024px) and (orientation:portrait)" /> 
-	<link rel="stylesheet" type="text/css" href="css/smartphone-portrait.css" media="only screen and (max-width: 480px) and (orientation: portrait" />
-	<link rel="stylesheet" type="text/css" href="css/smartphone-landscape.css" media="only screen and (max-width: 480px) and (orientation: landscape" />-->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/image.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -22,14 +18,28 @@
 		</div>
 		<div id="navigation">
 			<ul>
-				<li class="menu_item_selected" lang="en">Home</li>
+				<li class="menu_item" lang="en"><a href="admin.html">Home</a></li>
 				<li class="menu_item"><a href="addmenu.html">Modifica <span lang="en">Men&ugrave;</span></a></li>
-				<li class="menu_item"><a href="insertimage.html">Gestione<span lang="en"> photogallery</span></a></li>
+				<li class="menu_item_selected">Gestione<span lang="en"> photogallery</span></li>
 				<li class="menu_item"><a href="addevento.html">Aggiungi evento</a></li>
 			</ul>
 		</div>
 	</div>
 	<div id="content">
+		<h1>Pannello per l' inserimento di nuove immagini</h1>
+		<form method="post" action="">
+			<fieldset id="immagini">
+    			<legend >Inserimento immagine</legend>
+    			<p>
+    				<input type="file" name="immagine" id="filePhoto" />
+    				<img src="" id="previewHolder" alt="anteprima immagine da inserire"/>
+    				<label for="nimmaine">Nome immagine</label>
+    				<input type="text" name="nome_immagine" id="nimmagine" /> 
+    				<label for="altimmagine">Alt immagine</label>
+    				<input type="text" name="alt_immagine"  id="altimmagine"/> 
+    			</p>
+			</fieldset>
+		</form>
 	</div>
 
 </body>

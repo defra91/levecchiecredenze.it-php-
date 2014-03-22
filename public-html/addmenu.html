@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+	<title>Aggungi men&ugrave;</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="css/screenadmin.css" media="screen and (min-width: 1024px)" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/addmenu.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div id="title">
+			<h1>Pannello amministrazione</h1>
+		</div>
+		<div id="navigation">
+			<ul>
+				<li class="menu_item" lang="en"><a href="admin.html">Home</a></li>
+				<li class="menu_item_selected"><a href="">Modifica <span lang="en">Men&ugrave;</span></a></li>
+				<li class="menu_item"><a href="insertimage.html">Gestione<span lang="en"> photogallery</span></a></li>
+				<li class="menu_item"><a href="addevento.html">Aggiungi evento</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="content">
+		<h1>Inserisci un nuovo <span lang="en">Men&ugrave;</span></h1>
+		<p>
+			Completare i seguenti <span lang="en">form</span> per inserire un nuovo Men&ugrave;
+		</p>
+		<form method="post" action="">
+			<fieldset id="antipasti">
+    			<legend >Antipasti</legend>
+    			<p>
+    				<label for="antipasto0">Nome piatto</label>
+    				<input type="text" name="antipasto" id="antipasto0"/>
+    				<label for="cantipasto0">Prezzo</label>
+    				<input type="text" class="elementPrice" name="costo_antipasto" id="cantipasto0"/>
+    			</p>
+			</fieldset>
+			<input type="button" value="Aggiungi antipasto" id="add_antipasto" />
+			<fieldset id="primi">
+    			<legend >Primi Piatti</legend>
+    			<p>
+    				<label for="primo0">Nome piatto</label>
+    				<input type="text" name="primo" id="primo0"/>
+    				<label for="cprimo0">Prezzo</label>
+    				<input type="text" class="elementPrice" name="costo_primo"id="cprimo0"/>
+    			</p>
+			</fieldset>
+			<input type="button" value="Aggiungi primo piatto" id="add_primo" />
+			<fieldset id="secondi">
+    			<legend >Secondi Piatti</legend>
+    			<p>
+    				<label for="secondo0">Nome piatto</label>
+    				<input type="text" name="secondo"id="secondo0" />
+    				<label for="csecondo0">Prezzo</label>
+    				<input type="text" class="elementPrice" name="costo_secondo"id="csecondo0" />
+    			</p>
+			</fieldset>
+			<input type="button" value="Aggiungi secondo piatto" id="add_secondo" />
+			<fieldset id="dessert">
+    			<legend ><span lang="en">Dessert</span></legend>
+    			<p>
+    				<label for="dessert0">Nome piatto</label>
+    				<input type="text" name="dessert"id="dessert0" />
+    				<label for="cdessert0">Prezzo</label>
+    				<input type="text" class="elementPrice" name="costo_dessert"id="cdessert0" />
+    			</p>
+			</fieldset>
+			<input type="button" value="Aggiungi dessert" id="add_dessert" />
+		</form>
+	</div>
+
+</body>
+</html>
