@@ -5,6 +5,7 @@ var ctrl = function() {
 		// permetti delete
 		if ( event.keyCode == 46 || event.keyCode == 8 ) {
 			$("#errore").remove();
+			$(this).removeClass("highlight");
 		}
 		else {
 			if ((event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105 )) {
@@ -18,12 +19,17 @@ var ctrl = function() {
 			}
 			else{
 				$("#errore").remove();
+				$(this).removeClass("highlight");
 			}
 		}
 	});
 	setColumns();
 };
-
+ var ctrl2=function(){ 
+ 	$("#form input:not(.elementPrice) ").keydown(function(event) {
+        $(this).removeClass("highlight");
+	});
+};
 var setColumns = function() {
 	var height = Math.max($("#header").height(), $("#content").height());
 	var h1 = $("#header").height();
@@ -36,7 +42,7 @@ var setColumns = function() {
 $(document).ready(function () {
 	
 	ctrl();
-
+	ctrl2();
 	$('#add_antipasto').click(function(){
 		var openp=$("<p>");
 		var nantipasti=$( "#antipasti label" ).length/2;
@@ -103,7 +109,7 @@ $(document).ready(function () {
 
 	$("#form").submit(function(){
 	var isFormValid = true;
-    $("#form input:text").each(function(){ // Note the :text
+    $("#form input:text").each(function(){
         if ($.trim($(this).val()).length == 0){
             $(this).addClass("highlight");
             isFormValid = false;
@@ -114,7 +120,6 @@ $(document).ready(function () {
     if (!isFormValid)
     	event.preventDefault();
     return isFormValid;
-	
 	});
 });	
 

@@ -549,5 +549,5 @@ img.imagePreview {
 	clear: both;
 }
 .highlight{
-	background-color: red;
+	box-shadow: 0 0 10px #FF2400;
 }
