@@ -103,7 +103,6 @@ $(document).ready(function () {
 
 	$("#form").submit(function(){
 	var isFormValid = true;
-	alert('inizio controllo');
     $("#form input:text").each(function(){ // Note the :text
         if ($.trim($(this).val()).length == 0){
             $(this).addClass("highlight");
