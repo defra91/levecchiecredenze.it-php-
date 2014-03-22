@@ -32,6 +32,7 @@
 	</div>
 	<div id="content">
 		<h1>Crea un nuovo evento</h1>
+		<form method="post" action="" id="form">
 		<fieldset id="antipasti">
     			<legend>Antipasti</legend>
     			<p>
@@ -64,7 +65,15 @@
     			</p>
 		</fieldset>
 		<input type="button" value="Aggiungi dessert" id="add_dessert" />
+		<fieldset id="prezzo">
+    			<legend lang="en">Prezzo Totale</legend>
+    			<p>
+    				<label for="costo">Costo del <span lang="en">Men&ugrave;</span></label>
+    				<input type="text" name="prezzo" id="costo"/>
+    			</p>
+		</fieldset>
 		<input type="submit" value="Crea evento" id="crea_evento" />
+		</form>
 	</div>
 
 </body>

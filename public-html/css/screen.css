@@ -548,3 +548,6 @@ div.adminImageList a + a {
 img.imagePreview {
 	clear: both;
 }
+.highlight{
+	background-color: red;
+}
