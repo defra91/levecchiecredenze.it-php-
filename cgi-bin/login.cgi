@@ -15,24 +15,28 @@ $xml_doc = $parser->parse_file($filename); 	# effettuo parsing sul file xml e ot
 $root = $xml_doc->getDocumentElement();		# ottengo il nodo radice
 
 $buffer = "";
-read(STDIN, $buffer,$ENV{'CONTENT_LENGTH'});
-@pairs = split(/&/, $buffer);
+read(STDIN, $buffer,$ENV{'CONTENT_LENGTH'});	# estraggo i dati dal form
+@pairs = split(/&/, $buffer);					# divido i vari parametri e li butto in un array
 %input;
 foreach $pair (@pairs) { 
 	($name, $value) = split(/=/, $pair); 
-	$value =~ tr/+/ /; 
-	$value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C", hex($1))/g; 
+	$value =~ tr/+/ /; 							# effettuo una serie di operazioni per pulire la stringa									
+	$value =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C", hex($1))/eg; 
 	$name =~ tr/+/ /; 
-	$name =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C",hex($1))/g; 
-	$input{$name} = $value;
+	$name =~ s/%([a-fA-F0-9][a-fA-F0-9])/pack("C",hex($1))/eg; 
+	$input{$name} = $value;						# inserisco il valore nell'array associativo
 }
 
-if () {
-	$session = new CGI::Session();
-	$session->param(-name => "username", -value => "luca");
+# rimpiazzare la @ con \@
+
+$exists = $root->exists("user[email=$input{\"email\"} and password=$input{\"password\"}]");
+
+if ($exists) {
+	$session = CGI::Session->new();
+	$session->param(-name => "email", -value => $input{email});
 	print $session->header(-location => "loginView.cgi");
 }
 else {
 	$cgi = new CGI();
-	$cgi->redirect("loginView.cgi");
+	print $cgi->redirect("loginView.cgi");
 }

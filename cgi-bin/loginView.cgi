@@ -13,12 +13,10 @@ use HTML::Template;
 use CGI;
 use CGI::Session;
 
-$user = "";
-
 $session = new CGI::Session();
 
-if ($session->param(-name => "username")) {
-	$logged = "Logged";
+if ($session->param(-name => "email")) {
+	$logged = "Logged as " . $session->param(-name => "email");
 }
 else {
 	$logged = "Not logged";
