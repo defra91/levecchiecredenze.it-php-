@@ -5,6 +5,14 @@
 	padding: 0;
 }
 
+a {
+	color: #FFF;
+}
+
+a:hover {
+	color: #ab8d77;
+}
+
 body {
 	background: url(../images/slideshow/1.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -45,6 +53,11 @@ div#navigation {
 	margin-bottom: 2%;
 	width: 200px;
 	background: url(../images/dotted-bg.png);
+}
+
+div#navigation h1 {
+	font-size: 1em;
+	margin-bottom: 4%;
 }
 
 li.menu_item {
@@ -254,13 +267,13 @@ div#content table th {
 	text-align: left;
 	font-weight: bold;
 	font-size: 1em;
-	padding: 2% 0;
+	padding: 2% 2%;
 }
 
 div#content table td {
 	text-align: left;
 	font-size: 0.8em;
-	padding: 1% 0;
+	padding: 1% 2%;
 }
 
 div#content em {
@@ -489,4 +502,49 @@ span#loginError {
 	color: red;
 	float: right;
 	margin: 2% 0;
+}
+
+/* Admin section */
+
+span#user {
+	color: red;
+}
+
+div.adminImageList {
+	margin: 2% 4%;
+	list-style: none;
+	width: 20%;
+	float: left;
+	border: 1px solid #ab8d77;
+	height: 100px;
+	padding: 2%;
+	overflow: hidden;
+}
+
+span.imageName {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+div.adminImageList a {
+	font-size: 0.7em;
+	float: left;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin: 10% 10%;
+	color: #FFF;
+}
+
+
+div.adminImageList a + a {
+	font-size: 0.7em;
+	float: right;
+	margin: 10% 10%
+	color: #FFF;
+}
+
+img.imagePreview {
+	clear: both;
 }

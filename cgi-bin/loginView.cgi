@@ -6,7 +6,8 @@
 #                                                                       #
 #	Per far funzionare questo script bisogna                            #
 #	aver settato correttamente apache2 per gli script perl/cgi ed aver  #
-#	installato il modulo HTML::Template da CPAN                         #
+#	installato il modulo HTML::Template da CPAN       					#          
+#																		#
 #########################################################################
 
 use HTML::Template;
@@ -16,7 +17,8 @@ use CGI::Session;
 $session = new CGI::Session();
 
 if ($session->param(-name => "email")) {
-	$logged = "Logged as " . $session->param(-name => "email");
+	$cgi = new CGI();
+	print $cgi->redirect("adminLoader.cgi");
 }
 else {
 	$logged = "Not logged";
