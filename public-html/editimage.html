@@ -16,18 +16,26 @@
 	<script type="text/javascript" src="js/common.js"></script>
 </head>
 <body>
-		<div id="title">
-			<h1>Pannello amministrazione</h1>
-		</div>
-		<div id="navigation">
-			<ul>
-				<li class="menu_item_selected" lang="en">Home</li>
-				<li class="menu_item"><a href="addmenu.html">Modifica <span lang="en">Men&ugrave;</span></a></li>
-				<li class="menu_item"><a href="insertimage.html">Gestione<span lang="en"> photogallery</span></a></li>
-				<li class="menu_item"><a href="addevento.html">Aggiungi evento</a></li>
-			</ul>
-		</div>
+<div id="navigation">
+		<h1>Pannello amministrazione</h1>
+		<ul>
+			<li class="menu_item_selected" lang="en">Dashboard</li>
+			<li class="menu_item"><a href="addmenu.html">Modifica Menu</a></li>
+			<li class="menu_item"><a href="galleryAdminLoader.cgi">Gestione <span lang="en">photogallery</span></a></li>
+			<li class="menu_item"><a href="addevento.html">Aggiungi evento</a></li>
+			<li class="menu_item"><a href="../public-html/index.html">Torna al sito</a></li>
+			<li class="menu_item"><a href="logout.cgi">Logout</a></li>
+		</ul>
+	</div>
 	<div id="content">
+		<h1>Modifica immagine</h1>
+		<img src="" id="previewHolder" alt="anteprima immagine"/>
+		<h2>VECCHIO NOME</h2>
+		<label for="image_name">Nuovo nome</label>
+		<input type="text" id="image_name"/>
+		<h2>VECCHIO ALT</h2>
+		<label for="image_alt">Nuovo alt</label>
+		<input type="text" id="image_alt"/>
 	</div>
 
 </body>
