@@ -1,9 +1,9 @@
 //controllo inserimento valori
+
 var ctrl = function() {
 	$(".elementPrice").keydown(function(event) {
 		// permetti delete
 		if ( event.keyCode == 46 || event.keyCode == 8 ) {
-			//$( "#errore" ).remove();
 			$("#errore").remove();
 		}
 		else {
@@ -42,7 +42,7 @@ $(document).ready(function () {
 		var nantipasti=$( "#antipasti label" ).length/2;
 		var input1 = $("<label for\"antipasto"+nantipasti+"\">Nome piatto</label><input type=\"text\" name=\"antipasto\" id=\"antipasto"+nantipasti+"\"/>");
 		var input2=$("<label for=\"cantipasto"+nantipasti+"\">Costo piatto</label><input type=\"text\" class=\"elementPrice\" name=\"costo_antipasto\" id=\"cantipasto"+nantipasti+"\"/>");
-		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"-\" /></p>");
+		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"rimuovi portata\" /></p>");
 		  removeButton.click(function() {
             $(this).parent().remove();
         	});
@@ -58,7 +58,7 @@ $(document).ready(function () {
 		var nprimi=$( "#primi label" ).length/2;
 		var input1 = $("<label>Nome piatto</label><input type=\"text\" name=\"primo\"id=\"primo"+nprimi+"\"  />");
 		var input2=$("<label>Costo piatto</label><input type=\"text\" class=\"elementPrice\" name=\"costo_primo\"id=\"cprimo"+nprimi+"\"/>");
-		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"-\" /></p>");
+		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"rimuovi portata\" /></p>");
 		  removeButton.click(function() {
             $(this).parent().remove();
         	});
@@ -74,7 +74,7 @@ $(document).ready(function () {
 		var nsecondi=$( "#secondi label" ).length/2;
 		var input1 = $("<label for=\"secondo"+nsecondi+"\">Nome piatto</label><input type=\"text\" name=\"secondo\" id=\"secondo"+nsecondi+"\"  />");
 		var input2=$("<label for=\"csecondo"+nsecondi+"\">Costo piatto</label><input type=\"text\" class=\"elementPrice\" name=\"costo_secondo\" id=\"csecondo"+nsecondi+"\" />");
-		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"-\" /></p>");
+		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"rimuovi portata\" /></p>");
 		  removeButton.click(function() {
             $(this).parent().remove();
         	});
@@ -90,7 +90,7 @@ $(document).ready(function () {
 		var ndessert=$( "#dessert label" ).length/2;
 		var input1 = $("<label for=\"dessert"+ndessert+"\">Nome piatto</label><input type=\"text\" name=\"dessert\"id=\"dessert"+ndessert+"\" />");
 		var input2=$("<label for=\"cdessert"+ndessert+"\">Costo piatto</label><input type=\"text\" class=\"elementPrice\" name=\"costo_dessert\"id=\"dessert"+ndessert+"\"/>");
-		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"-\" /></p>");
+		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"rimuovi portata\" /></p>");
 		  removeButton.click(function() {
             $(this).parent().remove();
         	});
@@ -101,6 +101,21 @@ $(document).ready(function () {
 		ctrl();
 	});
 
-
+	$("#form").submit(function(){
+	var isFormValid = true;
+	alert('inizio controllo');
+    $("#form input:text").each(function(){ // Note the :text
+        if ($.trim($(this).val()).length == 0){
+            $(this).addClass("highlight");
+            isFormValid = false;
+        } else {
+            $(this).removeClass("highlight");
+        }
+    });
+    if (!isFormValid)
+    	event.preventDefault();
+    return isFormValid;
+	
+	});
 });	
 
