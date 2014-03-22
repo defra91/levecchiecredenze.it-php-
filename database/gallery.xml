@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gallery.xsd">
-	<immagine id="1">
-	 	<nome>1.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
-	 	<percorso>../public-html/images/fotogallery/</percorso>
-	 </immagine>
-	<immagine id="2">
-	 	<nome>2.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
-	 	<percorso>../public-html/images/fotogallery/</percorso>
-	 </immagine>
-	<immagine id="3">
-	 	<nome>3.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
-	 	<percorso>../public-html/images/fotogallery/</percorso>
-	 </immagine>
-	<immagine id="4">
-	 	<nome>4.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
-	 	<percorso>../public-html/images/fotogallery/</percorso>
-	 </immagine>
-	<immagine id="5">
-	 	<nome>5.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
-	 	<percorso>../public-html/images/fotogallery/</percorso>
-	 </immagine>
+	
 	<immagine id="6">
 	 	<nome>6.jpg</nome>
 	 	<alt>Descrizione dell'immagine</alt>
