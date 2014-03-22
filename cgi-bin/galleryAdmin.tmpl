@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
-	<title>Dashboard</title>
+	<title>Gestione photogallery</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="../public-html/images/favicon.ico" type="image/x-icon"/>
 	<!--<link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> -->
@@ -19,9 +19,9 @@
 	<div id="navigation">
 		<h1>Pannello amministrazione</h1>
 		<ul>
-			<li class="menu_item_selected" lang="en">Dashboard</li>
+			<li class="menu_item" lang="en"><a href="adminLoader.cgi">Dashboard</a></li>
 			<li class="menu_item"><a href="addmenu.html">Modifica Menu</a></li>
-			<li class="menu_item"><a href="galleryAdminLoader.cgi">Gestione <span lang="en">photogallery</span></a></li>
+			<li class="menu_item_selected">Gestione <span lang="en">photogallery</span></li>
 			<li class="menu_item"><a href="addevento.html">Aggiungi evento</a></li>
 			<li class="menu_item"><a href="../public-html/index.html">Torna al sito</a></li>
 			<li class="menu_item"><a href="logout.cgi">Logout</a></li>
@@ -29,42 +29,22 @@
 	</div>
 	<div id="content">
 		<h1>
-			Dashboard
+			Gestione <span lang="en">photogallery</span>
 		</h1>
 		<p>
 			Attualmente sei autenticato come <span id="user"><tmpl_var name="user"></span>
 		</p>
-		
-		<table summary="Nella tabella seguente sono riportate tutte le ultime azioni eseguite all'interno della sezione di amministrazione. Ciascuna riga è composta dalla descrizione dell'azione, dall'utente che l'ha eseguita e dalla data e ora in cui è stata eseguita.">
-			<caption>Tabella di <span lang="en">log</span></caption>
-			<tr>
-				<th scope="col">
-					Azione
-				</th>
-				<th scope="col">
-					Utente
-				</th>
-				<th scope="col">
-					Data e ora
-				</th>
-			</tr>
-			<tmpl_loop name="log">
-				<tr>
-					<td>
-						<tmpl_var name="action">
-					</td>
-					<td>
-						<tmpl_var name="user">
-					</td>
-					<td>
-						<tmpl_var name="timestamp">
-					</td>
-				</tr>
+		<p>
+			In questa pagina puoi gestire tutte le immagini presenti nella <span lang="en">photogallery</span> del sito. Puoi decidere di inserire una nuova immagine, modificarne o eliminarne una esistente.
+		</p>
+			<tmpl_loop name="gallery">
+				<div class="adminImageList">
+					<span class="imageName"><tmpl_var name="imageName"></span>
+					<a href="imageEditView.cgi?id=<tmpl_var name="id">">Edit</a>
+					<a href="deleteImage.cgi?id=<tmpl_var name="id">">Delete</a>
+					<img class="imagePreview" src="<tmpl_var name="src">" alt="<tmpl_var name="alt">" title="<tmpl_var name="title">" />
+				</div>
 			</tmpl_loop>
-		</table>
-
-		</table>
-
 	</div>
 
 </body>
