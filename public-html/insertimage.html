@@ -12,11 +12,8 @@
 	<script type="text/javascript" src="js/image.js"></script>
 </head>
 <body>
-	<div id="header">
-		<div id="title">
-			<h1>Pannello amministrazione</h1>
-		</div>
 		<div id="navigation">
+			<h1>Pannello amministrazione</h1>
 			<ul>
 				<li class="menu_item" lang="en"><a href="admin.html">Home</a></li>
 				<li class="menu_item"><a href="addmenu.html">Modifica <span lang="en">Men&ugrave;</span></a></li>
@@ -24,10 +21,9 @@
 				<li class="menu_item"><a href="addevento.html">Aggiungi evento</a></li>
 			</ul>
 		</div>
-	</div>
 	<div id="content">
 		<h1>Pannello per l' inserimento di nuove immagini</h1>
-		<form method="post" action="">
+		<form method="post" action="" id="form">
 			<fieldset id="immagini">
     			<legend >Inserimento immagine</legend>
     			<p>
@@ -39,6 +35,7 @@
     				<input type="text" name="alt_immagine"  id="altimmagine"/> 
     			</p>
 			</fieldset>
+			<input type="submit" value="inserisci immagine"/>
 		</form>
 	</div>
 
