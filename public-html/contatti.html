@@ -18,7 +18,7 @@
 
 <body>
 	<div id="navigation">
-		<img src="images/banner.png" />
+		<img src="images/banner.png" alt="Logo, composto dal nome, del ristorante"/>
 			<ul>
 				<li class="menu_item" lang="en"><a href="index.html">Home</a></li>
 				<li class="menu_item"><a href="storia.html">La storia</a></li>
@@ -51,20 +51,22 @@
 		<p>Compila il <span lang="en">form</span> sottostante per inviarci un messaggio di posta elettronica. Ti risponderemo appena possibile:</p>
 		
 		<form method="post" action="">
-			<label>Nome</label>
-			<input name="name" class="text_input" />
-			<label>Cognome</label>
-			<input name="surname" class="text_input" />
-			<label>Motivo del contatto</label>
-			<select name="reason">
-				<option name="info">Informazioni generali</option>
-				<option name="prenotazione">Prenotazione</option>
-				<option name="curriculum">Domanda di lavoro</option>
-				<option name="other">Altro</option>
-			</select>
-			<label>Testo</label>
-			<textarea name="text"></textarea>
-			<input type="submit" name="Invia" class="submit_input" />
+			<fieldset>
+				<label>Nome</label>
+				<input name="name" class="text_input" />
+				<label>Cognome</label>
+				<input name="surname" class="text_input" />
+				<label>Motivo del contatto</label>
+				<select name="reason">
+					<option value="info">Informazioni generali</option>
+					<option value="prenotazione">Prenotazione</option>
+					<option value="curriculum">Domanda di lavoro</option>
+					<option value="other">Altro</option>
+				</select>
+				<label>Testo</label>
+				<textarea name="text" rows="10" cols="60" ></textarea>
+				<input type="submit" name="Invia" class="submit_input" />
+				</fieldset>
 		</form>
 
 		<p>Oppure vieni a trovarci nei nostri <span lang="en">social network</span>:</p>
