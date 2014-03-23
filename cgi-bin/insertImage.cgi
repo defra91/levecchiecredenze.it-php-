@@ -11,6 +11,7 @@ use CGI::Session;
 use CGI;
 
 $cgi = CGI->new();
+
 # prima di tutto controllo che l'utente che cerca di accedere alla pagina sia autenticato
 $session = CGI::Session->new();
 
@@ -23,12 +24,12 @@ else {
 	print $cgi->redirect("../public-html/index.html");
 }
 
-$filename = "../database/gallery.xml"; # indica il file xml su cui effettuare il parsing
+$filename = "../database/gallery.xml"; 		# indica il file xml su cui effettuare il parsing
 
-$parser = XML::LibXML->new();	# creo un parser per il file xml
-$xml_doc = $parser->parse_file($filename); # effettuo parsing sul file xml e ottengo un oggetto di 'documento xml'
+$parser = XML::LibXML->new();				# creo un parser per il file xml
+$xml_doc = $parser->parse_file($filename); 	# effettuo parsing sul file xml e ottengo un oggetto di 'documento xml'
 
-$root = $xml_doc->getDocumentElement();	# ottengo il nodo radice
+$root = $xml_doc->getDocumentElement();		# ottengo il nodo radice
 
 $image = $cgi->upload('image');
 $imageName = $cgi->param('name');
