@@ -41,8 +41,8 @@
 			<tmpl_loop name="gallery">
 				<div class="adminImageList">
 					<span class="imageName"><tmpl_var name="imageName"></span>
-					<a href="imageEditView.cgi?id=<tmpl_var name="id">">Edit</a>
-					<a href="deleteImage.cgi?id=<tmpl_var name="id">">Delete</a>
+					<a href="editImageLoader.cgi?id=<tmpl_var name="id">">Modifica</a>
+					<a href="deleteImage.cgi?id=<tmpl_var name="id">">Elimina</a>
 					<img class="imagePreview" src="<tmpl_var name="src">" alt="<tmpl_var name="alt">" title="<tmpl_var name="title">" />
 				</div>
 			</tmpl_loop>

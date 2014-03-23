@@ -67,12 +67,12 @@ $last_id = $root->findvalue("immagine[last()]/\@id");	# estraggo l'id dell'ultim
 $new_id = $last_id + 1;									# incremento l'id
 
 $nuovo_el ="
-	\n\t<immagine id=\"$new_id\">
-	\n\t\t<nome>$imageName</nome>
-	\n\t\t<alt>$alt</alt>
-	\n\t\t<title>$title</title>
-	\n\t\t<percorso>$upload_dir</percorso>
-	\n\t</immagine>";
+	\t<immagine id=\"$new_id\">
+	\t\t<nome>$imageName</nome>
+	\t\t<alt>$alt</alt>
+	\t\t<title>$title</title>
+	\t\t<percorso>$upload_dir</percorso>
+	\t</immagine>";
 
 $frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona formazione dell'elemento
 

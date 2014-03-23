@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
-	<title>Pannello admin</title>
+	<title>Modifica immagine</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="../public-html/images/favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="../public-html/css/print.css" media="print" />
@@ -29,13 +29,20 @@
 	</div>
 	<div id="content">
 		<h1>Modifica immagine</h1>
-		<img src="" id="previewHolder" alt="anteprima immagine"/>
-		<h2>VECCHIO NOME</h2>
-		<label for="image_name">Nuovo nome</label>
-		<input type="text" id="image_name"/>
-		<h2>VECCHIO ALT</h2>
-		<label for="image_alt">Nuovo alt</label>
-		<input type="text" id="image_alt"/>
+		<img alt="<tmpl_var name="alt">" title="<tmpl_var name="title">" src="<tmpl_var name="src">" />
+		<form method="post" action="editImage.cgi" >
+			<fieldset>
+				<legend>Modifica immagine</legend>
+				<label for="image_name">Nome</label>
+				<input type="text" id="image_name" value="<tmpl_var name="name">" name="name" />
+				<label for="image_alt">Testo alternativo</label>
+				<input type="text" id="image_alt" name="alt" value="<tmpl_var name="alt">" />
+				<label for="image_title">Titolo</label>
+				<input type="text" id="image_title" name="<tmpl_var name="title">" />
+				<input type="submit" value="Modifica immagine" />
+				<input type="reset" value="Reset" />
+			</fieldset>
+		</form>
 	</div>
 
 </body>
