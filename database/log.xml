@@ -9,11 +9,7 @@
 				<month>Febbraio</month>
 				<year>2013</year>
 			</date>
-			<time>
-				<hour>21</hour>
-				<minute>00</minute>
-				<second>13</second>
-			</time>
+			<time>22:34:00</time>
 		</timestamp>
 	</item>
 
@@ -26,11 +22,7 @@
 				<month>Febbraio</month>
 				<year>2013</year>
 			</date>
-			<time>
-				<hour>21</hour>
-				<minute>00</minute>
-				<second>13</second>
-			</time>
+			<time></time>
 		</timestamp>
 	</item>
 </log>
