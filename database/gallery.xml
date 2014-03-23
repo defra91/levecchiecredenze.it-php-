@@ -126,4 +126,16 @@
 	 	<title>Titolo dell'immagine</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
-</gallery>
+
+	
+	<immagine id="27">
+	
+		<nome>de</nome>
+	
+		<alt>de</alt>
+	
+		<title>de</title>
+	
+		<percorso>../public-html/images/fotogallery/</percorso>
+	
+	</immagine></gallery>
