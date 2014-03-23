@@ -1,0 +1,17 @@
+Per testare che il sito sia accessibile alle persone daltoniche, tetracromiche o con altri problemi riguardanti i colori si è utilizzato Vischeck.com. Tale sito, data un'immagine o una pagina web, mostra come viene percepita da chi soffre di cecità ai colori. È bastato verificare un paio di pagine, in quanto i colori e le immagini di background utilizzate sono le medesime in tutte le pagine.
+
+Per essere accessibile un sito deve poter essere navigabile utilizzando solamente la tastiera. 
+Ogni pagina è stata testata ed il risultato è che l'intero sito è navigabile utilizzando \emph{Tab} ed \emph{Enter}.
+Non sono stati utilizzati gli attributi \emph{tabindex} per i link in quanto il flusso logico del sito è semplice e lineare.
+
+Per testare il sito rispetto agli \emph{screen reader} è stata utilizzata l'estensione \emph{Fangs} del browser Firefox.
+Tale estensione simula come un generico screen reader interpreta le varie pagine. 
+Un problema che è sorto è stata la mancanza dell'italiano tra le lingue supportate da Fangs. Nonostante ogni pagina indichi l'italiano come lingua di default, tramite l'attributo \emph{lang}, Fangs imposta l'inglese come lingua di default, e ad esempio legge i numeri decimali come centinaio (Ecco nella pagina cantina 2,00 diventa two hundred).
+
+Nonostante ciò Fangs ha permesso di verificare che:
+\begin{itemize}
+\item tutti i link vengano catturati, e che ogni link abbia un significato chiaro;
+\item cambi lingua, le abbreviazioni e le tabelle fossero gestiti correttamente;
+\item visualizzare gli headers della pagina, funzionalità offerta da alcuni scree reader e utile per capire a grandi linee il contenuto della pagina e la sua struttura.
+\item Ogni immagine abbia il rispettivo testo alternativo.
+\end{itemize} 
