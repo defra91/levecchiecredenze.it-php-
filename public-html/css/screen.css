@@ -541,7 +541,7 @@ div.adminImageList a {
 div.adminImageList a + a {
 	font-size: 0.7em;
 	float: right;
-	margin: 10% 10%
+	margin: 10% 10%;
 	color: #FFF;
 }
 
