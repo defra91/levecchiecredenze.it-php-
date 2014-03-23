@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gallery.xsd">
 	<immagine id="6">
-	 	<nome>6.jpg</nome>
+	 	<nome>dessert</nome>
 	 	<alt>Descrizione dell'immagine</alt>
 	 	<title>Titolo dell'immagine</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
@@ -25,7 +25,7 @@
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="10">
-	 	<nome>10.jpg</nome>
+	 	<nome>vini</nome>
 	 	<alt>Descrizione dell'immagine</alt>
 	 	<title>Titolo dell'immagine</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>

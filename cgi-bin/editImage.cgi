@@ -55,9 +55,29 @@ else {
 	print $cgi->redirect("errorHandler.cgi?code=$code&desc=$desc");
 }
 
+# estraggo i parametri
+$new_name = $cgi->param('name');
+$new_alt = $cgi->param('alt');
+$new_title = $cgi->param('title');
+
 # verifico che esista un'immagine con id == $_id
 $exists = $root->exists("immagine[\@id=$_id]");
+
 if ($exists) {
+	$image = $root->findnodes("immagine[\@id=$_id]")->get_node(1);	# mi prendo il nodo che mi serve
+	$name = $image->findnodes("nome/text()")->get_node(1);
+	$name_val = $image->findvalue("nome");
+	$alt = $image->findnodes("alt/text()")->get_node(1);
+	$title = $image->findnodes("title/text()")->get_node(1);
+	
+	rename "../public-html/images/fotogallery/" . $name_val, "../public-html/images/fotogallery/" . $new_name;
+
+	$name->setData($new_name);
+	$alt->setData($new_alt);
+	$title->setData($new_title);
+
+	$xml_doc->toFile($filename);
+
 	print $cgi->redirect("galleryAdminLoader.cgi");		# rimando alla pagina delle immagini
 }
 else {

@@ -28,7 +28,7 @@ $_id = "";
 $buffer = "";
 $buffer = $ENV{'QUERY_STRING'};
 @pairs = split(/&/, $buffer);
-%input;
+%input = {};
 foreach $pair (@pairs) { 
 	($name, $value) = split(/=/, $pair); 
 	$value =~ tr/+/ /;
@@ -60,6 +60,7 @@ $template->param(src => $src);
 $template->param(alt => $alt);
 $template->param(title => $title);
 $template->param(name => $name);
+$template->param(id => $_id);
 
 HTML::Template->config(utf8 => 1);
 print "Content-Type: text/html\n\n", $template->output; # butto in output il template dicendo che si tratta di HTML

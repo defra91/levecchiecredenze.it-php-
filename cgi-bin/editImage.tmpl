@@ -30,7 +30,7 @@
 	<div id="content">
 		<h1>Modifica immagine</h1>
 		<img alt="<tmpl_var name="alt">" title="<tmpl_var name="title">" src="<tmpl_var name="src">" />
-		<form method="post" action="editImage.cgi" >
+		<form method="post" action="editImage.cgi?id=<tmpl_var name="id">" >
 			<fieldset>
 				<legend>Modifica immagine</legend>
 				<label for="image_name">Nome</label>
@@ -38,7 +38,7 @@
 				<label for="image_alt">Testo alternativo</label>
 				<input type="text" id="image_alt" name="alt" value="<tmpl_var name="alt">" />
 				<label for="image_title">Titolo</label>
-				<input type="text" id="image_title" name="<tmpl_var name="title">" />
+				<input type="text" id="image_title" name="title" value="<tmpl_var name="title">" />
 				<input type="submit" value="Modifica immagine" />
 				<input type="reset" value="Reset" />
 			</fieldset>
