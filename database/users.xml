@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<users>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">
 	<user id="1">
 		<email>admin@levecchiecredenze.it</email>
 		<password>pass</password>
