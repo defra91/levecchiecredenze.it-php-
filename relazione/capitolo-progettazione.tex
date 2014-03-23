@@ -1,5 +1,5 @@
 \section{XML e XMLSchema}
-Si è scelto di adottare XMLSchema al posto di DTD come linguaggio per descrivere la struttura dei file XML perchè più espressivo, oltre che a scopo propedeutico, essendo più complesso. Di seguito verranno spiegate alcune scelte riguardanti la struttura.
+Si è scelto di adottare XMLSchema al posto di DTD come linguaggio per descrivere la struttura dei file XML perchè più espressivo, e a fini propedeutici, essendo più complesso. Di seguito verranno spiegate alcune scelte riguardanti la struttura.
 
 \paragraph{Scarso utilizzo degli attributi}
 
@@ -11,7 +11,9 @@ I motivi per cui gli attributi sono poco presenti sono tre:
 
 \paragraph{Formato della data}
 In molti file è richiesta una data. Si è scelto di salvare tale data in modo esteso, suddividendo l'elemento data in sottoelementi, cosi facendo è possibile indicare dei range di valore accettabili per giorno, mese ed anno. 
+Mese viene scritto in lettere e non come numero, si è quindi applicata una \emph{restriction}, partendo da string si accettano solo le stringhe equivalenti ai mesi.
 Non è stato utilizzato il tipo \emph{Data} offerto da XMLSchema per evitare di dover utilizzare il formato americano.
+Per il tempo è invece stato utilizzato \emph{Data}, precisamente nel file log.xml.
 
 \paragraph{Elementi opzionali}
 Nel file riguardante il menù sono presenti elementi non obbligatori. Nel caso di elementi semplici si è scelto di utilizzare l'attributo nillable="true" per indicare che tale elemento è opzionale. Nel file XML dunque l'elemento dovrà sempre essere presente, e nel caso in cui non lo si voglia definire vi si assegnerà xsi:nil="true".  
@@ -21,20 +23,21 @@ Questi approcci sono necessari in quanto lasciare semplicemente vuoto l'elemento
 
 \paragraph{Modello adottato}
 Il modello adottato è \emph{Bambole russe} in quanto non si è ritenuto il riutilizzo del codice di primaria importanza.
+Non si è aderito a tale modello solamente nel file menu.xsd. Questo perchè sono presenti quattro elementi (antipasti, primi, secondi, dessert) tutti con la stessa struttura interna, si è quindi dato un nome al tipo e lo si è messo esterno.
 
-\section{Il nostro menu e JQuery}
-La pagina \emph{il nostro menu} ha come obbiettivo visualizzare il menu proposto dal ristorante. 
-Per rendere più pulita e piacevole la visualizzazione si è messo il contenuto all'interno di vari div (uno per portata) non visibili.
-Cliccando sulla portata verranno visualizzati i relativi piatti e cliccando normalmente verranno nuovamente nascosti.
-Questa tecnica è stata utilizzata nei css per desktop, tablet e smartphone. 
-Per la stampa l'intero menù è stato reso visibile.
-L'accessibilità è garantita da due fattori:
-\begin{itemize}
-\item I div sono nascosti tramite una classe avente il seguente codice, che garantisce la lettura del contenuto da parte dello screen reader
-\begin{lstlisting}
-	position: absolute; 
-	overflow:hidden; 
-	height:0;
-\end{lstlisting}
-\item La classe è applicata ai div tramite JQuery. In tal modo se il browser non supporta javascript, o esso è disabilitato il contenuto resta accessibile.
-\end{itemize}
+%\section{Il nostro menu e JQuery}
+%La pagina \emph{il nostro menu} ha come obbiettivo visualizzare il menu proposto dal ristorante. 
+%Per rendere più pulita e piacevole la visualizzazione si è messo il contenuto all'interno di vari div (uno per portata) non visibili.
+%Cliccando sulla portata verranno visualizzati i relativi piatti e cliccando normalmente verranno nuovamente nascosti.
+%Questa tecnica è stata utilizzata nei css per desktop, tablet e smartphone. 
+%Per la stampa l'intero menù è stato reso visibile.
+%L'accessibilità è garantita da due fattori:
+%\begin{itemize}
+%\item I div sono nascosti tramite una classe avente il seguente codice, che garantisce la lettura del contenuto da parte dello screen reader
+%\begin{lstlisting}
+%	position: absolute; 
+%	overflow:hidden; 
+%	height:0;
+%\end{lstlisting}
+%\item La classe è applicata ai div tramite JQuery. In tal modo se il browser non supporta javascript, o esso è disabilitato il contenuto resta accessibile.
+%\end{itemize}
