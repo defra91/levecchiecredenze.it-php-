@@ -115,6 +115,12 @@ div#footer a {
 	margin-top: 4%;
 }
 
+div#footer img {
+
+margin-top: 15%;
+
+}
+
 div#content {
 	padding: 2%;
 	float: left;
@@ -406,6 +412,11 @@ li.event div span + span + span {
 }
 
 /* Pagina contatti */
+
+div#content form {
+ outline: 0;
+}
+
 
 div#content label {
 	margin: 4% 0;
