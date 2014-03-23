@@ -52,10 +52,10 @@
 		
 		<form method="post" action="">
 			<fieldset>
-				<label>Nome</label>
-				<input name="name" class="text_input" />
-				<label>Cognome</label>
-				<input name="surname" class="text_input" />
+				<label for="nome">Nome</label>
+				<input name="name" id="nome" class="text_input" />
+				<label for="cognome">Cognome</label>
+				<input name="surname" id="cognome" class="text_input" />
 				<label>Motivo del contatto</label>
 				<select name="reason">
 					<option value="info">Informazioni generali</option>
@@ -63,8 +63,8 @@
 					<option value="curriculum">Domanda di lavoro</option>
 					<option value="other">Altro</option>
 				</select>
-				<label>Testo</label>
-				<textarea name="text" rows="10" cols="60" ></textarea>
+				<label for="testo">Testo</label>
+				<textarea name="text" id="testo" rows="10" cols="60" ></textarea>
 				<input type="submit" name="Invia" class="submit_input" />
 				</fieldset>
 		</form>
