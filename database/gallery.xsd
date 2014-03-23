@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name="immagine" >
+<xs:element name="gallery" >
 	<xs:complexType>
 		<xs:sequence>
+			<xs:element name="immagine" maxOccurs="unbounded" >
+				<xs:complexType>
+					<xs:sequence>
 
-			<xs:element name="nome" type="xs:string" />
-			<xs:element name="alt" type="xs:string"  />
-			<xs:element name="title" type="xs:string" />
-			<xs:element name="percorso" type="xs:string" />
+						<xs:element name="nome" type="xs:string" />
+						<xs:element name="alt" type="xs:string"  />
+						<xs:element name="title" type="xs:string" />
+						<xs:element name="percorso" type="xs:string" />
 
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:positiveInteger" />
+				</xs:complexType>
+			</xs:element>
+			
 		</xs:sequence>
 	</xs:complexType>
 </xs:element>

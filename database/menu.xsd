@@ -6,7 +6,7 @@
 
 <!-- INIZIO DATA -->
 
-			<xs:element name="data">
+			<xs:element name="last_update">
 			  <xs:complexType>
 			    <xs:sequence>
 
@@ -42,19 +42,38 @@
 
 <!-- FINE DATA -->
 
-	<!-- INIZIO PORTATA -->
-			<xs:element name="portata" maxOccurs="unbounded">
+			<xs:element name="antipasti" type="TPortata"/>
+			<xs:element name="primi" type="TPortata"/>
+			<xs:element name="secondi" type="TPortata"/>
+			<xs:element name="dessert" type="TPortata"/>
+
+	<!-- INIZIO EVENTO -->
+
+			<xs:element name="degustazione">
 				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="nomePiatto" maxOccurs="unbounded" />
+					</xs:sequence>
+		        	<xs:attribute name="prezzo" type="xs:positiveInteger" use="required" />
+		  		</xs:complexType>	
+			</xs:element> 
+
+<!-- FINE EVENTO -->
+
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:complexType name="TPortata">
 			    	<xs:sequence>
-			    		<xs:element name="nomePortata" type="xs:string" />
 			    		<!-- INIZIO PIATTO -->
 			    		<xs:element name="piatto" maxOccurs="unbounded" >
 			    			<xs:complexType>
 			    				<xs:sequence>
 			    					<xs:element name="nomePiatto" type="xs:string" />
-			    					<xs:element name="costo" type="xs:float" />
-			    					<xs:element name="descrizione" type="xs:string" nillable="true"/>
-			    					<xs:element name="calorie" type="xs:positiveInteger" nillable="true" />
+			    					<xs:element name="prezzo" type="xs:float" />
+			    					<xs:element name="descrizione" type="xs:string" nillable="true" minOccurs="0"/>
+			    					<xs:element name="calorie" type="xs:positiveInteger" nillable="true" minOccurs="0" />
 			    					<!-- INIZIO INGREDIENTE -->
 			    					<xs:element name="ingrediente" nillable="true" minOccurs="0" maxOccurs="unbounded">
 			    						<xs:complexType>
@@ -71,20 +90,5 @@
 						<!-- FINE PIATTO -->
 			    	</xs:sequence>
 				</xs:complexType>
-			</xs:element> 
-	<!-- FINE PORTATA -->
 
-	<!-- INIZIO EVENTO -->
-
-			<xs:element name="evento">
-				<xs:complexType>
-		        	<xs:attribute name="id" type="xs:integer" use="required" />
-		  		</xs:complexType>	
-			</xs:element> 
-
-<!-- FINE EVENTO -->
-
-		</xs:sequence>
-	</xs:complexType>
-</xs:element>
 </xs:schema>
