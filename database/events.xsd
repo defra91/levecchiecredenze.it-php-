@@ -7,8 +7,8 @@
 				<xs:complexType>
 					<xs:sequence>
 
+
 						<xs:element name="nome" type="xs:string" />
-						<xs:element name="id" type="xs:positiveInteger" />
 						
 						<xs:element name="data">
 						  <xs:complexType>
@@ -25,9 +25,19 @@
 
 							    <xs:element name="mese" >
 						      		<xs:simpleType>
-							        	<xs:restriction base="xs:integer">
-							        		<xs:minInclusive value="1" />
-							        		<xs:maxInclusive value="12" />
+							        	<xs:restriction base="xs:string">
+							        		<xs:enumeration value="Gennaio" />
+							        		<xs:enumeration value="Febbraio" />
+							        		<xs:enumeration value="Marzo" />
+							        		<xs:enumeration value="Aprile" />
+							        		<xs:enumeration value="Maggio" />
+							        		<xs:enumeration value="Giugno" />
+							        		<xs:enumeration value="Luglio" />
+							        		<xs:enumeration value="Agostoo" />
+							        		<xs:enumeration value="Settembre" />
+							        		<xs:enumeration value="Ottobre" />
+							        		<xs:enumeration value="Novembre" />
+							        		<xs:enumeration value="Dicembre" />
 							        	</xs:restriction>
 							    	</xs:simpleType>
 								</xs:element>
@@ -43,10 +53,17 @@
 						    </xs:sequence>
 						  </xs:complexType>
 						</xs:element> 
-
 						<xs:element name="descrizione" type="xs:string" />
-						<xs:element name="prenotazione" type="xs:boolean" />
+						<xs:element name="menu">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="portata" type="xs:string" maxOccurs="unbounded" />
+								</xs:sequence>
+								<xs:attribute name="prezzo" type="xs:positiveInteger" />
+							</xs:complexType>
+						</xs:element>
 					</xs:sequence>
+					<xs:attribute name="id" type="xs:positiveInteger" />
 				</xs:complexType>
 			</xs:element>
 		</xs:sequence>
