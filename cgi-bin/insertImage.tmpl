@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+	<title>Inserisci nuova immagine</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="icon" href="../public-html/images/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="../public-html/css/screen.css" media="screen and (min-width: 1024px)" />
+	<script type="text/javascript" src="../public-html/js/jquery.js"></script>
+	<script type="text/javascript" src="../public-html/js/common.js"></script>
+	<script type="text/javascript" src="../public-html/js/image.js"></script>
+</head>
+<body>
+		<div id="navigation">
+			<h1>Pannello amministrazione</h1>
+			<ul>
+				<li class="menu_item" lang="en"><a href="adminLoader.cgi">Dashboard</a></li>
+				<li class="menu_item"><a href="editMenuLoader.cgi">Modifica Menu</a></li>
+				<li class="menu_item"><a href="galleryAdminLoader.cgi">Gestione <span lang="en">photogallery</span></a></li>
+				<li class="menu_item"><a href="eventsHandler.cgi">Gestisci eventi</a></li>
+				<li class="menu_item"><a href="../public-html/index.html">Torna al sito</a></li>
+				<li class="menu_item"><a href="logout.cgi">Logout</a></li>
+			</ul>
+		</div>
+	<div id="content">
+		<h1>
+			Inserimento di una nuova immagine
+		</h1>
+		<p>
+			Tramite il form seguente è possibile inserire una nuova immagine. Puoi selezionare l'immagine tramite l'<span lang="en">upload</span>, inserire il testo alternativo e il titolo.
+		</p>
+		<form method="post" action="insertImage.cgi" id="form" enctype="multipart/form-data">
+			<fieldset id="immagini">
+    			<legend >Inserimento nuova immagine</legend>
+    				<label for="filePhoto">Immagine da caricare</label>
+    				<input type="file" name="image" id="filePhoto" />
+    				<img src="" id="previewHolder" alt="anteprima immagine da inserire"/>
+    				<label for="nimmagine">Nome immagine</label>
+    				<input type="text" name="name" id="nimmagine" /> 
+    				<label for="altimmagine">Attributo <span lang="en">alt</span></label>
+    				<input type="text" name="alt"  id="altimmagine"/> 
+    				<label for="titleImage">Attributo <span lang="en">title</span></label>
+    				<input type="text" name="title" id="titleImage" />
+			</fieldset>
+			<p><input type="submit" value="inserisci immagine"/></p>
+		</form>
+	</div>
+
+</body>
+</html>

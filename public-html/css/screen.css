@@ -92,7 +92,7 @@ li.menu_item_selected {
 div#footer {
 	width: 100%;
 	color: #FFF;
-	margin-top: 3%;
+	margin-top: 20%;
 }
 
 div#footer h1 {
@@ -519,6 +519,7 @@ div.adminImageList {
 	height: 100px;
 	padding: 2%;
 	overflow: hidden;
+	clear: right;
 }
 
 span.imageName {
@@ -548,6 +549,13 @@ div.adminImageList a + a {
 img.imagePreview {
 	clear: both;
 }
+
 .highlight{
 	box-shadow: 0 0 10px #FF2400;
+}
+
+a#insertImageLink {
+	float: right;
+	margin: 4% 2%;
+	font-size: 0.8em;
 }
