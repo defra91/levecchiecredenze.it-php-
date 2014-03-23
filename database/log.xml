@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<log xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="log.xsd">
+<log xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonomespaceSchemaLocation="log.xsd">
 	<item id="1">
-		<name>Inserita immagine</name>
-		<user>defra91</user>
+		<nome>Inserita immagine</nome>
+		<utente>defra91</utente>
 		<timestamp>
-			<date>
-				<day>13</day>
-				<month>Febbraio</month>
-				<year>2013</year>
-			</date>
-			<time>
-				<hour>21</hour>
-				<minute>00</minute>
-				<second>13</second>
-			</time>
+			<data>
+				<giorno>13</giorno>
+				<mese>Febbraio</mese>
+				<anno>2014</anno>
+			</data>
+			<time>21:00:13</time>
 		</timestamp>
 	</item>
 
 	<item id="1">
-		<name>Inserita immagine nomeluuuuuuuuuuungoimmagine</name>
-		<user>luca.defranceschi.91@gmail.com</user>
+		<nome>Inserita immagine nomeluuuuuuuuuuungoimmagine</nome>
+		<utente>luca.defranceschi.91@gmail.com</utente>
 		<timestamp>
-			<date>
-				<day>13</day>
-				<month>Febbraio</month>
-				<year>2013</year>
-			</date>
-			<time>
-				<hour>21</hour>
-				<minute>00</minute>
-				<second>13</second>
-			</time>
+			<data>
+				<giorno>13</giorno>
+				<mese>Febbraio</mese>
+				<anno>2014</anno>
+			</data>
+			<time>21:00:13</time>
 		</timestamp>
 	</item>
 </log>
