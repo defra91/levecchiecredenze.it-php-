@@ -41,9 +41,9 @@ $root = $xml_doc->getDocumentElement();	# ottengo il nodo radice
 @timestamps = ();
 
 foreach $item (@logs) { # scorro tutti i log
-	push(@actions, $item->findvalue("name"));	# aggiungo all'array dei nomi il nome dell'azione corrente
-	push(@users, $item->findvalue("user"));		# aggiungo all'array degli utenti il nome dell'utente corrente
-	$datetime = $item->findvalue("timestamp/date/day") . " " . $item->findvalue("timestamp/date/month") . " " . $item->findvalue("timestamp/date/year") . ", " . $item->findvalue("timestamp/time/hour") . ":" . $item->findvalue("timestamp/time/minute") . ":" . $item->findvalue("timestamp/time/second");	# aggiungo il timestamp corrente concatenando i diversi valori
+	push(@actions, $item->findvalue("nome"));	# aggiungo all'array dei nomi il nome dell'azione corrente
+	push(@users, $item->findvalue("utente"));		# aggiungo all'array degli utenti il nome dell'utente corrente
+	$datetime = $item->findvalue("timestamp/data/giorno") . " " . $item->findvalue("timestamp/data/mese") . " " . $item->findvalue("timestamp/data/anno") . ", " . $item->findvalue("timestamp/time");	# aggiungo il timestamp corrente concatenando i diversi valori
 	push(@timestamps, $datetime);
 }
 

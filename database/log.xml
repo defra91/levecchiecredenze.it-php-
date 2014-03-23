@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<log xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nonomespaceSchemaLocation="log.xsd">
+<log xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="log.xsd">
 	<item id="1">
 		<nome>Inserita immagine</nome>
 		<utente>defra91</utente>
 		<timestamp>
-<<<<<<< HEAD
 			<data>
 				<giorno>13</giorno>
 				<mese>Febbraio</mese>
