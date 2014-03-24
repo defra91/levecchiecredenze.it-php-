@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="../public-html/css/smartphone-landscape.css" media="only screen and (max-width: 480px) and (orientation: landscape" />
 	<script type="text/javascript" src="../public-html/js/jquery.js"></script>
 	<script type="text/javascript" src="../public-html/js/common.js"></script>
+	<script type="text/javascript" src="../public-html/js/addmenu.js"></script>
 </head>
 <body>
 	<div id="navigation">
@@ -37,49 +38,57 @@
     				<label for="antipasto<tmpl_var name="cnt">">Nome piatto</label>
     				<input type="text" name="nome_antipasto" id="antipasto<tmpl_var name="cnt">" value="<tmpl_var name="menu_item">" />
     				<label for="cantipasto<tmpl_var name="cnt">">Prezzo</label>
-    				<input type="text" name="prezzo_antipasto" id="prezzo<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
+    				<input type="text" name="prezzo_antipasto" id="cantipasto<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
     			</tmpl_loop>
+    			<input type="button" value="Aggiungi antipasto" id="add_antipasto" />
 			</fieldset>
-			<input type="button" value="Aggiungi antipasto" id="add_antipasto" />
 
 			<fieldset id="primi">
     			<legend >Primi Piatti</legend>
     			<tmpl_loop name="primi">
     				<label for="primo<tmpl_var name="cnt">">Nome piatto</label>
     				<input type="text" name="nome_primo" id="primo<tmpl_var name="cnt">" value="<tmpl_var name="menu_item">" />
-    				<label for="prezzo<tmpl_var name="cnt">">Prezzo</label>
-    				<input type="text" name="prezzo_antipasto" id="prezzo<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
+    				<label for="cprimo<tmpl_var name="cnt">">Prezzo</label>
+    				<input type="text" name="prezzo_primo" id="cprimo<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
     			</tmpl_loop>
-    			<p>
-    				<label for="primo0">Nome piatto</label>
-    				<input type="text" name="primo" id="primo0"/>
-    				<label for="cprimo0">Prezzo</label>
-    				<input type="text" class="elementPrice" name="costo_primo" id="cprimo0"/>
-    			</p>
+    			<input type="button" value="Aggiungi primo piatto" id="add_primo" />
 			</fieldset>
-			<p><input type="button" value="Aggiungi primo piatto" id="add_primo" /></p>
+
 			<fieldset id="secondi">
     			<legend >Secondi Piatti</legend>
-    			<p>
-    				<label for="secondo0">Nome piatto</label>
-    				<input type="text" name="secondo" id="secondo0" />
-    				<label for="csecondo0">Prezzo</label>
-    				<input type="text" class="elementPrice" name="costo_secondo" id="csecondo0" />
-    			</p>
+    			<tmpl_loop name="secondi">
+    				<label for="secondo<tmpl_var name="cnt">">Nome piatto</label>
+    				<input type="text" name="nome_secondo" id="secondo<tmpl_var name="cnt">" value="<tmpl_var name="menu_item">" />
+    				<label for="csecondo<tmpl_var name="cnt">">Prezzo</label>
+    				<input type="text" name="prezzo_secondo" id="csecondo<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
+    			</tmpl_loop>
+    			<input type="button" value="Aggiungi secondo piatto" id="add_secondo" />
 			</fieldset>
-			<p><input type="button" value="Aggiungi secondo piatto" id="add_secondo" /></p>
+
 			<fieldset id="dessert">
-    			<legend ><span lang="en">Dessert</span></legend>
-    			<p>
-    				<label for="dessert0">Nome piatto</label>
-    				<input type="text" name="dessert" id="dessert0" />
-    				<label for="cdessert0">Prezzo</label>
-    				<input type="text" class="elementPrice" name="costo_dessert" id="cdessert0" />
-    			</p>
+    			<legend>Dessert</legend>
+    			<tmpl_loop name="dessert">
+    				<label for="dessert<tmpl_var name="cnt">">Nome piatto</label>
+    				<input type="text" name="nome_dessert" id="dessert<tmpl_var name="cnt">" value="<tmpl_var name="menu_item">" />
+    				<label for="cdessert<tmpl_var name="cnt">">Prezzo</label>
+    				<input type="text" name="prezzo_secondo" id="cdessert<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
+    			</tmpl_loop>
+    			<input type="button" value="Aggiungi dessert" id="add_dessert" />
 			</fieldset>
-			<input type="button" value="Aggiungi dessert" id="add_dessert" />
 			
+			<fieldset id="degustazione">
+    			<legend>Degustazione</legend>
+    			<tmpl_loop name="degustazione">
+    				<label for="deg<tmpl_var name="cnt">">Portata</label>
+    				<input type="text" name="deg_name" id="deg<tmpl_var name="cnt">" value="<tmpl_var name="deg_item">" />
+    			</tmpl_loop>
+    			<label for="deg_price">Prezzo</label>
+    			<input type="text" id="deg_price" name="deg_price" value="<tmpl_var name="deg_price">" />
+				<input type="button" value="Aggiungi portata" id="add_deg" />
+			</fieldset>
+
 			<input type="submit" value="Aggiorna menu" id="add_menu" />
+			<inpt type="reset" value="Reset" />
 		</form>
 	</div>
 

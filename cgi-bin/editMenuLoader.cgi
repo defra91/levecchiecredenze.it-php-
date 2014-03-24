@@ -7,6 +7,7 @@ use HTML::Template;
 use XML::LibXML;
 use CGI::Session;
 use DateTime;
+use CGI;
 HTML::Template->config(utf8 => 1);
 
 $cgi = CGI->new();
@@ -39,15 +40,16 @@ for ($j=0; $j<scalar(@category); $j++) {
 
 	foreach $child (@children) {						# scorro tutti i nodi figli della radice
 		push(@name, $child->findvalue("nomePiatto"));	# aggiungo il giorno del nodo corrente
-		push(@price, $child->findnodes("prezzo"));		# aggiungo il mese del nodo corrente
+		push(@price, $child->findvalue("prezzo"));		# aggiungo il mese del nodo corrente
 	}
 
 	$loop = (); # questo array mi servirà per raccogliere i dati quando faccio il ciclo
 
 	for ($i=0; $i<scalar(@children); $i++) {
 		my %row_data; 							# dichiaro un hash ausiliario
-		$row_data{menu_item} = $name[$i]; 		# inserisco l'i-esimo giorno
-		$row_data{price} = $price[$i]; 			# inserisco l'i-esimo mes
+		$row_data{menu_item} = $name[$i]; 		# inserisco l'i-esima item
+		$row_data{price} = $price[$i]; 			# inserisco l'i-esimo prezzo
+		$row_data{cnt} = $i;
 
 		push(@loop, \%row_data); 				# aggiungo a loop_data l'array associativo temporaneo creato nell'iterazione
 	}
