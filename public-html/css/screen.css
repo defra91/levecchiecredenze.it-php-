@@ -19,6 +19,39 @@ body {
 	font-family: 'Calibri', sans-serif;
 }
 
+input {
+	padding: 1% 1%;
+	width: 80%;	
+	margin: auto;
+}
+
+label {
+	font-size: 0.8em;
+	margin: auto;
+	text-align: center;
+}
+
+legend {
+	font-size: 0.8em;
+}
+
+#submit {
+	width: 30%;
+	float: left;
+	padding: 1% 1%;
+	margin: 4% 4%;
+}
+#reset {
+	width: 30%;
+	float: left;
+	padding: 1% 1%;
+	float: right;
+	margin: 4% 4%;
+}
+
+fieldset {
+}
+
 /* header */
 
 div#header {

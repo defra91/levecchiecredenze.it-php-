@@ -2,7 +2,7 @@ var ctrl = function() {
   $("input:text").keydown(function(event) {
       $(this).removeClass("highlight");
   });
-  setColumns();
+  //setColumns();
 };
 var setColumns = function() {
   var height = Math.max($("#navigation").height(), $("#content").height());
@@ -14,7 +14,7 @@ var setColumns = function() {
 };
 $(document).ready(function () { 
   ctrl();
-  setColumns();
+  //setColumns();
    $("#filePhoto").change(function() {
            readURL(this);
        });
