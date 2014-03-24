@@ -11,11 +11,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-<<<<<<< HEAD
-	color: blue;
-=======
 	color: #ab8d77;
->>>>>>> b2ce2ae011eb21df8fe82ddaee0489bcfa4ea48e
 	font-family: 'EB Garamond', serif;
 	font-size: 102%;
 	background-color: #000;
@@ -83,14 +79,11 @@ li.menu_item_selected {
 	text-align: center;
 	border-bottom: 1px solid #555;
 	font-size: 1.5em;
+	color: #ab8d77;
 }
 
 .menu_item a {
 	color: #FFF;
-	text-decoration: none;
-}
-.menu_item_selected a {
-	color: red;
 	text-decoration: none;
 }
 
