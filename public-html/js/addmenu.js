@@ -3,7 +3,7 @@
 var ctrl = function() {
 	$(".elementPrice").keydown(function(event) {
 		// permetti delete
-		if ( event.keyCode == 46 || event.keyCode == 8 ) {
+		if ( event.keyCode == 46 || event.keyCode == 8 || event.keyCode==9  ) {
 			$(".errore").remove();
 			$(this).removeClass("highlight");
 		}

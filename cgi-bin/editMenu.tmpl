@@ -38,7 +38,7 @@
     				<label for="antipasto<tmpl_var name="cnt">">Nome piatto</label>
     				<input type="text" name="nome_antipasto" id="antipasto<tmpl_var name="cnt">" value="<tmpl_var name="menu_item">" />
     				<label for="cantipasto<tmpl_var name="cnt">">Prezzo</label>
-    				<input type="text" name="prezzo_antipasto" id="cantipasto<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
+    				<input type="text"class="elementPrice" name="prezzo_antipasto" id="cantipasto<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
     			</tmpl_loop>
     			<input type="button" value="Aggiungi antipasto" id="add_antipasto" />
 			</fieldset>
@@ -49,7 +49,7 @@
     				<label for="primo<tmpl_var name="cnt">">Nome piatto</label>
     				<input type="text" name="nome_primo" id="primo<tmpl_var name="cnt">" value="<tmpl_var name="menu_item">" />
     				<label for="cprimo<tmpl_var name="cnt">">Prezzo</label>
-    				<input type="text" name="prezzo_primo" id="cprimo<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
+    				<input type="text"class="elementPrice" name="prezzo_primo" id="cprimo<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
     			</tmpl_loop>
     			<input type="button" value="Aggiungi primo piatto" id="add_primo" />
 			</fieldset>
@@ -60,7 +60,7 @@
     				<label for="secondo<tmpl_var name="cnt">">Nome piatto</label>
     				<input type="text" name="nome_secondo" id="secondo<tmpl_var name="cnt">" value="<tmpl_var name="menu_item">" />
     				<label for="csecondo<tmpl_var name="cnt">">Prezzo</label>
-    				<input type="text" name="prezzo_secondo" id="csecondo<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
+    				<input type="text"class="elementPrice" name="prezzo_secondo" id="csecondo<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
     			</tmpl_loop>
     			<input type="button" value="Aggiungi secondo piatto" id="add_secondo" />
 			</fieldset>
@@ -71,7 +71,7 @@
     				<label for="dessert<tmpl_var name="cnt">">Nome piatto</label>
     				<input type="text" name="nome_dessert" id="dessert<tmpl_var name="cnt">" value="<tmpl_var name="menu_item">" />
     				<label for="cdessert<tmpl_var name="cnt">">Prezzo</label>
-    				<input type="text" name="prezzo_dessert" id="cdessert<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
+    				<input type="text"class="elementPrice" name="prezzo_dessert" id="cdessert<tmpl_var name="cnt">" value="<tmpl_var name="price">" />
     			</tmpl_loop>
     			<input type="button" value="Aggiungi dessert" id="add_dessert" />
 			</fieldset>
@@ -83,7 +83,7 @@
     				<input type="text" name="deg_name" id="deg<tmpl_var name="cnt">" value="<tmpl_var name="deg_item">" />
     			</tmpl_loop>
     			<label for="deg_price">Prezzo</label>
-    			<input type="text" id="deg_price" name="deg_price" value="<tmpl_var name="deg_price">" />
+    			<input type="text"class="elementPrice" id="deg_price" name="deg_price" value="<tmpl_var name="deg_price">" />
 				<input type="button" value="Aggiungi portata" id="add_deg" />
 			</fieldset>
 
