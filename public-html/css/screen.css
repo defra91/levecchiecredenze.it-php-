@@ -135,6 +135,12 @@ li.menu_item_selected {
 
 /* footer */
 
+div#footer a + a + a{
+
+display:inline
+
+}
+
 div#footer {
 	width: 100%;
 	color: #FFF;
@@ -182,7 +188,7 @@ div#content {
 }
 
 div#content a:visited {
-	color: #ab8d77;
+	color: #DAA520;
 }
 
 div#content input {
@@ -624,3 +630,4 @@ a#insertImageLink {
 	margin: 4% 2%;
 	font-size: 0.8em;
 }
+

@@ -136,6 +136,10 @@ div#content {
 	font-size: 0.6em;
 }
 
+div#content a:visited {
+	color: #DAA520;
+}
+
 div#content fieldset {
  padding: 3%;
  margin-top: 5%;
