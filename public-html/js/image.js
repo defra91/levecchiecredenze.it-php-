@@ -1,6 +1,5 @@
 var ctrl = function() {
   $("input:text").keydown(function(event) {
-    // permetti delete
       $(this).removeClass("highlight");
   });
   setColumns();
@@ -22,9 +21,7 @@ $(document).ready(function () {
         }
     });
     if (!isFormValid)
-      event.preventDefault();
-    return isFormValid;
-  
+      return false;
   });
 });
 var readURL=function(input) {
