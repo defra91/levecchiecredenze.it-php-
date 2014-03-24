@@ -16,7 +16,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	color: #ab8d77;
-	font-family: 'Antic', sans-serif;
+	font-family: 'Calibri', sans-serif;
 }
 
 div#header {
@@ -57,6 +57,10 @@ div#navigation h1 {
 }
 
 div#navigation a:hover {
+	color: #ab8d77;
+}
+
+div#navigation a:visited {
 	color: #ab8d77;
 }
 
@@ -131,6 +135,10 @@ div#content {
 	color: #FFF;
 	background: url(../images/dotted-bg.png);
 	
+}
+
+div#content a:visited {
+	color: #ab8d77;
 }
 
 span#increaseFont {
