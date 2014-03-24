@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+	<title>Inserisci nuovo evento</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="icon" href="../public-html/images/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="../public-html/css/screen.css" media="screen and (min-width: 1024px)" />
+	<script type="text/javascript" src="../public-html/js/jquery.js"></script>
+	<script type="text/javascript" src="../public-html/js/common.js"></script>
+	<script type="text/javascript" src="../public-html/js/addevento.js"></script>
+</head>
+<body>
+		<div id="navigation">
+			<h1>Pannello amministrazione</h1>
+			<ul>
+				<li class="menu_item" lang="en"><a href="adminLoader.cgi">Dashboard</a></li>
+				<li class="menu_item"><a href="editMenuLoader.cgi">Modifica Menu</a></li>
+				<li class="menu_item"><a href="galleryAdminLoader.cgi">Gestione <span lang="en">photogallery</span></a></li>
+				<li class="menu_item"><a href="eventsHandler.cgi">Gestione eventi</a></li>
+				<li class="menu_item"><a href="newsHandler.cgi">Gestione <span lang="en">news</span></a></li>
+				<li class="menu_item"><a href="../public-html/index.html">Torna al sito</a></li>
+				<li class="menu_item"><a href="logout.cgi">Logout</a></li>
+			</ul>
+		</div>
+	<div id="content">
+		<h1>
+			Inserimento di un nuovo evento
+		</h1>
+		<p>
+			Tramite il form seguente è possibile inserire un nuov evento. Inserisci il suo titolo, la sua data, la sua descrizione e le sue portate.
+		</p>
+		<form method="post" action="insertEvent.cgi" id="form">
+		<fieldset id="Info generali">
+			<legend>Informazioni generali</legend>
+			<label for="title">Titolo</label>
+			<input type="text" id="title" name="title" />
+			<label for="desc">Descrizione</label>
+			<textarea id="desc" name="desc"></textarea>
+			<label for="costo">Costo del menu</label>
+			<input type="text" name="price" id="costo" />
+			<label for="date">Data dell'evento</label>
+			<select name="day">
+				<tmpl_loop name="day">
+					<option value="<tmpl_var name="val">"><tmpl_var name="val"></option>
+				</tmpl_loop>
+			</select>
+				
+			<select name="month">
+				<tmpl_loop name="month">
+					<option value="<tmpl_var name="val">"><tmpl_var name="val"></option>
+				</tmpl_loop>
+			</select>
+			<select name="year">
+				<tmpl_loop name="year">
+					<option value="<tmpl_var name="val">"><tmpl_var name="val"></option>
+				</tmpl_loop>
+			</select>
+		</fieldset>
+		<fieldset id="portate">
+    		<legend>Portate dell' evento</legend>
+			<label for="portata0">Nome portata</label>
+			<input type="text" name="item" id="portata0"/>
+			<input type="button" value="Aggiungi portata" id="add_portata" />
+		</fieldset>
+
+		<input type="submit" value="Crea evento" id="crea_evento" />
+		<input type="reset" value="Reset" id="reset" />
+		</form>
+	</div>
+
+</body>
+</html>

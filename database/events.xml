@@ -10,7 +10,7 @@
 		</data>
 		<descrizione>Cras tincidunt elit dolor, quis tempus enim lobortis ac. In iaculis tortor ut sem feugiat volutpat. Nunc volutpat augue metus, vitae condimentum odio varius et. Sed quis bibendum urna. Vivamus placerat id libero ut commodo. Praesent eu eros tortor. Praesent nisi libero, interdum nec suscipit sit amet, interdum sit amet eros.</descrizione>
 		<menu prezzo="50">
-			<portata></portata>
+			<portata/>
 		</menu>
 	</evento>
 
@@ -30,4 +30,39 @@
 	</evento>
 
 	
- </eventi>
+ 
+		<evento id="3">
+			<nome>Menu di pasqua</nome>
+			<data>
+				<giorno>17</giorno>
+				<mese>Aprile</mese>
+				<anno>2014</anno>
+			</data>
+			<descrizione>Blablabla</descrizione>
+			<menu price="32">
+				<portata>Piatto1</portata>		</menu>
+	</evento>
+		<evento id="4">
+			<nome>Menu di pasqua1</nome>
+			<data>
+				<giorno>1</giorno>
+				<mese>Gennaio</mese>
+				<anno>2014</anno>
+			</data>
+			<descrizione>Blablabla</descrizione>
+			<menu price="25">
+				<portata>Portata1</portata>		</menu>
+	</evento>
+		<evento id="5">
+			<nome>1</nome>
+			<data>
+				<giorno>1</giorno>
+				<mese>Gennaio</mese>
+				<anno>2014</anno>
+			</data>
+			<descrizione>2</descrizione>
+			<menu price="3">
+				<portata>1</portata>
+				<portata>2</portata>
+				<portata>2</portata>		</menu>
+	</evento></eventi>
