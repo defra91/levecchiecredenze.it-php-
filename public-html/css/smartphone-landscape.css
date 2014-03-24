@@ -439,6 +439,10 @@ div#content label {
 	display: block;
 }
 
+div#content textarea {
+	width: 100%;
+}
+
 ul#social_list {
 	margin: 4% 0;
 }

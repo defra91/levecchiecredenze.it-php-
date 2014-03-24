@@ -440,7 +440,7 @@ div#content label {
 }
 
 div#content textarea {
-	max-width: 300px;
+	width: 100%;
 }
 
 ul#social_list {
