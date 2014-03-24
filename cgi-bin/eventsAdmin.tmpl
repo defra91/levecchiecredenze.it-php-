@@ -3,10 +3,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
-	<title>Dashboard</title>
+	<title>Gestione eventi</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="icon" href="../public-html/images/favicon.ico" type="image/x-icon"/>
-	<!--<link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> -->
+	<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
 	<link rel="stylesheet" type="text/css" href="../public-html/css/screen.css" media="screen and (min-width: 1024px)" />
 	<link rel="stylesheet" type="text/css" href="../public-html/css/tablet-landscape.css" media=" only screen and (min-width: 480px) and (max-width: 1024px) and (orientation:landscape)" /> 
 	<link rel="stylesheet" type="text/css" href="../public-html/css/tablet-portrait.css" media="only screen and (min-widht: 480px) and (max-width: 1024px) and (orientation:portrait)" /> 
@@ -19,53 +19,38 @@
 	<div id="navigation">
 		<h1>Pannello amministrazione</h1>
 		<ul>
-			<li class="menu_item_selected" lang="en">Dashboard</li>
+			<li class="menu_item" lang="en"><a href="adminLoader.cgi">Dashboard</a></li>
 			<li class="menu_item"><a href="editMenuLoader.cgi">Modifica Menu</a></li>
 			<li class="menu_item"><a href="galleryAdminLoader.cgi">Gestione <span lang="en">photogallery</span></a></li>
-			<li class="menu_item"><a href="eventsHandler.cgi">Gestione eventi</a></li>
-			<li class="menu_item"><a href="newsHandler.cgi">Gestione <span lang="en">news</span></a></li>
+			<li class="menu_item_selected">Gestione eventi</li>
+			<li class="menu_item"><a href="newsHandler.cgi">Gestione news</a></li>
 			<li class="menu_item"><a href="../public-html/index.html">Torna al sito</a></li>
 			<li class="menu_item"><a href="logout.cgi">Logout</a></li>
 		</ul>
 	</div>
 	<div id="content">
 		<h1>
-			Dashboard
+			Gestione eventi
 		</h1>
 		<p>
-			Attualmente sei autenticato come <span id="user"><tmpl_var name="user"></span>
+			In questa pagina puoi gestire tutte gli eventi del sito. Puoi decidere di inserire un nuovo evento, modificare o eliminare uno esistente.
 		</p>
-		
-		<table summary="Nella tabella seguente sono riportate tutte le ultime azioni eseguite all'interno della sezione di amministrazione. Ciascuna riga è composta dalla descrizione dell'azione, dall'utente che l'ha eseguita e dalla data e ora in cui è stata eseguita.">
-			<caption>Tabella di <span lang="en">log</span></caption>
+		<a id="insertImageLink" href="insertEventLoader.cgi">Aggiungi un nuovo evento</a>
+		<table summary="La tabella seguente illustra tutti gli eventi presenti nel sito. Le colonne contengono il titolo, la data, un link per modificare l'evento e un link per eliminarlo.">
 			<tr>
-				<th scope="col">
-					Azione
-				</th>
-				<th scope="col">
-					Utente
-				</th>
-				<th scope="col">
-					Data e ora
-				</th>
+				<th scope="col">Titolo</th>
+				<th scope="col">Data</th>
+				<th colspan="2"></th>
 			</tr>
-			<tmpl_loop name="log">
+			<tmpl_loop name="events">
 				<tr>
-					<td>
-						<tmpl_var name="action">
-					</td>
-					<td>
-						<tmpl_var name="user">
-					</td>
-					<td>
-						<tmpl_var name="timestamp">
-					</td>
+					<td><tmpl_var name="name"></td>
+					<td><tmpl_var name="date"></td>
+					<td><a href="editEventLoader.cgi?id=<tmpl_var name="id">">Modifica</a></td>
+					<td><a href="deleteEvent.cgi?id=<tmpl_var name="id">">Elimina</a></td>
 				</tr>
 			</tmpl_loop>
 		</table>
-
-		</table>
-
 	</div>
 
 </body>
