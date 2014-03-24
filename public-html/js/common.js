@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 	/* Imposto le due colonne con altezza uguale */
 
 	//setColumns();
@@ -90,5 +90,3 @@ var setColumns = function() {
 	$("#content").height(finalHeight);
 }
 
-
-var fontStep = 0;	// un contatore per gestire il testo

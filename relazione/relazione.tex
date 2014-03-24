@@ -3,6 +3,7 @@
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{listings}
+\usepackage{hyperref}
 % immagini
 \usepackage{graphicx}
 
@@ -11,29 +12,19 @@
 \author{Luca De Franceschi, Michele Dal Santo, Nicolò Tresoldi, Davide Quaglio}
 
 \date{25 Marzo 2014}
-\makeindex	
-\begin{document}
 
+\makeindex
+\begin{document}
 
 \maketitle
 
-Email referente: nicolo.tresoldi@hotmail.it
-
-URL sito: %TODO
-
-Credenziali di accesso:
-User:  admin@levecchiecredenze.it
-Password: admin
-
-
-
-
+\include{capitolo-informazioni-generali}
 \include{capitolo-abstract}
 \include{capitolo-analisiUtenza}
+\include{capitolo-suddivisione-ruoli}
 \include{capitolo-progettazione}
 \include{capitolo-realizzazione}
 \include{capitolo-coordinamento}
-\include{capitolo-test}
 \include{capitolo-accessibilita}
 %\include{capitolo-librerieEsterne}
 \end{document}

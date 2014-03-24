@@ -34,13 +34,13 @@
 		<form method="post" action="insertEvent.cgi" id="form">
 		<fieldset id="Info generali">
 			<legend>Informazioni generali</legend>
-			<label for="title">Titolo</label>
+			<label for="title">Titolo *</label>
 			<input type="text" id="title" name="title" />
-			<label for="desc">Descrizione</label>
+			<label for="desc">Descrizione *</label>
 			<textarea id="desc" name="desc"></textarea>
-			<label for="costo">Costo del menu</label>
+			<label for="costo">Costo del menu *</label>
 			<input type="text" name="price" id="costo" />
-			<label for="date">Data dell'evento</label>
+			<label for="date">Data dell'evento *</label>
 			<select name="day">
 				<tmpl_loop name="day">
 					<option value="<tmpl_var name="val">"><tmpl_var name="val"></option>
@@ -60,7 +60,7 @@
 		</fieldset>
 		<fieldset id="portate">
     		<legend>Portate dell' evento</legend>
-			<label for="portata0">Nome portata</label>
+			<label for="portata0">Nome portata *</label>
 			<input type="text" name="item" id="portata0"/>
 			<input type="button" value="Aggiungi portata" id="add_portata" />
 		</fieldset>
@@ -69,6 +69,5 @@
 		<input type="reset" value="Reset" id="reset" />
 		</form>
 	</div>
-
 </body>
 </html>

@@ -1,0 +1,28 @@
+\section{Informazioni generali}
+
+Il seguente progetto segue le linee guide indicate dal corso di studi \texttt{Tecnologie Web}. Tali specifiche sono reperibili alla seguente url:
+
+\begin{center}
+	\url{http://docenti.math.unipd.it/gaggi/tecweb/progetto.html}
+\end{center}
+
+Fin dalla prima linea di codice è stata seguita una stretta linea di separazione tra \textbf{contenuto}, \textbf{presentazione} e \textbf{comportamento}. Il contenuto è strettamente fornito dall'\texttt{XHTML}, così come la presentazione è delegata totalmente al \texttt{CSS} e il comportamento agli script \texttt{Javascript} e \texttt{Perl/CGI}. Questo ha portato enormi vantaggi in termini di manutenibilità lungo tutto l'arco del progetto.
+
+Il sito web in questione è stato progettato usando lo standard \texttt{XHTML Strict}. Per scelta del gruppo non è stata implementata nessuna pagina con \texttt{HTML5}, in quanto non si è ancora affermato come standard. La scelta di usare tecnologie che rispondano a uno standard ufficiale rende il sito più accessibile, e l'accessibilità, come verrà ampiamente ripetuto lungo la seguente relazione, è stato il punto cardine su cui ha ruotato l'intero progetto. Questo non significa che il progetto non guarda al futuro e si "\textit{tira indietro}" di fronte alle tecnologie emergenti. Lavorare con la coscienza di utilizzare strumenti riconosciuti come standard porta diversi vantaggi in termini di manutenibilità e di accessibilità
+
+Il database di riferimento, come da specifica, è stato implementato con \texttt{XML} e ad ognuno dei file è stata associata uno schema \texttt{XMLSchema}.
+
+Ogni pagina che necessita di contenuti dinamici è stata realizzata tramite script lato server \texttt{Perl/CGI}.
+
+Lo \textit{scaffolding}, allo stato attuale del progetto, si presenta con la struttura seguente:
+
+\begin{itemize}
+
+	\item \texttt{public-html}, in cui risiedono tutte le pagine statiche, i file \texttt{CSS}, gli script \texttt{javascript} e le immagini;
+	\item \texttt{cgi-bin}, in cui risiedono tutti gli script \texttt{Perl/CGI} e i file di template da popolare;
+	\item \texttt{database}, in cui risiedono tutti i file \texttt{XML} e i loro schemi associati;
+	\item \texttt{relazione}, in cui risiedono i file \LaTeX\ della relazione;
+
+\end{itemize}
+
+Lungo tutta la relazione verranno discusse alcune \textit{features} che non sono state implementate. Riteniamo che il progetto abbia soddisfatto pienamente gli obiettivi richiesti dal corso. Ciononostante i tempi ristretti e gli altri corsi/esami sovrapposti hanno impedito di estendere ulteriori funzionalità e apportare altri miglioramenti. Il progetto è stato realizzato con un \textit{occhio al futuro}, focalizzando l'attenzione sulla manutenibilità; pertanto se in futuro esso venisse raffinato e migliorato, le modifiche richiederebbero una manutenzione non troppo onerosa.
