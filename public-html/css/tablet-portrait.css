@@ -66,6 +66,10 @@ div#navigation  img{
 	margin-right:auto;
 }
 
+div#navigation a:hover {
+	color: #ab8d77;
+}
+
 li.menu_item {
 	list-style: none;
 	width: 100%;
