@@ -19,4 +19,15 @@
 		 </data>
 	</notizia>
 	
-</news>
+
+		
+		<notizia id="3">
+			<titolo>News 1</titolo>
+			<descrizione>Desc</descrizione>
+			<data>
+				<giorno>24</giorno>
+				<mese>Marzo</mese>
+				<anno>2014</anno>
+		
+</data>
+		</notizia></news>
