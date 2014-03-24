@@ -39,19 +39,6 @@ var setColumns = function() {
 
 $(document).ready(function () {
 	ctrl();
-	$('#add_portata').click(function(){
-		var openp=$("<p>");
-		var nportate=$( "#portate label" ).length;
-		var input1 = $("<label for=\"portata"+nportate+"\">Nome portata *</label><input type=\"text\" name=\"item\" id=\"portata"+nportate+"\"/>");
-		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"rimuovi portata\" /></p>");
-		  removeButton.click(function() {
-            $(this).parent().remove();
-        	});
-		  openp.append(input1);
-		  openp.append(removeButton);
-		$("#portate").append(openp);
-		ctrl();
-	});
 
 	$("#form").submit(function(){
 	var isFormValid = true;
