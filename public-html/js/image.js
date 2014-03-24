@@ -22,6 +22,8 @@ var readURL=function(input) {
            if (input.files && input.files[0]) {
                var reader = new FileReader();
                reader.onload = function(e) {
+                    var immagine=$("<img src='' id='previewHolder' alt='anteprima immagine da inserire'/>");
+                    $('#imgine').append(immagine);
                    $('#previewHolder').attr('src', e.target.result);
                }
 
