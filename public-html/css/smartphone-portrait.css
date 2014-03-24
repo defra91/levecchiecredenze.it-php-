@@ -61,6 +61,7 @@ max-width:100%;
 margin-bottom: 10px;
 }
 
+#navigation a:visited {color:#00FF00;}
 li.menu_item {
 	list-style: none;
 	width: 100%;
@@ -446,7 +447,7 @@ div#content label {
 }
 
 div#content textarea {
-	max-width: 170px;
+	width: 100%;
 }
 
 ul#social_list {
