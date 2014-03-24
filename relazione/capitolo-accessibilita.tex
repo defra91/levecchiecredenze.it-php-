@@ -1,4 +1,15 @@
 \section{Accessibilità}
+
+\paragraph{Linee guida}
+
+Come sono stati impostati i testi alternativi alle immagini
+%TODO
+The alt attribute should typically:
+Be accurate and equivalent in presenting the same content and function of the image.
+Be succinct. This means the correct content (if there is content) and function (if there is a function) of the image should be presented as succinctly as is appropriate. Typically no more than a few words are necessary, though rarely a short sentence or two may be appropriate.
+NOT be redundant or provide the same information as text within the context of the image.
+NOT use the phrases "image of ..." or "graphic of ..." to describe the image. It usually apparent to the user that it is an image. And if the image is conveying content, it is typically not necessary that the user know that it is an image that is conveying the content, as opposed to text. If the fact that an image is a photograph or illustration, etc. is important content, it may be useful to include this in alternative text.
+
 \subsection{Accessibilità sezione pubblica}
 
 \paragraph{Cecità ai colori}
@@ -56,6 +67,10 @@ Per chi utilizza uno screen reader, nel compilare un form è fondamentale sapere
 Tale tecnica è stata utilizzata anche per i \emph{select menus}
 
 Per ogni bottone è stato utilizzato il tipo submit in quanto button necessita che javascript sia bilitato per funzionare, inoltre in ogni bottone è stato valorizzato l'attributo value, in modo che lo screen reader dia un significato esplicito all'azione del bottone.
+
+\paragraph{Total Validato}
+Total validator è uno strumento, che tramite un'apposita estensione di Firefox permette di verificare l'accessibilità di una pagina web secondo alcuni parametri.
+Le impostazioni di total validator scelte sono le più stringenti, richiedendo un'accessibilità aderente allo standard WCAG 2.0 AAA
 
 
 \subsection{Accessibilità sezione amministrazione}
