@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 	/* Imposto le due colonne con altezza uguale */
 
 	//setColumns();
