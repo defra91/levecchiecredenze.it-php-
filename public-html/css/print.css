@@ -1,42 +1,40 @@
-/* Regole globali per la stampa */
+/* Regole globali per desktop */
 
 * {
 	margin: 0;
 	padding: 0;
 }
 
-body {
+a {
+	color: #FFF;
+}
 
+body {
+	background: url(../images/slideshow/1.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	color: #000;
+	color: #ab8d77;
 	font-family: 'Antic', sans-serif;
-	padding: 2%;
-}
-div#content fieldset {
- padding: 3%;
- margin-top: 5%;
- outline: 0;
- font-size: 1em;
 }
 
 div#header {
 	padding: 2%;
-	float: none;
+	float: left;
 	margin-left: 2%;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	width: auto;
-	display: none;
+	width: 200px;
+	background: url(../images/dotted-bg.png);
 }
 
 div#banner {
 	width: 100%;
-	background: url(../images/banner.png);
+	background: url(../images/banner.png) ;
 	background-size: 100%;
 	height: 81px;
+	
 }
 
 div#banner h1 {
@@ -44,7 +42,23 @@ div#banner h1 {
 }
 
 div#navigation {
-	width: 100%;
+	padding: 2%;
+	float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 200px;
+	background: url(../images/dotted-bg.png);
+}
+
+div#navigation h1 {
+	font-size: 1em;
+	margin-bottom: 4%;
+	color: #000;
+}
+
+div#navigation a:hover {
+	color: #ab8d77;
 }
 
 li.menu_item {
@@ -68,7 +82,7 @@ li.menu_item_selected {
 }
 
 .menu_item a {
-	color: #FFF;
+	color: #000;
 	text-decoration: none;
 }
 .menu_item_selected a {
@@ -79,6 +93,7 @@ li.menu_item_selected {
 div#footer {
 	width: 100%;
 	color: #000;
+	margin-top: 20%;
 }
 
 div#footer h1 {
@@ -95,44 +110,36 @@ div#footer p {
 
 div#footer a {
 	text-align: center;
-	color: #FFF;
+	color: #000;
 	display: block;
 	font-size: 0.6em;
 	margin-top: 4%;
 }
 
+div#footer img {
+
+margin-top: 15%;
+
+}
+
 div#content {
 	padding: 2%;
-	margin-left: auto;
-	margin-right: auto;
+	float: left;
+	margin-left: 2%;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	width: 500px;
+	width: 55%;
 	color: #000;
-
+	background: url(../images/dotted-bg.png);
+	
 }
 
-span#increaseFont {
-	float: right;
-	width: 2%;
-	margin-right: 2%;
-	height: 10px;
-	background: url(../images/increase_font.png) center no-repeat;
-	cursor: pointer;
-}
 
-span#decreaseFont {
-	float: right;
-	width: 2%;
-	margin-right: 2%;
-	height: 10px;
-	background: url(../images/decrease_font.png) center no-repeat;
-	cursor: pointer;
-}
 
 div#content h1 {
 	text-align: center;
 	clear: right;
+	
 }
 
 div#content h2 {
@@ -149,7 +156,14 @@ div#content h3 {
 div#content p {
 	text-align: justify;
 	margin-top: 4%;
+	font-size: 0.8em;
+}
+
+div#content p a{
+	text-align: justify;
+	margin-top: 4%;
 	font-size: 1em;
+	color: #000;
 }
 
 div#content img {
@@ -172,14 +186,18 @@ div#social_tab {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	display: none;
+	display:none;
+	
 }
 
 div#social_tab img {
 	width: 70%;
+	display:none;
 }
 
-
+div#social_tab a {
+	color: #000;
+}
 
 /* Credits section */
 
@@ -195,7 +213,7 @@ div.author h1 {
 }
 
 div.author a {
-	color: #000;
+	color: #FFF;
 	font-size: 0.7em;
 	display: block;
 	margin-top: 3%;
@@ -234,7 +252,6 @@ a.github_author {
 div#content table {
 	width: 100%;
 	margin: 4% 0;
-	
 }
 
 div#content table caption {
@@ -249,13 +266,13 @@ div#content table th {
 	text-align: left;
 	font-weight: bold;
 	font-size: 1em;
-	padding: 2% 0;
+	padding: 2% 2%;
 }
 
 div#content table td {
-	/*text-align: left;*/
+	text-align: left;
 	font-size: 0.8em;
-	padding: 1% 0;
+	padding: 1% 2%;
 }
 
 div#content em {
@@ -270,17 +287,21 @@ a.download {
 	color: #FFF;
 	text-indent: 20px;
 	background: url(../images/pdf-icon.png) center left no-repeat;
-	display: none;
 }
-
 
 /* Menu - Lisitno */
 .menu_evento{
-	display: none;
+	font-size: 0.7em;
+}
+
+#content hr{
+	margin-bottom: 2%;
 }
 
 .box{
-	
+	position: absolute; 
+	overflow:hidden; 
+	height:0;
 }
 
 li.listino{
@@ -298,35 +319,27 @@ li.listino{
 	text-decoration: underline;
 }
 
+.listino a:hover {
+	color: #ab8d77;
+	text-decoration: underline;
+}
+
 
 /* News */
 
-div#content li {
+ul#news_list {
+}
+
+ul#news_list li {
 	list-style: none;
 	margin-bottom: 4%;
+	border-bottom: 1px solid #FFF;
+	padding: 4% 0;
 }
-
-.news {
-	font-size: 1em;
-	margin-bottom: 1%;
-	margin-top: 1%;
-}
-
-.hrNews{
-  	width: 50%;
-}
-
-div.news p {
-	clear: right;
-	font-size: 0.8em;
-	font-style: italic;
-	line-height: 1.5em;
-}
-
 
 /* Eventi */
 
-div.event {
+li.event {
 	width: 96%;
 	border-bottom: 1px solid #FFF;
 	padding: 2% 2%;
@@ -334,53 +347,55 @@ div.event {
 	float: left;
 }
 
-div.event a {
+li.event a {
 	color: #FFF;
-	font-size: 1.5em;
+	font-size: 1em;
 	float: right;
 	margin-bottom: 2%;
 }
 
-div.event a:visited {
+li.event a:visited {
 	color: #ab8d77;
 	font-size: 1.5em;
 	float: right;
 	margin-bottom: 2%;
 }
 
-div.event p {
+li.event p {
 	clear: right;
 	font-size: 0.8em;
 	font-style: italic;
 	line-height: 1.5em;
 }
 
-div.event div {
+li.event div {
 	width: 100px;
 	height: 100px;
 	background: url(../images/calendar-icon.png) center no-repeat;
 	float: left;
 	margin-right: 4%;
-	margin-bottom: 4%; 
+	margin-bottom: 4%;
 }
 
-div.event div span {
+li.event div span {
 	position: relative;
-	left: 10px;
+	left: 5px;
+	top: 30px;
+	float: left;
+	font-weight: bold;
+	font-size: 0.6em;
+}
+
+li.event div span + span {
+	position: relative;
+	left: 15px;
 	top: 25px;
 	float: left;
 	font-weight: bold;
+	font-size: 1em;
 }
 
-div.event div span + span {
-	position: relative;
-	left: 20px;
-	top: 25px;
-	float: left;
-	font-weight: bold;
-}
-
-div.event div span + span + span {
+li.event div span + span + span {
 	clear: left;
 	position: relative;
 	left: 30%;
@@ -389,35 +404,53 @@ div.event div span + span + span {
 	color: #000;
 }
 
-div#content input{
-display:block;
-margin-bottom: 2%;
+/* Pagina contatti */
+
+div#content form {
+ margin-top: 5%;
+ outline: 0;
 }
 
-div#content textarea{
-
-margin-bottom: 4%;
+div#content fieldset {
+ padding: 3%;
+ margin-top: 5%;
+ outline: 0;
+ font-size: 1em;
 }
 
-#social_list{
-	margin-top: 4%;
+
+div#content label {
+	margin: 4% 0;
+	display: block;
 }
 
-div#content label
-{
-display:block;
-margin-top: 2%;
-margin-bottom: 2%;
-font-size: 1em;
+input.text_input {
+	display: block;
+	margin: 4% 0;
+	padding: 1%;
+	width: 40%;
 }
 
-/*Come raggiungerci*/
-iframe{
-	margin-top: 5%;
+input.submit_input {
+	width: 10%;
+	padding: 1%;
+	margin: 2% 0;
 }
-/*
-ul#social_list {
-	margin: 4%;
+
+div#content select {
+	padding: 1%;
+	width: 43%;
+}
+
+div#content textarea {
+	width: 98%;
+	height: 100px;
+	padding: 1%;
+}
+
+/*ul#social_list {
+	margin: 4% 0;
+	
 }
 
 ul#social_list li {
@@ -448,5 +481,94 @@ ul#social_list li + li + li + li {
 	height: 25px;
 	text-indent: 40px;
 }
-
 */
+ul#social_list li a {
+	text-decoration: underline;
+	color: #000;
+}
+
+/* Gallery Item */
+
+div.image_container {
+	width: 25%;
+	overflow: hidden;
+	height: 100px;
+	float: left;
+	margin-top: 5%;
+}
+
+img.gallery_item {
+	width: 100%;
+}
+
+/* Come raggiungerci*/
+
+div#google_map_canvas {
+	width: 80%;
+	height: 500px;
+	margin: 4% auto;
+}
+
+/* Login */
+
+span#loginError {
+	color: red;
+	float: right;
+	margin: 2% 0;
+}
+
+/* Admin section */
+
+span#user {
+	color: red;
+}
+
+div.adminImageList {
+	margin: 2% 4%;
+	list-style: none;
+	width: 20%;
+	float: left;
+	border: 1px solid #ab8d77;
+	height: 100px;
+	padding: 2%;
+	overflow: hidden;
+	clear: right;
+}
+
+span.imageName {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+div.adminImageList a {
+	font-size: 0.7em;
+	float: left;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin: 10% 4%;
+	color: #FFF;
+}
+
+
+div.adminImageList a + a {
+	font-size: 0.7em;
+	float: right;
+	margin: 10% 4%;
+	color: #FFF;
+}
+
+img.imagePreview {
+	clear: both;
+}
+
+.highlight{
+	box-shadow: 0 0 30px #FF2400;
+}
+
+a#insertImageLink {
+	float: right;
+	margin: 4% 2%;
+	font-size: 0.8em;
+}

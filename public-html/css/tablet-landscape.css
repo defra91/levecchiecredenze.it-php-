@@ -39,6 +39,7 @@ div#banner {
 	background-size: 100% 100%;
 	height: 30px;
 	padding: 2% 0;
+	
 }
 
 div#banner h1 {
@@ -52,13 +53,16 @@ div#navigation {
 	margin-left: 2%;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	width: 40%;
+	width: 28%;
 	background: url(../images/dotted-bg.png);
 	font-size: 0.5em;
 }
 div#navigation  img{
 max-width:100%;
 margin-bottom: 10px;
+margin-left:auto;
+margin-right:auto;
+
 }
 
 li.menu_item {
@@ -121,7 +125,7 @@ div#content {
 	margin-left: 2%;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	width: 45%;
+	width: 58%;
 	color: #FFF;
 	background: url(../images/dotted-bg.png);
 	font-size: 0.6em;

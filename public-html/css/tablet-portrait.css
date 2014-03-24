@@ -59,6 +59,8 @@ div#navigation {
 div#navigation  img{
 max-width:100%;
 margin-bottom: 10px;
+margin-left:auto;
+margin-right:auto;
 }
 
 li.menu_item {
