@@ -56,17 +56,12 @@
 						  </xs:complexType>
 						</xs:element> 
 
-						<xs:element name="evento">
-							<xs:complexType>
-					        	<xs:attribute name="id" type="xs:positiveInteger" use="required" />
-					  		</xs:complexType>	
-						</xs:element> 
-
 					</xs:sequence>
+					<xs:attribute name="id" type="xs:positiveInteger" use="required" />
 				</xs:complexType>
 			</xs:element>
-
 		</xs:sequence>
+
 	</xs:complexType>
 </xs:element>
 </xs:schema>
