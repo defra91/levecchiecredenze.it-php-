@@ -12,7 +12,6 @@
 use HTML::Template;
 use XML::LibXML;
 use CGI;
-HTML::Template->config(utf8 => 1);
 
 $filename = "../database/events.xml"; # indica il file xml su cui effettuare il parsing
 $parser = XML::LibXML->new();	# creo un parser per il file xml
@@ -66,4 +65,5 @@ $template->param(date => $date);
 $template->param(desc => $desc);
 $template->param(price => $price);
 
+HTML::Template->config(utf8 => 1);
 print "Content-Type: text/html\n\n", $template->output; # butto in output il template dicendo che si tratta di HTML

@@ -11,7 +11,6 @@
 
 use HTML::Template;
 use XML::LibXML;
-HTML::Template->config(utf8 => 1);
 
 $filename = "../database/menu.xml"; # indica il file xml su cui effettuare il parsing
 $parser = XML::LibXML->new();	# creo un parser per il file xml
@@ -65,4 +64,5 @@ $template->param(dessert => $loopContainer[3]);				#rimpiazzo i parametri con i 
 $template->param(degustazione => \@degustazioneLoop); 		#rimpiazzo i parametri con i valori corretti
 $template->param(deg_price => $prezzo_degustazione); 		#rimpiazzo i parametri con i valori corretti
 
+HTML::Template->config(utf8 => 1);
 print "Content-Type: text/html\n\n", $template->output; 	# butto in output il template dicendo che si tratta di HTML

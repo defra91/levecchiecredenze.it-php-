@@ -11,7 +11,6 @@
 
 use HTML::Template;
 use XML::LibXML;
-HTML::Template->config(utf8 => 1);
 
 $filename = "../database/gallery.xml"; # indica il file xml su cui effettuare il parsing
 $parser = XML::LibXML->new();	# creo un parser per il file xml
@@ -47,4 +46,5 @@ for ($i=0; $i<scalar(@children); $i++) {
 $template = HTML::Template->new(filename => 'gallery.tmpl'); # raccolgo il file di template
 $template->param(gallery => \@loop_data); #rimpiazzo i parametri con i valori corretti
 
+HTML::Template->config(utf8 => 1);
 print "Content-Type: text/html\n\n", $template->output; # butto in output il template dicendo che si tratta di HTML

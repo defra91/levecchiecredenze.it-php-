@@ -27,6 +27,6 @@ else {
 
 $template = HTML::Template->new(filename => 'login.tmpl'); # raccolgo il file di template
 $template->param(logged => $logged);
-HTML::Template->config(utf8 => 1);
 
+HTML::Template->config(utf8 => 1);
 print "Content-Type: text/html\n\n", $template->output; # butto in output il template dicendo che si tratta di HTML

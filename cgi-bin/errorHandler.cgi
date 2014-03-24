@@ -11,14 +11,13 @@
 
 use HTML::Template;
 use CGI;
-HTML::Template->config(utf8 => 1);
 
 $cgi = CGI->new();
 
 $buffer = "";
 $buffer = $ENV{'QUERY_STRING'};
 @pairs = split(/&/, $buffer);
-%input;
+%input = {};
 foreach $pair (@pairs) { 
 	($name, $value) = split(/=/, $pair); 
 	$value =~ tr/+/ /;
@@ -40,4 +39,5 @@ $template = HTML::Template->new(filename => 'error.tmpl'); # raccolgo il file di
 $template->param(code => $code);
 $template->param(desc => $desc);
 
+HTML::Template->config(utf8 => 1);
 print "Content-Type: text/html\n\n", $template->output; # butto in output il template dicendo che si tratta di HTML
