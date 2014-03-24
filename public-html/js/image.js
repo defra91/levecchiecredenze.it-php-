@@ -1,4 +1,13 @@
+var ctrl = function() {
+  $("input:text").keydown(function(event) {
+    // permetti delete
+      $(this).removeClass("highlight");
+  });
+  setColumns();
+};
+
 $(document).ready(function () { 
+  ctrl();
    $("#filePhoto").change(function() {
            readURL(this);
        });
