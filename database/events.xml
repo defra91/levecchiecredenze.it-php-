@@ -2,89 +2,51 @@
 <eventi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="events.xsd">
 	
 	<evento id="1">
-		<nome>San Valentino</nome>
+		<nome>Pasqua</nome>
 		<data>
-			<giorno>14</giorno>
-			<mese>Febbraio</mese>
+			<giorno>20</giorno>
+			<mese>Aprile</mese>
 			<anno>2014</anno>
 		</data>
 		<descrizione>Cras tincidunt elit dolor, quis tempus enim lobortis ac. In iaculis tortor ut sem feugiat volutpat. Nunc volutpat augue metus, vitae condimentum odio varius et. Sed quis bibendum urna. Vivamus placerat id libero ut commodo. Praesent eu eros tortor. Praesent nisi libero, interdum nec suscipit sit amet, interdum sit amet eros.</descrizione>
-		<menu prezzo="50">
-			<portata/>
+		<menu prezzo="20">
+			<portata>Fassone battuto al coltello</portata>
+			<portata>Tacchino alla piastra</portata>
+			<portata>Fetuccine al ragù di coniglio</portata>
 		</menu>
 	</evento>
 
 	<evento id="2">
-		<nome>San Valentino2</nome>
+		<nome>Pasquetta</nome>
 		<data>
-			<giorno>14</giorno>
-			<mese>Febbraio</mese>
+			<giorno>21</giorno>
+			<mese>Aprile</mese>
 			<anno>2014</anno>
 		</data>
 		<descrizione>Cras tincidunt elit dolor, quis tempus enim lobortis ac. In iaculis tortor ut sem feugiat volutpat. Nunc volutpat augue metus, vitae condimentum odio varius et. Sed quis bibendum urna. Vivamus placerat id libero ut commodo. Praesent eu eros tortor. Praesent nisi libero, interdum nec suscipit sit amet, interdum sit amet eros.</descrizione>
-		<menu prezzo="50">
+		<menu prezzo="15">
 			<portata>Fassone battuto al coltello</portata>
-			<portata>Fassone battuto al coltello</portata>
-			<portata>Fassone battuto al coltello</portata>
+			<portata>Tacchino alla piastra</portata>
+			<portata>Fetuccine al ragù di coniglio</portata>
 		</menu>
 	</evento>
 
 	
  
 		<evento id="3">
-			<nome>Menu di pasqua</nome>
+			<nome>Torte con Valeria</nome>
 			<data>
 				<giorno>17</giorno>
 				<mese>Aprile</mese>
 				<anno>2014</anno>
 			</data>
-			<descrizione>Blablabla</descrizione>
+			<descrizione>Cras tincidunt elit dolor, quis tempus enim lobortis ac. In iaculis tortor ut sem feugiat volutpat. Nunc volutpat augue metus, vitae condimentum odio varius et. Sed quis bibendum urna. Vivamus placerat id libero ut commodo. Praesent eu eros tortor. Praesent nisi libero, interdum nec suscipit sit amet, interdum sit amet eros.</descrizione>
 			<menu price="32">
-				<portata>Piatto1</portata>		</menu>
-	</evento>
-		<evento id="4">
-			<nome>Menu di pasqua1</nome>
-			<data>
-				<giorno>1</giorno>
-				<mese>Gennaio</mese>
-				<anno>2014</anno>
-			</data>
-			<descrizione>Blablabla</descrizione>
-			<menu price="25">
-				<portata>Portata1</portata>		</menu>
-	</evento>
-		<evento id="5">
-			<nome>1</nome>
-			<data>
-				<giorno>1</giorno>
-				<mese>Gennaio</mese>
-				<anno>2014</anno>
-			</data>
-			<descrizione>2</descrizione>
-			<menu price="3">
-				<portata>1</portata>
-				<portata>2</portata>
-				<portata>2</portata>		</menu>
-	</evento>
-		<evento id="6">
-			<nome/>
-			<data>
-				<giorno>1</giorno>
-				<mese>Gennaio</mese>
-				<anno>2014</anno>
-			</data>
-			<descrizione/>
-			<menu price="">
-				<portata/>		</menu>
-	</evento>
-		<evento id="7">
-			<nome/>
-			<data>
-				<giorno>1</giorno>
-				<mese>Gennaio</mese>
-				<anno>2014</anno>
-			</data>
-			<descrizione/>
-			<menu price="">
-				<portata/>		</menu>
-	</evento></eventi>
+				<portata></portata>
+				<portata>Tiramisù</portata>
+				<portata>Torta Menta e cioccolato</portata>
+				<portata>Semifreddi</portata>
+				<portata>Cupcake</portata>
+			</menu>
+		</evento>
+</eventi>
