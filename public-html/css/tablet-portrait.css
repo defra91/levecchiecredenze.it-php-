@@ -11,7 +11,11 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+<<<<<<< HEAD
+	color: yellow;
+=======
 	color: #ab8d77;
+>>>>>>> b2ce2ae011eb21df8fe82ddaee0489bcfa4ea48e
 	font-family: 'EB Garamond', serif;
 	font-size: 102%;
 	background-color: #000;
@@ -130,6 +134,10 @@ div#content {
 	color: #FFF;
 	background: url(../images/dotted-bg.png);
 	font-size: 0.6em;
+}
+
+div#content a:visited {
+	color: #DAA520;
 }
 
 div#content fieldset {

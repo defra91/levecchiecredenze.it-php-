@@ -23,11 +23,23 @@ body {
 input {
 	padding: 1% 1%;
 	width: 80%;	
+<<<<<<< HEAD
+	margin: auto;
+=======
+>>>>>>> b2ce2ae011eb21df8fe82ddaee0489bcfa4ea48e
+}
+
+hr {
+	margin: 6% 4%;
 }
 
 label {
 	font-size: 0.8em;
 	margin: auto;
+<<<<<<< HEAD
+	text-align: center;
+=======
+>>>>>>> b2ce2ae011eb21df8fe82ddaee0489bcfa4ea48e
 }
 
 legend {
@@ -127,6 +139,12 @@ li.menu_item_selected {
 
 /* footer */
 
+div#footer a + a + a{
+
+display:inline
+
+}
+
 div#footer {
 	width: 100%;
 	color: #FFF;
@@ -174,7 +192,7 @@ div#content {
 }
 
 div#content a:visited {
-	color: #ab8d77;
+	color: #DAA520;
 }
 
 div#content input {
@@ -616,3 +634,4 @@ a#insertImageLink {
 	margin: 4% 2%;
 	font-size: 0.8em;
 }
+
