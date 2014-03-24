@@ -74,9 +74,23 @@ Le impostazioni di total validator scelte sono le più stringenti, richiedendo u
 
 
 \subsection{Accessibilità sezione amministrazione}
-
-i form obbligatori sono chiaramente identificati
-
+A differenza della parte pubblica del sito per poter usufruire della parte privata è necessario aver abilitato Javascript sul browser, le ragioni di tale scelta si possono identificare nel fatto che a seguito dell' analisi dell' utenza effettuata si è ritenuto che l' amministratore non disattivi mai javascript. Nonostante sia un progetto didattico è stato dimostrato che il gruppo sa gestire il caso in cui l' utente disattivi javascript nella parte pubblica.
+\\
+Per quanto riguarda l' accessibilità dei vari form, si è deciso di adottare questi accorgimenti:
+\begin{itemize}
+ \item in ogni label di ogni input text obbligatoria sarà presente il carattere *, il quale viene letto dagli screen reader che notificano all' utente che il campo è un campo obbligatorio come si può notare dall' immagine "screen reader required input";
+ \item nel caso in cui si cerchi di inserire un carattere diverso da un numero o da delete all' interno dei campi che richiedono un numero, verrà impedito e l' utente verrà avvisato che si possono inserire solo numeri;
+ \item se l' amministratore cercherà di inviare un form, nel quale non si siano riempiti campi obbligatori, l' azione verrà bloccata, evidenziando ogni input text non riempita correttamente con un' aura rossa intorno ad essa. L' aura è volutamente molto larga in quanto dopo aver testato con vischeck si è ritenuta efficace questa ampiezza, inoltre il colore è accessibile in presenta di cecità ai colori. Quando si andrà a scrivere in uno di questi campi evidenziati si andrà a rimuovere l' aura dall' input text. 
+\end{itemize} obbligatori sono chiaramente identificati
+\begin{figure}[H]
+		\centering \includegraphics[width=0.8\textwidth]{images/required.png}
+		\caption{"screen reader required input" reazioni degli screeen reader a *}
+	\end{figure}
+	\begin{figure}[H]
+		\centering \includegraphics[width=0.8\textwidth]{images/color4.png}
+		\caption{aura intorno ai campi lasciati vuoti vista in presenza di cecità ai colori}
+	\end{figure}
+	
 Inserire la star, e includere immagine screenReaderRequiredForm.png
 
 Dovresti dimostrare che il sito è ok per i daltonici etc, utilizzabile con la sola tastiera (navigare tra i link, compilare form etc) e easy da usare con uno screen reader. E deve essere a nche a prova di idiota.
