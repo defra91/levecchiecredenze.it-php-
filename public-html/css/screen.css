@@ -419,6 +419,7 @@ div#content form {
 }
 
 div#content fieldset {
+ padding: 3%;
  margin-top: 5%;
  outline: 0;
  font-size: 1em;

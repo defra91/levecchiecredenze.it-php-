@@ -43,7 +43,7 @@ else {
 }
 
 
-@menu = $root->findnodes("evento[\@id=$_id]/menu/portata");	# mi prendo tutte le portate del menu
+@menu = $root->findnodes("evento[\@id=$_id]/menu/portata/text()");	# mi prendo tutte le portate del menu
 $name = $root->findvalue("evento[\@id=$_id]/nome"); # mi prendo il nome dell'evento
 $date = $root->findvalue("evento[\@id=$_id]/data/giorno") . " " . $root->findvalue("evento[\@id=$_id]/data/mese") . " " . $root->findvalue("evento[\@id=$_id]/data/anno");
 $desc = $root->findvalue("evento[\@id=$_id]/descrizione");
