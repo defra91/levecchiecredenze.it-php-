@@ -1,4 +1,5 @@
 \section{Accessibilità}
+\subsection{Accessibilità sezione pubblica}
 Per testare che il sito sia accessibile alle persone daltoniche, tetracromiche o con altri problemi riguardanti i colori si è utilizzato Vischeck.com. Tale sito, data un'immagine o una pagina web, mostra come viene percepita da chi soffre di cecità ai colori. È bastato verificare un paio di pagine, in quanto i colori e le immagini di background utilizzate sono le medesime in tutte le pagine.
 
 Per essere accessibile un sito deve poter essere navigabile utilizzando solamente la tastiera. 
@@ -17,7 +18,29 @@ Nonostante ciò Fangs ha permesso di verificare che:
 \item Ogni immagine abbia il rispettivo testo alternativo.
 \end{itemize} 
 
+\begin{figure}[H]
+		\centering \includegraphics[width=0.8\textwidth]{images/fangs.png}
+		\caption{Output di Fangs}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering \includegraphics[width=0.8\textwidth]{images/fangsLink.png}
+		\caption{Elenco di link della pagina, come visualizzati da Fangs}
+	\end{figure}
+
 \paragraph{Accessibilità dei form}
 
 Possiamo vedere un esempio di accessibilità dei form nella pagina contatti.html.
+
+Per chi utilizza uno screen reader, nel compilare un form è fondamentale sapere come compilare gli input. Per questo motivo ad ogni input type text è associata una label con attributo for, il cui valore è l'id dell'input a cui fa riferimento. Con questa tecnica lo screen reader sa certamente collegare nel modo corretto un'input alla sua label.
+
+Per ogni bottone è stato utilizzato il tipo submit in quanto button necessita che javascript sia bilitato per funzionare, inoltre in ogni bottone è stato valorizzato l'attributo value, in modo che lo screen reader dia un significato esplicito all'azione del bottone.
+
+
+\subsection{Accessibilità sezione amministrazione}
+
+i form obbligatori sono chiaramente identificati
+
+Inserire la star, e includere immagine screenReaderRequiredForm.png
+
 
