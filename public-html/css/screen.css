@@ -25,6 +25,10 @@ input {
 	width: 80%;	
 }
 
+hr {
+	margin: 6% 4%;
+}
+
 label {
 	font-size: 0.8em;
 	margin: auto;
