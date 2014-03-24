@@ -163,7 +163,7 @@ $year->setData($new_year);
 
 $xml_doc->toFile($filename);
 
-$cgi->redirect("editMenuLoader.cgi");
+print $cgi->redirect("editMenuLoader.cgi");
 
 sub getMonthInItalianString {
 	$month = $_[0];
