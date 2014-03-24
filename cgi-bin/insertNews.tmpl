@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+	<title>Inserisci nuova news</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="icon" href="../public-html/images/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="../public-html/css/screen.css" media="screen and (min-width: 1024px)" />
+	<script type="text/javascript" src="../public-html/js/jquery.js"></script>
+	<script type="text/javascript" src="../public-html/js/common.js"></script>
+	<script type="text/javascript" src="../public-html/js/image.js"></script>
+</head>
+<body>
+		<div id="navigation">
+			<h1>Pannello amministrazione</h1>
+			<ul>
+				<li class="menu_item" lang="en"><a href="adminLoader.cgi">Dashboard</a></li>
+				<li class="menu_item"><a href="editMenuLoader.cgi">Modifica Menu</a></li>
+				<li class="menu_item"><a href="galleryAdminLoader.cgi">Gestione <span lang="en">photogallery</span></a></li>
+				<li class="menu_item"><a href="eventsHandler.cgi">Gestione eventi</a></li>
+				<li class="menu_item"><a href="newsHandler.cgi">Gestione <span lang="en">news</span></a></li>
+				<li class="menu_item"><a href="../public-html/index.html">Torna al sito</a></li>
+				<li class="menu_item"><a href="logout.cgi">Logout</a></li>
+			</ul>
+		</div>
+	<div id="content">
+		<h1>
+			Inserimento di una nuova news
+		</h1>
+		<p>
+			Tramite il form seguente è possibile inserire una nuova news. Inserisci il suo titolo e la sua descrizione.
+		</p>
+		<form method="post" action="insertNews.cgi" id="form">
+			<fieldset id="news">
+    			<legend >Inserimento nuova news</legend>
+    				<label for="news_title">Titolo</label>
+    				<input type="text" name="title" id="news_title" />
+    				<label for="news_desc">Descrizione</label>
+    				<input type="text" name="desc" id="news_desc" /> 
+    				<input type="submit" value="Inserisci" id="submit" />
+    				<input type="reset" value="Reset" id="reset" />
+			</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>
