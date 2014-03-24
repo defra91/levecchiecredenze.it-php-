@@ -23,13 +23,11 @@ body {
 input {
 	padding: 1% 1%;
 	width: 80%;	
-	margin: auto;
 }
 
 label {
 	font-size: 0.8em;
 	margin: auto;
-	text-align: center;
 }
 
 legend {
