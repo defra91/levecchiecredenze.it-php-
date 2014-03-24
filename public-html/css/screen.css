@@ -562,7 +562,7 @@ img.imagePreview {
 }
 
 .highlight{
-	box-shadow: 0 0 10px #FF2400;
+	box-shadow: 0 0 30px #FF2400;
 }
 
 a#insertImageLink {
