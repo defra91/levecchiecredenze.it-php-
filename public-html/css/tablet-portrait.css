@@ -11,8 +11,9 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	color: #ab8d77;
-	font-family: 'Antic', sans-serif;
+	color: yellow;
+	font-family: 'EB Garamond', serif;
+	font-size: 102%;
 	background-color: #000;
 }
 
