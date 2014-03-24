@@ -414,7 +414,14 @@ li.event div span + span + span {
 /* Pagina contatti */
 
 div#content form {
+ margin-top: 5%;
  outline: 0;
+}
+
+div#content fieldset {
+ margin-top: 5%;
+ outline: 0;
+ font-size: 1em;
 }
 
 
