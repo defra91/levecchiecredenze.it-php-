@@ -9,7 +9,7 @@ var ctrl = function() {
 				event.preventDefault();
 				var errore = $("<span class='errore'>Stai inserendo lettere...</span>");
 				$(".errore").remove();
-				$(this).parent().append(errore);
+				$(this).after(errore);
 				setTimeout(function() {
 					$(".errore").remove();
 				}, 1500);
@@ -20,6 +20,9 @@ var ctrl = function() {
 		}
 	});
 	$("input:text").keydown(function(event) {
+      $(this).removeClass("highlight");
+  });
+	$("textarea").keydown(function(event) {
       $(this).removeClass("highlight");
   });
 	setColumns();
@@ -39,7 +42,7 @@ $(document).ready(function () {
 	$('#add_portata').click(function(){
 		var openp=$("<p>");
 		var nportate=$( "#portate label" ).length;
-		var input1 = $("<label for=\"portata"+nportate+"\">Nome portata</label><input type=\"text\" name=\"item\" id=\"portata"+nportate+"\"/>");
+		var input1 = $("<label for=\"portata"+nportate+"\">Nome portata *</label><input type=\"text\" name=\"item\" id=\"portata"+nportate+"\"/>");
 		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"rimuovi portata\" /></p>");
 		  removeButton.click(function() {
             $(this).parent().remove();
@@ -53,20 +56,23 @@ $(document).ready(function () {
 	$("#form").submit(function(){
 	var isFormValid = true;
     $("#form input:text").each(function(){
-    	var vuoto = $("<span class='vuoto'>Campo vuoto</span>");
-        if ($.trim($(this).val()).length == 0){
+            if ($.trim($(this).val()).length == 0){
             $(this).addClass("highlight");
-           //$(this).parent().append(vuoto);
             isFormValid = false;
         } else {
             $(this).removeClass("highlight");
-           // $(".vuoto").remove();
+        }
+    });
+    $("#form textarea").each(function(){
+        if ($.trim($(this).val()).length == 0){
+            $(this).addClass("highlight");
+            isFormValid = false;
+        } else {
+            $(this).removeClass("highlight");
         }
     });
     if (!isFormValid)
-    	event.preventDefault();
-    return isFormValid;
-	
+return false;
 	});
 
 });	
