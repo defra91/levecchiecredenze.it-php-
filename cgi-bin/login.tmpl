@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="../public-html/css/smartphone-landscape.css" media="only screen and (max-width: 480px) and (orientation: landscape" />
 	<script type="text/javascript" src="../public-html/js/jquery.js"></script>
 	<script type="text/javascript" src="../public-html/js/common.js"></script>
+	<script type="text/javascript" src="../public-html/js/login.js"></script>
 </head>
 
 <body>
@@ -51,13 +52,13 @@
 		<p>
 			Attenzione! Stai per entrare nella sezione privata di amministrazione. Prima di poter entrare devi effettuare l'accesso. Inserisci il tuo <span lang="en">username</span> e la tua <span lang="en">password</span> nel <span lang="en">form</span> sottostante.
 		</p>
-		<form method="post" action="login.cgi">
+		<form method="post" id="form" action="login.cgi">
 			<fieldset>
 				<legend>I tuoi dati</legend>
-				<label lang="en">Username</label>
-				<input type="text" name="email" class="text_input" />
-				<label lang="en">Password</label>
-				<input type="password" name="password" class="text_input" />
+				<label lang="en" for="email">Username</label>
+				<input type="text" name="email" class="text_input" id="email"/>
+				<label lang="en" for="password">Password</label>
+				<input type="password" name="password" class="text_input" id="password"/>
 				<input type="submit" lang="en" value="Login" class="submit_input" />
 			</fieldset>
 		</form>
