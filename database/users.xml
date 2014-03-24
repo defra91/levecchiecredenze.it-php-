@@ -2,7 +2,7 @@
 <users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">
 	<user id="1">
 		<email>admin@levecchiecredenze.it</email>
-		<password>pass</password>
+		<password>admin</password>
 	</user>
 	<user id="2">
 		<email>defra91</email>
