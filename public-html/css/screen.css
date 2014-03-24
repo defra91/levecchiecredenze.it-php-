@@ -19,6 +19,8 @@ body {
 	font-family: 'Calibri', sans-serif;
 }
 
+/* header */
+
 div#header {
 	padding: 2%;
 	float: left;
@@ -40,6 +42,8 @@ div#banner {
 div#banner h1 {
 	display: none;
 }
+
+/* menu di navigazione a sx */
 
 div#navigation {
 	padding: 2%;
@@ -93,6 +97,8 @@ li.menu_item_selected {
 	text-decoration: none;
 }
 
+/* footer */
+
 div#footer {
 	width: 100%;
 	color: #FFF;
@@ -125,6 +131,8 @@ margin-top: 15%;
 
 }
 
+/* div contenuti a dx*/ 
+
 div#content {
 	padding: 2%;
 	float: left;
@@ -141,22 +149,9 @@ div#content a:visited {
 	color: #ab8d77;
 }
 
-span#increaseFont {
-	float: right;
-	width: 2%;
-	margin-right: 2%;
-	height: 10px;
-	background: url(../images/increase_font.png) center no-repeat;
-	cursor: pointer;
-}
+div#content input {
 
-span#decreaseFont {
-	float: right;
-	width: 2%;
-	margin-right: 2%;
-	height: 10px;
-	background: url(../images/decrease_font.png) center no-repeat;
-	cursor: pointer;
+display: block;
 }
 
 div#content h1 {
@@ -426,11 +421,18 @@ div#content form {
  outline: 0;
 }
 
+div#content input {
+ margin-top: 5%;
+ outline: 0;
+}
+
 div#content fieldset {
  padding: 3%;
  margin-top: 5%;
+ margin-bottom: 5%;
  outline: 0;
  font-size: 1em;
+ 
 }
 
 

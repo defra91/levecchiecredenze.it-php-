@@ -15,12 +15,8 @@ body {
 	font-family: 'Antic', sans-serif;
 	background-color: #000;
 }
-div#content fieldset {
- padding: 3%;
- margin-top: 5%;
- outline: 0;
- font-size: 1em;
-}
+
+/*header*/
 
 div#header {
 	padding: 2%;
@@ -45,6 +41,8 @@ div#banner h1 {
 	display: none;
 }
 
+/* menu di navigazione a sx*/
+
 div#navigation {
 	
 	padding: 2%;
@@ -57,10 +55,10 @@ div#navigation {
 	font-size: 0.5em;
 }
 div#navigation  img{
-max-width:100%;
-margin-bottom: 10px;
-margin-left:auto;
-margin-right:auto;
+	max-width:100%;
+	margin-bottom: 10px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 li.menu_item {
@@ -91,6 +89,8 @@ li.menu_item_selected {
 	text-decoration: none;
 }
 
+/* footer */
+
 div#footer {
 	width: 100%;
 	color: #FFF;
@@ -117,6 +117,8 @@ div#footer a {
 	margin-top: 4%;
 }
 
+/* div contenuti a sx */ 
+
 div#content {
 	padding: 2%;
 	float: left;
@@ -129,25 +131,14 @@ div#content {
 	font-size: 0.6em;
 }
 
-span#increaseFont {
-	float: right;
-	width: 2%;
-	margin-right: 2%;
-	height: 10px;
-	background: url(../images/increase_font.png) center no-repeat;
-	cursor: pointer;
-	display: none;
+div#content fieldset {
+ padding: 3%;
+ margin-top: 5%;
+ outline: 0;
+ font-size: 1em;
 }
 
-span#decreaseFont {
-	float: right;
-	width: 2%;
-	margin-right: 2%;
-	height: 10px;
-	background: url(../images/decrease_font.png) center no-repeat;
-	cursor: pointer;
-	display: none;
-}
+
 
 div#content h1 {
 	text-align: center;
