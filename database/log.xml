@@ -6,23 +6,23 @@
 		<timestamp>
 			<data>
 				<giorno>13</giorno>
-				<mese>Febbraio</mese>
+				<mese>Marzo</mese>
 				<anno>2014</anno>
 			</data>
 			<time>21:00:13</time>
 		</timestamp>
 	</item>
 
-	<item id="1">
-		<nome>Inserita immagine nomeluuuuuuuuuuungoimmagine</nome>
-		<utente>luca.defranceschi.91@gmail.com</utente>
+	<item id="2">
+		<nome>Cancellato evento</nome>
+		<utente>defra91</utente>
 		<timestamp>
 			<data>
-				<giorno>13</giorno>
-				<mese>Febbraio</mese>
+				<giorno>20</giorno>
+				<mese>Marzo</mese>
 				<anno>2014</anno>
 			</data>
-			<time>21:00:13</time>
+			<time>16:14:21</time>
 		</timestamp>
 	</item>
 </log>
