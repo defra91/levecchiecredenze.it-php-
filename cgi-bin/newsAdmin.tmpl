@@ -35,22 +35,20 @@
 		<p>
 			In questa pagina puoi gestire tutte le <span lang="en">news</span> del sito. Puoi decidere di inserire una nuova <span lang="en">news</span>, modificarne o eliminarne una esistente.
 		</p>
-		<a id="insertImageLink" href="insertNewsLoader.cgi">Aggiungi nuova <span lang="en">news</span></a>
-		<table summary="">
+		<a id="insertImageLink" href="insertNewsLoader.cgi">Aggiungi una nuova <span lang="en">news</span></a>
+		<table summary="La tabella seguente illustra tutte le news presenti nel sito. Le colonne contengono il titolo, la descrizione, la data, un link per modificare la news e un link per eliminarla.">
 			<tr>
 				<th scope="col">Titolo</th>
-				<th scope="col">Descrizione</th>
 				<th scope="col">Data</th>
 				<th colspan="2"></th>
 			</tr>
 			<tmpl_loop name="news">
 				<tr>
 					<td><tmpl_var name="title"></td>
-					<td><tmpl_var name="desc"></td>
-					<span class="imageName"><tmpl_var name="imageName"></span>
-					<a href="editImageLoader.cgi?id=<tmpl_var name="id">">Modifica</a>
-					<a href="deleteImage.cgi?id=<tmpl_var name="id">">Elimina</a>
-					<img class="imagePreview" src="<tmpl_var name="src">" alt="<tmpl_var name="alt">" title="<tmpl_var name="title">" />
+					<td><tmpl_var name="date"></td>
+					<td><a href="editNewsLoader.cgi?id=<tmpl_var name="id">">Modifica</a></td>
+					<td><a href="deleteNews.cgi?id=<tmpl_var name="id">">Elimina</a></td>
+				</tr>
 			</tmpl_loop>
 	</div>
 
