@@ -65,4 +65,26 @@
 				<portata>1</portata>
 				<portata>2</portata>
 				<portata>2</portata>		</menu>
+	</evento>
+		<evento id="6">
+			<nome/>
+			<data>
+				<giorno>1</giorno>
+				<mese>Gennaio</mese>
+				<anno>2014</anno>
+			</data>
+			<descrizione/>
+			<menu price="">
+				<portata/>		</menu>
+	</evento>
+		<evento id="7">
+			<nome/>
+			<data>
+				<giorno>1</giorno>
+				<mese>Gennaio</mese>
+				<anno>2014</anno>
+			</data>
+			<descrizione/>
+			<menu price="">
+				<portata/>		</menu>
 	</evento></eventi>
