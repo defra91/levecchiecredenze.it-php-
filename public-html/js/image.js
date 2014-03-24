@@ -7,6 +7,7 @@ var ctrl = function() {
 };
 
 $(document).ready(function () { 
+  ctrl();
    $("#filePhoto").change(function() {
            readURL(this);
        });
