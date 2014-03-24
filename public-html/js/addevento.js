@@ -39,7 +39,7 @@ $(document).ready(function () {
 	$('#add_portata').click(function(){
 		var openp=$("<p>");
 		var nportate=$( "#portate label" ).length;
-		var input1 = $("<label for=\"portata"+nportate+"\">Nome portata</label><input type=\"text\" name=\"portata\" id=\"portata"+nportate+"\"/>");
+		var input1 = $("<label for=\"portata"+nportate+"\">Nome portata</label><input type=\"text\" name=\"item\" id=\"portata"+nportate+"\"/>");
 		var removeButton = $("<input type=\"button\" class=\"remove\" value=\"rimuovi portata\" /></p>");
 		  removeButton.click(function() {
             $(this).parent().remove();
