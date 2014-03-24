@@ -59,7 +59,7 @@ $exists = $root->exists("notizia[\@id=$_id]");
 if ($exists) {
 	$news = $xml_doc->findnodes("//notizia[\@id=$_id]")->get_node(1);	# ottengo il puntatore al nodo
 	$parent = $news->parentNode();										# ottengo suo padre
-	$deletedNode = $parent->removeChild($image);						# rimuovo il nodo figlio
+	$deletedNode = $parent->removeChild($news);						# rimuovo il nodo figlio
 	$xml_doc->toFile($filename);										# salvo il file xml
 
 	print $cgi->redirect("newsHandler.cgi");		# rimando alla pagina delle immagini

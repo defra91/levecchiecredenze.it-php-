@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <news xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="news.xsd">
 	<notizia id="1">
-		<titolo>News 1</titolo>
-		<descrizione>Donec posuere egestas blandit. Vestibulum ante urna, dignissim sit amet viverra sed, sollicitudin sit amet urna. Nulla nec nisl vel arcu tincidunt pulvinar porta id dolor. In hac habitasse platea dictumst. Nulla eleifend, ipsum quis viverra elementum, ligula urna dignissim mi, id aliquam purus purus in augue. Curabitur sit amet nunc vitae diam sagittis sollicitudin. Aliquam vestibulum quis orci sit amet euismod. Ut luctus suscipit urna. Suspendisse at auctor nisi, at consectetur mauris. Nullam vel tincidunt dui.</descrizione>
+		<titolo>Newsblabla</titolo>
+		<descrizione>Descrizione</descrizione>
 		<data>
-		 		<giorno>28</giorno>
+		 		<giorno>24</giorno>
 		 		<mese>Marzo</mese>
 		 		<anno>2014</anno>
 		 </data>
 	</notizia>
 	<notizia id="2">
-		<titolo>News 1</titolo>
+		<titolo>News modificata</titolo>
 		<descrizione>Donec posuere egestas blandit. Vestibulum ante urna, dignissim sit amet viverra sed, sollicitudin sit amet urna. Nulla nec nisl vel arcu tincidunt pulvinar porta id dolor. In hac habitasse platea dictumst. Nulla eleifend, ipsum quis viverra elementum, ligula urna dignissim mi, id aliquam purus purus in augue. Curabitur sit amet nunc vitae diam sagittis sollicitudin. Aliquam vestibulum quis orci sit amet euismod. Ut luctus suscipit urna. Suspendisse at auctor nisi, at consectetur mauris. Nullam vel tincidunt dui.</descrizione>
 		<data>
 		 		<giorno>24</giorno>
-		 		<mese>Febbraio</mese>
-		 		<anno>2014</anno>
-		 </data>
-	</notizia>
-	<notizia id="3">
-		<titolo>News 2</titolo>
-		<descrizione>Donec posuere egestas blandit. Vestibulum ante urna, dignissim sit amet viverra sed, sollicitudin sit amet urna. Nulla nec nisl vel arcu tincidunt pulvinar porta id dolor. In hac habitasse platea dictumst. Nulla eleifend, ipsum quis viverra elementum, ligula urna dignissim mi, id aliquam purus purus in augue. Curabitur sit amet nunc vitae diam sagittis sollicitudin. Aliquam vestibulum quis orci sit amet euismod. Ut luctus suscipit urna. Suspendisse at auctor nisi, at consectetur mauris. Nullam vel tincidunt dui.</descrizione>
-		<data>
-		 		<giorno>28</giorno>
 		 		<mese>Marzo</mese>
 		 		<anno>2014</anno>
 		 </data>
 	</notizia>
+	
 </news>

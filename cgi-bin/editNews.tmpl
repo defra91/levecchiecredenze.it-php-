@@ -38,10 +38,10 @@
 		<form action="editNews.cgi?id=<tmpl_var name="id">" method="post">
 			<fieldset>
 				<legend>Modifica <span lang="news">news</span></legend>
-				<label for="title">Titolo</label>
-				<input type="text" value="<tmpl_var name="title">" id="title" />
-				<label for="desc">Desctizione</label>
-				<textarea id="desc" rows="10" cols="10"><tmpl_var name="desc"></textarea>
+				<label for="news_title">Titolo</label>
+				<input type="text" name="title" value="<tmpl_var name="title">" id="news_title" />
+				<label for="news_desc">Descrizione</label>
+				<textarea id="news_desc" name="desc" rows="10" cols="10"><tmpl_var name="desc"></textarea>
 				<input type="submit" value="Modifica" />
 				<input type="reset" value="Reset" />
 			</fieldset>

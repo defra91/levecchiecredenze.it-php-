@@ -10,6 +10,7 @@ use XML::LibXML;
 use CGI::Session;
 use CGI;
 use DateTime;
+use Switch;
 
 $cgi = CGI->new();
 
@@ -21,7 +22,6 @@ if ($session->param(-name => "email")) {
 	$user = $session->param(-name => "email");
 }
 else {
-	$cgi = new CGI();
 	print $cgi->redirect("../public-html/index.html");
 }
 
@@ -37,7 +37,7 @@ $buffer = "";
 $_id = "";
 $buffer = $ENV{'QUERY_STRING'};
 @pairs = split(/&/, $buffer);
-%input;
+%input = {};
 foreach $pair (@pairs) { 
 	($name, $value) = split(/=/, $pair); 
 	$value =~ tr/+/ /;
@@ -71,11 +71,11 @@ $exists = $root->exists("notizia[\@id=$_id]");
 
 if ($exists) {
 	$news = $root->findnodes("notizia[\@id=$_id]")->get_node(1);	# mi prendo il nodo che mi serve
-	$title = $image->findnodes("titolo/text()")->get_node(1);
-	$desc = $image->findnodes("descrizione/text()")->get_node(1);
-	$day = $image->findnodes("data/giorno/text()")->get_node(1);
-	$month = $image->findnodes("data/mese/text()")->get_node(1);
-	$year = $image->findnodes("data/anno/text()")->get_node(1);
+	$title = $news->findnodes("titolo/text()")->get_node(1);
+	$desc = $news->findnodes("descrizione/text()")->get_node(1);
+	$day = $news->findnodes("data/giorno/text()")->get_node(1);
+	$month = $news->findnodes("data/mese/text()")->get_node(1);
+	$year = $news->findnodes("data/anno/text()")->get_node(1);
 	
 	$title->setData($new_title);
 	$desc->setData($new_desc);
@@ -96,8 +96,8 @@ else {
 
 
 sub getMonthInItalianString {
-	($month) = @_;
-	switch($month) {
+	$month = $_[0];
+	switch ($month) {
 		case 1 { return "Gennaio"; }
 		case 2 { return "Febbraio"; }
 		case 3 { return "Marzo"; }
@@ -110,5 +110,6 @@ sub getMonthInItalianString {
 		case 10 { return "Ottobre"; }
 		case 11 { return "Novembre"; }
 		case 12 { return "Dicembre"; }
+
 	}
 }
