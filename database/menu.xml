@@ -12,7 +12,337 @@
 
  	
  	
-	<antipasti>		<piatto>
+																										<antipasti>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>28</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
@@ -35,6 +365,336 @@
 				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>	</antipasti>	<primi>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>21</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
@@ -57,6 +717,28 @@
 				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>	</primi>	<secondi>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>21</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
@@ -78,4 +760,312 @@
 				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
 				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
-				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>	</secondi>	<dessert>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>	</dessert>	<degustazione prezzo="30">		<nomePiatto>Medaglione di fassone al coltello con battuto di olive taggiasche</nomePiatto>		<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>		<nomePiatto>Secondo a scelta (escluso filetto)</nomePiatto>		<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>		<nomePiatto>Acqua e caffè</nomePiatto>	</degustazione></menu>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>
+				<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>	</secondi>	<dessert>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>21</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>		<piatto>			<nomePiatto>Fassone battuto al coltello, Castelbricco e salsa al radicchio</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Zoccolino di zucca, capesante scottate e guanciale croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Canelloni di pasta fillo ripieni di baccala mentecato, insalatina e aceto balsamico ristretto</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Flan di funghi su fonduta di Raschera</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Affettati di cascina</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Risotto ai funghi porcini</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Agnolotti di zucca al burro e salvia</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Gnocchetti con patate di montagna e crema di porri di Cervere</nomePiatto>			<prezzo>10</prezzo>		</piatto>		<piatto>			<nomePiatto>Zuppa d’orzo, rosso d’uovo affogato e pancetta croccante</nomePiatto>			<prezzo>9</prezzo>		</piatto>		<piatto>			<nomePiatto>Filetto di fassone Piemonte ai funghi porcini</nomePiatto>			<prezzo>19</prezzo>		</piatto>		<piatto>			<nomePiatto>Bracioline di ginghiale al ginepro</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Baccalà alla vicentina con polenta</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Coniglio grigio di Carmagnola e i suoi peperoni</nomePiatto>			<prezzo>15</prezzo>		</piatto>		<piatto>			<nomePiatto>Cervo in salmì con polenta</nomePiatto>			<prezzo>14</prezzo>		</piatto>		<piatto>			<nomePiatto>Trippa di nonna “Mina”</nomePiatto>			<prezzo>13</prezzo>		</piatto>		<piatto>			<nomePiatto>Semifreddo ai marroni e crema di torrone</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Cestino di bisquit con pere Martin Sec al nebbiolo e gelato alla crema</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Bonet delle antiche langhe con salsa all’amaretto </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Torta di nocciole con zabaione caldo al moscato </nomePiatto>			<prezzo>6</prezzo>		</piatto>		<piatto>			<nomePiatto>Sorbetti</nomePiatto>			<prezzo>5</prezzo>		</piatto>	</dessert>	<degustazione prezzo="30">		<nomePiatto>Medaglione di fassone al coltello con battuto di olive taggiasche</nomePiatto>		<nomePiatto>Tagliolini all’uovo con ragu brasato e carciofi</nomePiatto>		<nomePiatto>Secondo a scelta (escluso filetto)</nomePiatto>		<nomePiatto>Creme brulèe alla vaniglia</nomePiatto>		<nomePiatto>Acqua e caffè</nomePiatto>	</degustazione></menu>
