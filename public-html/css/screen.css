@@ -29,6 +29,10 @@ input {
 >>>>>>> b2ce2ae011eb21df8fe82ddaee0489bcfa4ea48e
 }
 
+hr {
+	margin: 6% 4%;
+}
+
 label {
 	font-size: 0.8em;
 	margin: auto;
