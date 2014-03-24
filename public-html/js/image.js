@@ -1,4 +1,12 @@
+var ctrl = function() {
+  $("input:text").keydown(function(event) {
+      $(this).removeClass("highlight");
+  });
+  setColumns();
+};
+
 $(document).ready(function () { 
+  ctrl();
    $("#filePhoto").change(function() {
            readURL(this);
        });
@@ -13,9 +21,7 @@ $(document).ready(function () {
         }
     });
     if (!isFormValid)
-      event.preventDefault();
-    return isFormValid;
-  
+      return false;
   });
 });
 var readURL=function(input) {
