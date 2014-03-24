@@ -2,130 +2,119 @@
 <gallery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gallery.xsd">
 	
 	
-	<immagine id="8">
-	 	<nome>8.jpg</nome>
-	 	<alt>aaaaaaaa</alt>
-	 	<title>Titolo dell'immagine</title>
+	<immagine id="1">
+	 	<nome>1.jpg</nome>
+	 	<alt>Bottiglia e calice di vino rosso con piatto di salame al cioccolato</alt>
+	 	<title>Bottiglia e calice di vino rosso con piatto di salame al cioccolato</title>
+	 	<percorso>../public-html/images/fotogallery/</percorso>
+	 </immagine>
+	 <immagine id="3">
+	 	<nome>3.jpg</nome>
+	 	<alt>Bottiglia e calice di vino rosso con piatto di pollo e rosmarino</alt>
+	 	<title>Bottiglia e calice di vino rosso con piatto di pollo e rosmarino</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="9">
 	 	<nome>9.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
-	 	<percorso>../public-html/images/fotogallery/</percorso>
-	 </immagine>
-	<immagine id="10">
-	 	<nome>vini</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Primo piano di tavola con diverse bottiglie di vino</alt>
+	 	<title>Primo piano di tavola con diverse bottiglie di vino</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="11">
 	 	<nome>11.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Esposizione di liquori ed amari</alt>
+	 	<title>Esposizione di liquori ed amari</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="12">
 	 	<nome>12.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Primo piano di coppette contenenti pesche e limoni</alt>
+	 	<title>Primo piano di coppette contenenti pesche e limoni</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="13">
 	 	<nome>13.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Tavolo con bottiglie di vino rosso, zucche e calici</alt>
+	 	<title>Tavolo con bottiglie di vino rosso, zucche e calici</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="14">
 	 	<nome>14.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Sala del ristorante con tavoli apparecchiati in stile rustico</alt>
+	 	<title>Sala del ristorante con tavoli apparecchiati in stile rustico</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="15">
 	 	<nome>15.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Sala del ristorante con tavoli apparecchiati in stile rustico e caminetto acceso</alt>
+	 	<title>Sala del ristorante con tavoli apparecchiati in stile rustico e caminetto acceso</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="16">
 	 	<nome>16.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Sala del ristorante con tavoli apparecchiati in stile rustico e mensola dei vini</alt>
+	 	<title>Sala del ristorante con tavoli apparecchiati in stile rustico e mensola dei vini</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="17">
 	 	<nome>17.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Vecchia credenza</alt>
+	 	<title>Vecchia credenza</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="18">
 	 	<nome>18.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Caminetto acceso e armadietto dei vini</alt>
+	 	<title>Caminetto acceso e armadietto dei vini</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="19">
 	 	<nome>19.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Vista esterna del ristorante</alt>
+	 	<title>Vista esterna del ristorante</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="20">
 	 	<nome>20.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Vista della sala con alcuni tavoli apparecchiati</alt>
+	 	<title>Vista della sala con alcuni tavoli apparecchiati</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="21">
 	 	<nome>21.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Vista della sala con le luci accese</alt>
+	 	<title>Vista della sala con le luci accese</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="22">
 	 	<nome>22.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Vista della sala a 180°</alt>
+	 	<title>Vista della sala a 180°</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="23">
 	 	<nome>23.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Vittorio e Valeria, gestori del ristorante, davanti a una tavola apparecchiata</alt>
+	 	<title>Vittorio e Valeria, gestori del ristorante, davanti a una tavola apparecchiata</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="24">
 	 	<nome>24.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Tavolino con conserve di frutta, carne e verdure</alt>
+	 	<title>Tavolino con conserve di frutta, carne e verdure</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="25">
 	 	<nome>25.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Primo piano di tavolino con calici</alt>
+	 	<title>Primo piano di tavolino con calici</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 	<immagine id="26">
 	 	<nome>26.jpg</nome>
-	 	<alt>Descrizione dell'immagine</alt>
-	 	<title>Titolo dell'immagine</title>
+	 	<alt>Primo piano di tavolino con calici e biglietti da visita</alt>
+	 	<title>Primo piano di tavolino con calici e biglietti da visita</title>
 	 	<percorso>../public-html/images/fotogallery/</percorso>
 	 </immagine>
 
-	
-	<immagine id="27">
-	
-		<nome>de</nome>
-	
-		<alt>de</alt>
-	
-		<title>de</title>
-	
-		<percorso>../public-html/images/fotogallery/</percorso>
-	
-	</immagine></gallery>
+</gallery>
