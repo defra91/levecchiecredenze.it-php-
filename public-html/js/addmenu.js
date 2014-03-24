@@ -4,21 +4,21 @@ var ctrl = function() {
 	$(".elementPrice").keydown(function(event) {
 		// permetti delete
 		if ( event.keyCode == 46 || event.keyCode == 8 ) {
-			$("#errore").remove();
+			$(".errore").remove();
 			$(this).removeClass("highlight");
 		}
 		else {
 			if ((event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105 )) {
 				event.preventDefault();
-				var errore = $("<span id='errore' >Stai inserendo lettere...</span>");
-				$("#errore").remove();
+				var errore = $("<span class='errore' >Stai inserendo lettere...</span>");
+				$(".errore").remove();
 				$(this).parent().append(errore);
 				setTimeout(function() {
-					$("#errore").remove();
+					$(".errore").remove();
 				}, 1500);
 			}
 			else{
-				$("#errore").remove();
+				$(".errore").remove();
 				$(this).removeClass("highlight");
 			}
 		}
@@ -110,11 +110,16 @@ $(document).ready(function () {
 	$("#form").submit(function(){
 	var isFormValid = true;
     $("#form input:text").each(function(){
+    	var vuoto = $("<span class='vuoto' >Campo vuoto</span>");
         if ($.trim($(this).val()).length == 0){
+           $(this).after(vuoto);
             $(this).addClass("highlight");
+           // $(".vuoto").remove();
+            
             isFormValid = false;
         } else {
             $(this).removeClass("highlight");
+           	$(this).remove('.vuoto');
         }
     });
     if (!isFormValid)

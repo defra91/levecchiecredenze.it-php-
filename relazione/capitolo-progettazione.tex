@@ -42,6 +42,12 @@ Non si è aderito a tale modello solamente nel file menu.xsd. Questo perchè son
 %\item La classe è applicata ai div tramite JQuery. In tal modo se il browser non supporta javascript, o esso è disabilitato il contenuto resta accessibile.
 %\end{itemize}
 \paragraph{Sezione d' amministrazione}
-In questa sezione sarà possibile accedere solamente dopo aver effettuato la login nell' apposita pagina e qualora si tenti di accedere a questa sezione senza essere autenticati si verrà reindirizzati alla home page del sito.
+In questa sezione sarà possibile accedere solamente dopo aver effettuato la login nell' apposita pagina e qualora si tenti di accedere a questa sezione senza essere autenticati si verrà reindirizzati alla home page del sito. Sarà anche presente in ogni pagina un menu laterale per navigare tra le varie pagine di amministrazione.
 \subparagraph{Dashboard}
-Questa sarà la pagina a cui si verrà reindirizzati una volta effettuata la log in, qui ci verrà fornito un messaggio che ci avvertirà con che account siamo loggati e sotto di esso sarà presente una \emph{tabella di log} che avviserà l' amministratore delle ultime azioni effettuate dagli amministratori del sito quali ad esempio l' inserimento di un nuovo evento, l' eliminazione o l' aggiunta di foto
+Questa sarà la pagina a cui si verrà reindirizzati una volta effettuata la log in, qui ci verrà fornito un messaggio che ci avvertirà con che account siamo loggati e sotto di esso sarà presente una \emph{tabella di log} che avviserà l' amministratore delle ultime azioni effettuate dagli amministratori del sito quali ad esempio l' inserimento di un nuovo evento, l' eliminazione o l' aggiunta di foto segnalando la data e l' ora di tali modifiche.
+\subparagraph{Modifica menu}
+In questa sezione si potrà modificare il menu attualmente in uso, inizialmente la pagina conterrà tutti i piatti del menu attualmente in uso, quindi ogni input text conterrà come value il valore del piatto attualmente presente nel menu, quindi l' amministratore che vorrà cambiare il menu potrà aggiungere o rimuovere piatti oppure modificare i piatti attuali modificandone solo il prezzo o il nome o entrambi.\\
+I controlli che sono stati inseriti in questa pagina sono:
+\begin{itemize}
+	\item l' amministratore dovrà aver riempito tutti i campi prima di poter aggiornare il menu, qualora tenti di aggiornare il menu lasciando campi vuoti, l' operazione verrà interrotta e verrà notificato dei campi vuoti che verranno evidenziati da un' aura rossa intorno alle input text lasciate vuote.
+\end{itemize}
