@@ -123,8 +123,7 @@ $(document).ready(function () {
         }
     });
     if (!isFormValid)
-    	event.preventDefault();
-    return isFormValid;
+    return false;
 	});
 });	
 
