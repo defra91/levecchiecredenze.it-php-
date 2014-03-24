@@ -90,5 +90,3 @@ var setColumns = function() {
 	$("#content").height(finalHeight);
 }
 
-
-var fontStep = 0;	// un contatore per gestire il testo

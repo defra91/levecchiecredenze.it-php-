@@ -29,16 +29,20 @@ var ctrl = function() {
 };
 
 var setColumns = function() {
-	var height = Math.max($("#header").height(), $("#content").height());
-	var h1 = $("#header").height();
+	var h1 = $("#navigation").height();
 	var h2 = $("#content").height();
-	var finalHeight = (h1 > h2) ? h1 : h2;
-	$("#header").height(finalHeight);
+	var finalHeight =0;
+	if(h1>h2)
+		finalHeight=h1;
+	else
+		finalHeight=h2;
+	$("#navigation").height(finalHeight);
 	$("#content").height(finalHeight);
-}
+};
 
 $(document).ready(function () {
 	ctrl();
+	setColumns();
 	$('#add_portata').click(function(){
 		var openp=$("<p>");
 		var nportate=$( "#portate label" ).length;
@@ -51,6 +55,7 @@ $(document).ready(function () {
 		  openp.append(removeButton);
 		$("#portate").append(openp);
 		ctrl();
+		setColumns();
 	});
 
 	$("#form").submit(function(){
