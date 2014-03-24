@@ -19,6 +19,9 @@ var ctrl = function() {
 			}
 		}
 	});
+	$("input:text").keydown(function(event) {
+      $(this).removeClass("highlight");
+  });
 	setColumns();
 };
 
