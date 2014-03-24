@@ -23,7 +23,7 @@ var readURL=function(input) {
                var reader = new FileReader();
                reader.onload = function(e) {
                     var immagine=$("<img src='' id='previewHolder' alt='anteprima immagine da inserire'/>");
-                    $('#filePhoto').append(immagine);
+                    $('#filePhoto').after(immagine);
                    $('#previewHolder').attr('src', e.target.result);
                }
 
