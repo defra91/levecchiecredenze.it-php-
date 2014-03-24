@@ -22,7 +22,7 @@ body {
 
 input {
 	padding: 1% 1%;
-	width: 80%;	
+	width: 60%;	
 }
 
 hr {
@@ -619,4 +619,11 @@ a#insertImageLink {
 	float: right;
 	margin: 4% 2%;
 	font-size: 0.8em;
+}
+
+.removeItem {
+	margin: 4% 0;
+	padding: 1%;
+	font-size: 0.8em;
+	background-color: #ab8d77;
 }
