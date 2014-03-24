@@ -71,9 +71,114 @@ $deletedNode = $parent->removeChild($dessert);
 $parent = $degustazione->parentNode();
 $deletedNode = $parent->removeChild($degustazione);
 
+# Inserisco gli antipasti
+
+$nuovo_el = "\t<antipasti>";
+
+for ($i=0; $i<scalar(@antipasti_name); $i++) {
+	$nuovo_el .= "\t\t<piatto>
+	\t\t\t<nomePiatto>" . $antipasti_name[$i] . "</nomePiatto>"
+	. "\t\t\t<prezzo>" . $antipasti_price[$i] . "</prezzo>"
+	. "\t\t</piatto>";
+}
+
+$nuovo_el .= "\t</antipasti>";
+
+$frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona formazione dell'elemento
+
+$root->appendChild($frammento);	
+
+$nuovo_el = "\t<primi>";
+
+for ($i=0; $i<scalar(@primi_name); $i++) {
+	$nuovo_el .= "\t\t<piatto>
+	\t\t\t<nomePiatto>" . $primi_name[$i] . "</nomePiatto>"
+	. "\t\t\t<prezzo>" . $primi_price[$i] . "</prezzo>"
+	. "\t\t</piatto>";
+}
+
+# Inserisco i primi
+
+$nuovo_el .= "\t</primi>";
+
+$frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona formazione dell'elemento
+
+$root->appendChild($frammento);
+
+$nuovo_el = "\t<secondi>";
+
+for ($i=0; $i<scalar(@secondi_name); $i++) {
+	$nuovo_el .= "\t\t<piatto>
+	\t\t\t<nomePiatto>" . $secondi_name[$i] . "</nomePiatto>"
+	. "\t\t\t<prezzo>" . $secondi_price[$i] . "</prezzo>"
+	. "\t\t</piatto>";
+}
+
+$nuovo_el .= "\t</secondi>";
+
+$frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona formazione dell'elemento
+
+$root->appendChild($frammento);
+
+# Inserisco i secondi
+
+$nuovo_el = "\t<dessert>";
+
+for ($i=0; $i<scalar(@dessert_name); $i++) {
+	$nuovo_el .= "\t\t<piatto>
+	\t\t\t<nomePiatto>" . $dessert_name[$i] . "</nomePiatto>"
+	. "\t\t\t<prezzo>" . $dessert_price[$i] . "</prezzo>"
+	. "\t\t</piatto>";
+}
+
+$nuovo_el .= "\t</dessert>";
+
+$frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona formazione dell'elemento
+
+$root->appendChild($frammento);
+
+# Inserisco i dessert
+
+$nuovo_el = "\t<dessert>";
+
+for ($i=0; $i<scalar(@dessert_name); $i++) {
+	$nuovo_el .= "\t\t<piatto>
+	\t\t\t<nomePiatto>" . $dessert_name[$i] . "</nomePiatto>"
+	. "\t\t\t<prezzo>" . $dessert_price[$i] . "</prezzo>"
+	. "\t\t</piatto>";
+}
+
+$nuovo_el .= "\t</dessert>";
+
+$frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona formazione dell'elemento
+
+$root->appendChild($frammento);
+
+# Inserisco il menu degustazione
+
+$nuovo_el = "\t<degustazione prezzo=\"$deg_price\">";
+
+for ($i=0; $i<scalar(@dessert_name); $i++) {
+	$nuovo_el .= "\t\t<nomePiatto>" . $degustazione_name[$i] . "</nomePiatto>"
+}
+
+$nuovo_el .= "\t</degustazione>";
+
+$frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona formazione dell'elemento
+
+$root->appendChild($frammento);
+
+$day = $root->$findnodes("last_update/giorno/text()")->get_node(1);
+$month = $root->$findnodes("last_update/mese/text()")->get_node(1);
+$year = $root->$findnodes("last_update/anno/text()")->get_node(1);
+
+$day->setData($new_day);
+$month->setData($new_month);
+$year->setData($new_year);
+
 $xml_doc->toFile($filename);
 
-
+$cgi->redirect("editMenuLoader.cgi");
 
 sub getMonthInItalianString {
 	$month = $_[0];
