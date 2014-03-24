@@ -33,18 +33,18 @@ $root = $xml_doc->getDocumentElement();	# ottengo il nodo radice
 
 # estraggo i parametri
 @antipasti_name = $cgi->param('nome_antipasto');
-@antipasti_price = $cgi->param('prezzo_antipasto'):
+@antipasti_price = $cgi->param('prezzo_antipasto');
 
 @primi_name = $cgi->param('nome_primo');
-@primi_price = $cgi->param('prezzo_primo'):
+@primi_price = $cgi->param('prezzo_primo');
 
 @secondi_name = $cgi->param('nome_secondo');
-@secondi_price = $cgi->param('prezzo_secondo'):
+@secondi_price = $cgi->param('prezzo_secondo');
 
 @dessert_name = $cgi->param('nome_dessert');
 @dessert_price = $cgi->param('prezzo_dessert');
 
-@degustazione_name = $cgi->param('deg_name')
+@degustazione_name = $cgi->param('deg_name');
 $deg_price = $cgi->param('deg_price');
 
 $today = DateTime->now;
@@ -88,6 +88,8 @@ $frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona form
 
 $root->appendChild($frammento);	
 
+# inserisco i primi
+
 $nuovo_el = "\t<primi>";
 
 for ($i=0; $i<scalar(@primi_name); $i++) {
@@ -97,13 +99,13 @@ for ($i=0; $i<scalar(@primi_name); $i++) {
 	. "\t\t</piatto>";
 }
 
-# Inserisco i primi
-
 $nuovo_el .= "\t</primi>";
 
 $frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona formazione dell'elemento
 
 $root->appendChild($frammento);
+
+# inserisco i secondi
 
 $nuovo_el = "\t<secondi>";
 
@@ -120,30 +122,13 @@ $frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona form
 
 $root->appendChild($frammento);
 
-# Inserisco i secondi
-
-$nuovo_el = "\t<dessert>";
-
-for ($i=0; $i<scalar(@dessert_name); $i++) {
-	$nuovo_el .= "\t\t<piatto>
-	\t\t\t<nomePiatto>" . $dessert_name[$i] . "</nomePiatto>"
-	. "\t\t\t<prezzo>" . $dessert_price[$i] . "</prezzo>"
-	. "\t\t</piatto>";
-}
-
-$nuovo_el .= "\t</dessert>";
-
-$frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona formazione dell'elemento
-
-$root->appendChild($frammento);
-
 # Inserisco i dessert
 
 $nuovo_el = "\t<dessert>";
 
 for ($i=0; $i<scalar(@dessert_name); $i++) {
-	$nuovo_el .= "\t\t<piatto>
-	\t\t\t<nomePiatto>" . $dessert_name[$i] . "</nomePiatto>"
+	$nuovo_el .= "\t\t<piatto>"
+	. "\t\t\t<nomePiatto>" . $dessert_name[$i] . "</nomePiatto>"
 	. "\t\t\t<prezzo>" . $dessert_price[$i] . "</prezzo>"
 	. "\t\t</piatto>";
 }
@@ -158,7 +143,7 @@ $root->appendChild($frammento);
 
 $nuovo_el = "\t<degustazione prezzo=\"$deg_price\">";
 
-for ($i=0; $i<scalar(@dessert_name); $i++) {
+for ($i=0; $i<scalar(@degustazione_name); $i++) {
 	$nuovo_el .= "\t\t<nomePiatto>" . $degustazione_name[$i] . "</nomePiatto>"
 }
 
@@ -168,9 +153,9 @@ $frammento = $parser->parse_balanced_chunk($nuovo_el);	# controllo la buona form
 
 $root->appendChild($frammento);
 
-$day = $root->$findnodes("last_update/giorno/text()")->get_node(1);
-$month = $root->$findnodes("last_update/mese/text()")->get_node(1);
-$year = $root->$findnodes("last_update/anno/text()")->get_node(1);
+$day = $root->findnodes("last_update/giorno/text()")->get_node(1);
+$month = $root->findnodes("last_update/mese/text()")->get_node(1);
+$year = $root->findnodes("last_update/anno/text()")->get_node(1);
 
 $day->setData($new_day);
 $month->setData($new_month);

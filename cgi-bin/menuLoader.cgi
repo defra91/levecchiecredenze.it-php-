@@ -30,7 +30,7 @@ for ($j=0; $j<scalar(@category); $j++) {
 
 	foreach $child (@children) {						# scorro tutti i nodi figli della radice
 		push(@name, $child->findvalue("nomePiatto"));	# aggiungo il giorno del nodo corrente
-		push(@price, $child->findnodes("prezzo"));		# aggiungo il mese del nodo corrente
+		push(@price, $child->findvalue("prezzo"));		# aggiungo il mese del nodo corrente
 	}
 
 	$loop = (); # questo array mi servirà per raccogliere i dati quando faccio il ciclo
