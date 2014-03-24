@@ -20,6 +20,37 @@ body {
 	font-size: 102%;
 	}
 
+input {
+	padding: 1% 1%;
+	width: 80%;	
+}
+
+label {
+	font-size: 0.8em;
+	margin: auto;
+}
+
+legend {
+	font-size: 0.8em;
+}
+
+#submit {
+	width: 30%;
+	float: left;
+	padding: 1% 1%;
+	margin: 4% 4%;
+}
+#reset {
+	width: 30%;
+	float: left;
+	padding: 1% 1%;
+	float: right;
+	margin: 4% 4%;
+}
+
+fieldset {
+}
+
 /* header */
 
 div#header {
