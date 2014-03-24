@@ -11,7 +11,11 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+<<<<<<< HEAD
 	color: red;
+=======
+	color: #ab8d77;
+>>>>>>> b2ce2ae011eb21df8fe82ddaee0489bcfa4ea48e
 	font-family: 'EB Garamond', serif;
 	font-size: 102%;
 	background-color: #000;
@@ -251,7 +255,7 @@ div#content table {
 
 div#content table caption {
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 1.5em;
 	margin-bottom: 4%;
 	padding: 2% 0;
 	border-bottom: 1px solid #FFF;
@@ -263,14 +267,14 @@ div#content table th {
 	width: 22%;
 	text-align: left;
 	font-weight: bold;
-	font-size: 0.7em;
+	font-size: 1.5em;
 	
 }
 
 div#content table td {
 	width: 2%;
 	text-align: left;
-	font-size: 0.6em;
+	font-size: 1em;
 }
 
 div#content em {

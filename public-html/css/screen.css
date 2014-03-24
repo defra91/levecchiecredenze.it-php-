@@ -23,13 +23,19 @@ body {
 input {
 	padding: 1% 1%;
 	width: 80%;	
+<<<<<<< HEAD
 	margin: auto;
+=======
+>>>>>>> b2ce2ae011eb21df8fe82ddaee0489bcfa4ea48e
 }
 
 label {
 	font-size: 0.8em;
 	margin: auto;
+<<<<<<< HEAD
 	text-align: center;
+=======
+>>>>>>> b2ce2ae011eb21df8fe82ddaee0489bcfa4ea48e
 }
 
 legend {
