@@ -23,6 +23,7 @@ body {
 input {
 	padding: 1% 1%;
 	width: 60%;	
+	margin: auto;
 }
 
 hr {
@@ -32,6 +33,7 @@ hr {
 label {
 	font-size: 0.8em;
 	margin: auto;
+	text-align: center;
 }
 
 legend {
@@ -131,6 +133,12 @@ li.menu_item_selected {
 
 /* footer */
 
+div#footer a + a + a{
+
+display:inline
+
+}
+
 div#footer {
 	width: 100%;
 	color: #FFF;
@@ -178,7 +186,7 @@ div#content {
 }
 
 div#content a:visited {
-	color: #ab8d77;
+	color: #DAA520;
 }
 
 div#content input {

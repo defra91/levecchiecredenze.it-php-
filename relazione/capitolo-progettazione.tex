@@ -1,4 +1,5 @@
-\section{XML e XMLSchema}
+\section{Progettazione}
+\subsection{XML e XMLSchema}
 Si è scelto di adottare XMLSchema al posto di DTD come linguaggio per descrivere la struttura dei file XML perchè più espressivo, e a fini propedeutici, essendo più complesso. Di seguito verranno spiegate alcune scelte riguardanti la struttura.
 
 \paragraph{Scarso utilizzo degli attributi}
@@ -17,8 +18,7 @@ Per il tempo è invece stato utilizzato \emph{Data}, precisamente nel file log.x
 
 \paragraph{Elementi opzionali}
 Nel file riguardante il menù sono presenti elementi non obbligatori. Nel caso di elementi semplici si è scelto di utilizzare l'attributo nillable="true" per indicare che tale elemento è opzionale. Nel file XML dunque l'elemento dovrà sempre essere presente, e nel caso in cui non lo si voglia definire vi si assegnerà xsi:nil="true".  
-Nel caso di elementi complessi si è scelto di utilizzare l'attributo minOccurs="0" che permette di non inerire l'elemento nel file XML. Tale scelta è stata fatta per rendere più leggibili i file XML, che risulterebbero altrimenti appesantiti.
-
+Nel caso di elementi complessi si è scelto di utilizzare l'attributo minOccurs="0" che permette di non inerire l'elemento nel file XML. Tale scelta è stata fatta per rendere più leggibili i file XML, che risulterebbero altrimenti appesantiti.\\ \\
 Questi approcci sono necessari in quanto lasciare semplicemente vuoto l'elemento comporterà un errore di validazione, tranne che per gli elementi di tipo stringa.
 
 \paragraph{Modello adottato}
@@ -41,22 +41,25 @@ Non si è aderito a tale modello solamente nel file menu.xsd. Questo perchè son
 %\end{lstlisting}
 %\item La classe è applicata ai div tramite JQuery. In tal modo se il browser non supporta javascript, o esso è disabilitato il contenuto resta accessibile.
 %\end{itemize}
-\paragraph{Social}
+\subsection{Social}
 In ogni pagina, con particolare risalto nella pagina contattaci, è stato reso disponibile un link a Facebook Twitter, Google plus e TripAdvisor. Le motivazioni sono spiegate nella sezione Abstract.
 I link non portano a nessuna pagina, in quanto al momento tali pagine non sono presenti, ma verranno create non appena il sito verà accettato e reso pubblico.
 
-\section{Sezione d' amministrazione}
-In questa sezione sarà possibile accedere solamente dopo aver effettuato la login nell' apposita pagina e qualora si tenti di accedere a questa sezione senza essere autenticati si verrà reindirizzati alla home page del sito. Sarà anche presente in ogni pagina un menu laterale per navigare tra le varie pagine di amministrazione.
-\subparagraph{Dashboard}
+\subsection{Sezione d' amministrazione}
+In questa sezione sarà possibile accedere solamente dopo aver effettuato la login nell' apposita pagina e qualora si tenti di accedere a questa sezione senza essere autenticati si verrà reindirizzati alla home page del sito. Sarà anche presente in ogni pagina un menu laterale per navigare tra le varie pagine di amministrazione e per tornare alla sezione pubblica.
+\paragraph{Dashboard}
 Questa sarà la pagina a cui si verrà reindirizzati una volta effettuata la log in, qui ci verrà fornito un messaggio che ci avvertirà con che account siamo loggati e sotto di esso sarà presente una \emph{tabella di log} che avviserà l' amministratore delle ultime azioni effettuate dagli amministratori del sito quali ad esempio l' inserimento di un nuovo evento, l' eliminazione o l' aggiunta di foto segnalando la data e l' ora di tali modifiche.
-\subparagraph{Modifica menu}
+\paragraph{Modifica menu}
 In questa sezione si potrà modificare il menu attualmente in uso, inizialmente la pagina conterrà tutti i piatti del menu attualmente in uso, quindi ogni input text conterrà come value il valore del piatto attualmente presente nel menu, quindi l' amministratore che vorrà cambiare il menu potrà aggiungere o rimuovere piatti oppure modificare i piatti attuali modificandone solo il prezzo o il nome o entrambi.\\
 I controlli che sono stati inseriti in questa pagina sono:
 \begin{itemize}
 	\item l' amministratore dovrà aver riempito tutti i campi prima di poter aggiornare il menu, qualora tenti di aggiornare il menu lasciando campi vuoti, l' operazione verrà interrotta e verrà notificato dei campi vuoti che verranno evidenziati da un' aura rossa intorno alle input text lasciate vuote. Tale aura verrà rimossa qualora venga inserito all' interno dell' input text un carattere valido;
 	\item se si cerca di inserire qualcosa di diverso da un numero sulle input text che richiedono un prezzo, tale operazione verrà impedita fornendo un messaggio di errore;
 \end{itemize}
-\subparagraph{Modifica immagine}
-In questa sezione verrà data la possibilità all' amministratore di modificare i dati di un' immagine quali nome, testo alternativo e titolo. Sono stati implementati dei controlli per non permettere il submit del form qualora ci sia uno o più campi lasciati vuoti.
-\subparagraph{Inserimento nuovo evento}
-Qui l' amministratore potrà creare un nuovo evento fornendone il titolo, la descrizione, il costo del menu, la data a cui si riferisce l' evento e le portate che lo compongono. Tutti questi elementi sono obbligatori, e come tali qualora si cerchi di eseguire l' input di tale form, i campi vuoti verranno evidenziati all' utente come nelle altre pagine.
+\paragraph{Modifica photogallery}
+In questa sezione verrà data la possibilità all' amministratore di aggiungere nuove immagini alla galleria e modificare i dati di un' immagine quali nome, testo alternativo e titolo, di un immagine preesistente. Sono stati implementati dei controlli per non permettere il submit del form qualora ci sia uno o più campi lasciati vuoti.
+\paragraph{Inserimento nuovo evento}
+Qui l' amministratore potrà creare un nuovo evento fornendone il titolo, la descrizione, il costo del menu, la data a cui si riferisce l'evento e le portate che lo compongono. Tutti questi elementi sono obbligatori, e come tali qualora si cerchi di eseguire l' input di tale form, i campi vuoti verranno evidenziati all' utente come nelle altre pagine.
+\subparagraph{Inserimento nuova news}
+Qui i campi saranno tutti necessari, quindi l' amministratore dovrà inserire tutti i campi, e qualora cerchi di eseguire il submit in presenza di campi vuoti non verrà permessa tale azione e verranno evidenziati i campi come nelle altre pagine della sezione privata.
+
