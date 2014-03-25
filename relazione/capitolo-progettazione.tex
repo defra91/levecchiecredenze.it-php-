@@ -1,10 +1,10 @@
 \section{Progettazione}
 \subsection{XML e XMLSchema}
-Si è scelto di adottare XMLSchema al posto di DTD come linguaggio per descrivere la struttura dei file XML perchè più espressivo, e a fini propedeutici, essendo più complesso. Di seguito verranno spiegate alcune scelte riguardanti la struttura.
+Si è scelto di adottare XMLSchema al posto di DTD come linguaggio per descrivere la struttura dei file XML perchè più espressivo, e a fini didattici, essendo più complesso è stato più utile da imparare e data la sua complessità dimostra come il gruppo sa lavorare con XML. Di seguito verranno spiegate alcune scelte riguardanti la struttura.
 
 \paragraph{Scarso utilizzo degli attributi}
 
-I motivi per cui gli attributi sono poco presenti sono tre:
+I motivi per cui gli attributi sono poco presenti sono due:
 \begin{itemize}
 \item Un elemento è maggiormente estendibile rispetto ad un attributo;
 \item Un attributo viene utilizzato per descrivere metadati, mentre i dati in se sono inseriti negli elementi;
@@ -18,7 +18,7 @@ Per il tempo è invece stato utilizzato \emph{Data}, precisamente nel file log.x
 
 \paragraph{Elementi opzionali}
 Nel file riguardante il menù sono presenti elementi non obbligatori. Nel caso di elementi semplici si è scelto di utilizzare l'attributo nillable="true" per indicare che tale elemento è opzionale. Nel file XML dunque l'elemento dovrà sempre essere presente, e nel caso in cui non lo si voglia definire vi si assegnerà xsi:nil="true".  
-Nel caso di elementi complessi si è scelto di utilizzare l'attributo minOccurs="0" che permette di non inerire l'elemento nel file XML. Tale scelta è stata fatta per rendere più leggibili i file XML, che risulterebbero altrimenti appesantiti.\\ \\
+Nel caso di elementi complessi si è scelto di utilizzare l'attributo minOccurs="0" che permette di non inserire l'elemento nel file XML. Tale scelta è stata fatta per rendere più leggibili i file XML, che risulterebbero altrimenti appesantiti.\\ \\
 Questi approcci sono necessari in quanto lasciare semplicemente vuoto l'elemento comporterà un errore di validazione, tranne che per gli elementi di tipo stringa.
 
 \paragraph{Modello adottato}
@@ -48,7 +48,7 @@ I link non portano a nessuna pagina, in quanto al momento tali pagine non sono p
 \subsection{Sezione d' amministrazione}
 In questa sezione sarà possibile accedere solamente dopo aver effettuato la login nell' apposita pagina e qualora si tenti di accedere a questa sezione senza essere autenticati si verrà reindirizzati alla home page del sito. Sarà anche presente in ogni pagina un menu laterale per navigare tra le varie pagine di amministrazione e per tornare alla sezione pubblica.
 \paragraph{Dashboard}
-Questa sarà la pagina a cui si verrà reindirizzati una volta effettuata la log in, qui ci verrà fornito un messaggio che ci avvertirà con che account siamo loggati e sotto di esso sarà presente una \emph{tabella di log} che avviserà l' amministratore delle ultime azioni effettuate dagli amministratori del sito quali ad esempio l' inserimento di un nuovo evento, l' eliminazione o l' aggiunta di foto segnalando la data e l' ora di tali modifiche.
+Questa sarà la pagina a cui si verrà reindirizzati una volta effettuata la log in, qui ci verrà fornito un messaggio che ci avvertirà con che account siamo loggati e sotto di esso sarà presente una \emph{tabella di log} che avviserà l' amministratore delle ultime azioni effettuate dagli amministratori del sito quali ad esempio l' inserimento di un nuovo evento, l' eliminazione o l' aggiunta di foto segnalando la data e l' ora di tali modifiche. Tali operazioni vengono effettuate leggendo da un file xml, ma per motivi di tempo il file xml non viene aggiornato.
 \paragraph{Modifica photogallery}
 In questa sezione verrà data la possibilità all' amministratore di aggiungere nuove immagini alla galleria e modificare i dati di un' immagine quali nome, testo alternativo e titolo, di un immagine preesistente. Sono stati implementati dei controlli per non permettere il submit del form qualora ci sia uno o più campi lasciati vuoti.
 \paragraph{Inserimento nuovo evento}
