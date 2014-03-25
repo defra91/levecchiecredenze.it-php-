@@ -493,3 +493,18 @@ div.image_container {
 img.gallery_item {
 	width: 100%;
 }
+
+span#event_price {
+	float: right;
+	font-size: 1.7em;	
+}
+
+span#event_date {
+	font-size: 1em;
+	margin: 10% 2%;
+}
+
+li.event_item {
+	margin: 4% 6%;
+	font-size: 1.2em;
+}
