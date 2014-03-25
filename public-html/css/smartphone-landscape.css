@@ -17,7 +17,7 @@ body {
 	background-color: #000;
 }
 
-/* header */
+/* header*/
 
 div#header {
 	padding: 2%;
@@ -42,7 +42,7 @@ div#banner h1 {
 	display: none;
 }
 
-/* menu di navigazione a sx */
+/*menu navigation a sx*/
 
 div#navigation {
 	
@@ -55,10 +55,12 @@ div#navigation {
 	background: url(../images/dotted-bg.png);
 	font-size: 0.5em;
 }
-div#navigation  img{
+
+	div#navigation  img{
 	max-width:100%;
 	margin-bottom: 10px;
 }
+
 
 li.menu_item {
 	list-style: none;
@@ -113,7 +115,7 @@ div#footer a {
 	margin-top: 4%;
 }
 
-/* div contenuti a dx*/
+/* div contenuto a dx*/
 
 div#content {
 	padding: 2%;
@@ -132,10 +134,10 @@ div#content a:visited {
 }
 
 div#content fieldset {
- padding: 3%;
- margin-top: 5%;
- outline: 0;
- font-size: 1em;
+	padding: 3%;
+	margin-top: 5%;
+	outline: 0;
+	font-size: 1em;
 }
 
 div#content h1 {
@@ -194,10 +196,8 @@ div#social_tab img {
 /* Credits section */
 
 div.author {
-	width: 40%;
-	float: left;
-	margin-top: 5%;
-	margin-left: 5%;
+	width: 60%;
+	margin: 5% auto;
 }
 
 div.author h1 {
@@ -211,7 +211,6 @@ div.author a {
 	margin-top: 8%;
 	height: 14px;
 	text-indent: 15px;
-	float:left;
 
 }
 
@@ -250,28 +249,28 @@ div#content table {
 }
 
 
-div#content table caption {
-	font-weight: bold;
-	font-size: 1.5em;
-	margin-bottom: 4%;
-	padding: 2% 0;
-	border-bottom: 1px solid #FFF;
-	
-	
-}
-
 div#content table th {
-	width: 22%;
 	text-align: left;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1em;
+	padding: 2% 0;
 	
 }
 
 div#content table td {
-	width: 2%;
 	text-align: left;
+	font-size: 0.6em;
+}
+
+div#content em {
+	font-size: 0.6em;
+}
+
+div#content p a {
+	text-align: justify;
+	margin-top: 4%;
 	font-size: 1em;
+	color: #ab8d77;
 }
 
 div#content em {
@@ -482,4 +481,15 @@ div#google_map_canvas {
 	width: 80%;
 	height: 200px;
 	margin: 4% auto;
+}
+
+div.image_container {
+	width: 50%;
+	overflow: hidden;
+	height: 100px;
+	float: left;
+}
+
+img.gallery_item {
+	width: 100%;
 }

@@ -13,27 +13,15 @@ body {
 	background-size: cover;
 	color: #ab8d77;
 	font-family: 'EB Garamond', serif;
-	font-size: 1em;
 	background-color: #000;
 }
 
 /*header*/
 
-div#header {
-	padding: 2%;
-	float: left;
-	margin-left: 2%;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	width: 30%;
-	background: url(../images/dotted-bg.png);
-	font-size: 0.5em;
-}
-
 div#banner {
 	width: 100%;
 	background: url(../images/banner.png) no-repeat;
-	background-size: 100% 100%;
+	background-size: 100% 100%; /* CSS3 */
 	height: 30px;
 	padding: 2% 0;
 	
@@ -88,10 +76,6 @@ li.menu_item_selected {
 	color: #FFF;
 	text-decoration: none;
 }
-.menu_item_selected a {
-	color: red;
-	text-decoration: none;
-}
 
 /* footer */
 
@@ -102,14 +86,14 @@ div#footer {
 }
 
 div#footer h1 {
-	font-size: 1.5em;
+	font-size: 1.8em;
 	text-align: center;
 	margin-bottom: 10%;
 }
 
 div#footer p {
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.2em;
 	margin-top: 2%;
 }
 
@@ -117,10 +101,14 @@ div#footer a {
 	text-align: center;
 	color: #FFF;
 	display: block;
-	font-size: 1em;
-	margin-top: 4%;
+	font-size: 1.1em;
+	margin: 4% 4%;
 }
 
+div#footer img {
+	margin-top: 15%;
+	float: left;
+}
 /* div contenuti a dx */
 
 div#content {
@@ -132,7 +120,6 @@ div#content {
 	width: 58%;
 	color: #FFF;
 	background: url(../images/dotted-bg.png);
-	font-size: 0.6em;
 }
 
 div#content a:visited {
@@ -154,18 +141,20 @@ div#content h1 {
 div#content h2 {
 	text-align: center;
 	margin-top: 2%;
+	font-size: 1.5em;
 }
 
 div#content h3 {
 	text-align: center;
 	margin-top: 2%;
 	margin-bottom: 2%;
+	font-size: 1em;
 }
 
 div#content p {
 	text-align: justify;
 	margin-top: 4%;
-	font-size: 1em;
+	font-size: 0.8em;
 	margin-bottom: 4%;
 }
 
@@ -181,50 +170,29 @@ div#content input {
 }
 
 div#social_tab {
-	
 	display: none;
-	left: 95%;
-	width: 50%;
-	border: 1px solid #FFF;
-	background: url(../images/dotted-bg.png);
-	float: left;
-	
-	margin-right: 2%;
-	margin-left: 22%;
-	text-align: center;
-	padding: 1% 0;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	
-}
-
-div#social_tab img {
-	width: 10%;
-	display: inline;
 }
 
 /* Credits section */
 
 div.author {
-	width: 40%;
-	float: left;
-	margin-top: 5%;
-	margin-left: 5%;
+	width: 60%;
+	margin: 5% auto;
+	padding-bottom: 5%;
+
 }
 
 div.author h1 {
-	font-size: 1em;
+	font-size: 1.3em;
 }
 
 div.author a {
 	color: #FFF;
-	font-size: 0.7em;
+	font-size: 0.8em;
 	display: block;
 	margin-top: 8%;
 	height: 14px;
 	text-indent: 15px;
-	float:left;
 
 }
 
@@ -265,7 +233,7 @@ div#content table {
 
 div#content table caption {
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 1.2em;
 	margin-bottom: 4%;
 	padding: 2% 0;
 	border-bottom: 1px solid #FFF;
@@ -274,24 +242,23 @@ div#content table caption {
 }
 
 div#content table th {
-	width: 22%;
 	text-align: left;
 	font-weight: bold;
-	font-size: 0.7em;
+	font-size: 1em;
+	padding: 2% 0;
 	
 }
 
 div#content table td {
-	width: 2%;
 	text-align: left;
-	font-size: 0.6em;
+	font-size: 0.8em;
 }
 
 div#content em {
 	font-size: 0.6em;
 }
 
-div#content p a{
+div#content p a {
 	text-align: justify;
 	margin-top: 4%;
 	font-size: 1em;
@@ -495,4 +462,16 @@ div#google_map_canvas {
 	width: 80%;
 	height: 200px;
 	margin: 4% auto;
+}
+
+div.image_container {
+	width: 25%;
+	overflow: hidden;
+	height: 100px;
+	float: left;
+	margin-top: 5%;
+}
+
+img.gallery_item {
+	width: 100%;
 }
