@@ -1,13 +1,13 @@
 \section{CSS}
 
-L’obbiettivo principale che ogni programmatore Web si pone nel momento in cui entra nella fase della progettazione vera e propria della struttura del proprio sito è quello di far apparire i contenuti che Esso stesso propone nel modo più chiaro ma allo stesso tempo più accattivante possibile. Nella realizzazione della struttura del sito in esame abbiamo quindi puntato ad ottenere un design assolutamente pulito, privo di ogni possibilità di confusione, che permettesse l’immediata comprensione dei contenuti anche da parte di un visitatore casuale. 
+L’obbiettivo principale che ogni programmatore Web si pone nella fase di progettazione della struttura del proprio sito è quello di farne apparire i contenuti nel modo più chiaro ma allo stesso tempo accattivante possibile. Nel realizzare la struttura del sito "Le vecchie credenze" abbiamo quindi puntato ad ottenere un design assolutamente pulito, privo di ogni possibilità di confusione, che permette l' immediata comprensione dei contenuti anche da parte di un utente casuale. 
 
 \subsection{La struttura}
 Le principali sezioni che compongono il nostro sito sono  navigation e content.
 
 \paragraph{Navigation}
 
-Questa sezione contiene il banner ufficiale del sito seguito dal menu a lista attraverso il quale è possibile accedere a tutte le pagine attraverso gli appositi link. Questa sezione contiene anche il footer in cui sono presentate le indicazioni generali necessarie a raggiungere il ristorante e i link alla sezioni “Credits”, che contiene alcune informazioni sui progetta tori del sito, “Admin” che permette l’accesso alla pagina di amministrazione, e i link ai valida tori W3C.
+Questa sezione contiene il banner ufficiale del sito seguito dal menu a lista attraverso il quale è possibile accedere a tutte le pagine attraverso gli appositi link. Questa sezione contiene anche il footer in cui sono presenti le indicazioni necessarie a raggiungere il ristorante e il link alla sezione “Credits”, che contiene alcune informazioni sui progettatori del sito, “Admin” che permette l’accesso alla pagina di amministrazione e i link ai validatori W3C.
 
 
 \begin{figure}[H]
@@ -41,7 +41,7 @@ Per la visualizzazione della pagina a schermo intero abbiamo utilizzato una slid
 
 \paragraph{Link}
 
-Per i link del campo content si è deciso di scegliere un colore oro per i link visitati mentre per i selected abbiamo mantenuto il colore “standard” del sito che riprende stilisticamente il banner presente in navigation. Per quanto riguarda i link del menu presente in navigation abbiamo deciso, pur essendo consapevoli del fatto che al fine di rendere un sito accessibile sarebbe opportuno cambiare il colore dei link visitati anche al menu di navigazione, di mantenere un colore classico (bianco) per evitare confusione o effetti spiacevoli alla vista poiché il nostro obbiettivo era di creare una vetrina per un ristorante. 
+Per i link del campo content si è deciso di scegliere un colore oro per i link visitati mentre per i selected abbiamo mantenuto il colore “standard” del sito che riprende stilisticamente il banner presente in navigation. Per quanto riguarda i link del menu presente in navigation abbiamo deciso, pur essendo consapevoli del fatto che al fine di rendere un sito accessibile sarebbe opportuno cambiare il colore dei link visitati anche al menu di navigazione, di mantenere un colore classico (bianco) per evitare confusione o effetti spiacevoli alla vista poiché il principale obbiettivo è di creare una vetrina per un ristorante quindi deve essere quanto più piacevole alla vista possibile. 
 
 \begin{figure}[H]
 		\centering \includegraphics[width=0.4\textwidth]{images/link-navigation.png}
@@ -65,6 +65,8 @@ Utilizzato per regolare la grandezza delle immagini di background  della slide s
 
 Utilizzato per arrotondare i margini nella sezione social e nelle immagini della sezione credits.
 
+\paragraph{box-shadow}
+Questa proprietà è stata implementata nei form della parte di amministrazione, qualora l' amministratore cerchi di eseguire l' input di un form avendo lasciato dei campi obbligatori vuoti, tali campi verranno evidenziati con un' aura rossa abbastanza evidente in modo da essere anche accessibile.
 \begin{figure}[H]
 		\centering \includegraphics[width=0.5\textwidth]{images/radius.png}
 		\caption{Utilizzo della proprietà radius nella pagina Contattaci}
@@ -72,7 +74,7 @@ Utilizzato per arrotondare i margini nella sezione social e nelle immagini della
 
 \paragraph{Si ricorda che}
 
-Abbiamo inoltre utilizzato la proprietà webkit che non è parte attualmente degli standard css ma gli ultimi aggiornamenti del validatore w3c hanno declassato tali errori a warning, e si sta valutando di aggiungere webkit allo standard
+Abbiamo inoltre utilizzato la proprietà webkit che non è parte attualmente degli standard css ma gli ultimi aggiornamenti del validatore w3c hanno declassato tali errori a warning, e si sta valutando di aggiungere webkit allo standard.
 
 \begin{figure}[H]
 		\centering \includegraphics[width=0.4\textwidth]{images/webkit.png}
@@ -83,4 +85,4 @@ Abbiamo inoltre utilizzato la proprietà webkit che non è parte attualmente deg
 
 \paragraph{Font}
 
-Abbiamo scelto di utilizzare un font più elaborato (Garamond) poiché il sito è creato come vetrina per un ristorante e quindi abbiamo privilegiato l’immagine e l’impatto estetico a scapito dei tempi di caricamento delle pagine stesse.
+Abbiamo scelto di utilizzare un font più elaborato (Garamond) poiché il sito è creato come vetrina per un ristorante e quindi abbiamo privilegiato l’immagine e l’impatto estetico a scapito dei tempi di caricamento delle pagine stesse anche se la differenza in velocità è pressoché impercettibile.
