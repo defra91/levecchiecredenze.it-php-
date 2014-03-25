@@ -1,0 +1,44 @@
+\section{Perl}
+
+La codifica di script in \texttt{Perl/CGI} è stata implementata per il \texttt{back-end} dell'applicazione, ovvero la parte che si occupa dell'estrazione, manipolazione e popolamento dei dati da visualizzare. Il codice sorgente, per mancanza di tempo, non è stato commentato secondo una norma e può quindi risultare a tratti poco documentato o difficilmente comprensibile. Il gruppo considera la documentazione un punto fondamentale di qualsiasi progetto \textit{software}, soprattutto per la manutenibilità del codice. Purtroppo la ristrettezza dei tempi e la sovrapposizione di altri impegni da parte dei componenti del gruppo ha impedito di seguire rigorosamente questo principio.
+
+Fondamentalmente gli script si dividono in due categorie principali:
+
+\begin{enumerate}
+
+	\item Gli script che si occupano di popolare lo \textit{scope} dei template \texttt{XHMTL} eseguendo quindi operazioni di lettura dal database;
+	\item Gli script che si occupano di eseguire operazioni di scrittura sul database e sul filesystem nel caso di immagini.
+
+\end{enumerate}
+
+I moduli o pacchetti \texttt{CPAN} utilizzati negli script sono i seguenti:
+
+\begin{itemize}
+
+	\item \texttt{HTML::Template} come libreria di \textit{templating} per popolare correttamente i file \texttt{.tmpl} presenti;
+	\item \texttt{CGI} per il reindirizzamento e il recupero dei parametri;
+	\item \texttt{XML::LibXML} per l'interfacciamento con il database XML;
+	\item \texttt{CGI::Session} per la creazione, mantenimento ed eliminazione della sessione utente; 
+\end{itemize}
+
+Ciascun file \texttt{.tmpl} in particolare possiede il suo script \texttt{.cgi} che si occupa di popolarlo e visualizzarlo correttamente. 
+
+Di seguito vengono descritti brevemente e in ordine alfabetico tutti gli script presenti:
+
+\begin{itemize}
+
+	\item \texttt{adminLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e di popolare correttamente la home page dell'amministratore, che sostanzialmente sarà una \textit{dashboard} con al suo interno la lista delle ultime azioni effettuate dagli amministratori;
+	\item \texttt{deleteEvent.cgi} si occupa di verificare l'esistenza di una sessione utente e di eliminare dal database l'evento indicato dalla \textit{query string};
+	\item \texttt{deleteImage.cgi} si occupa di verificare l'esistenza di una sessione utente e di eliminare dal database e dal filesystem l'immagine indicata dalla \textit{query string};
+	\item \texttt{deleteNews.cgi} si occupa di verificare l'esistenza di una sessione utente e di eliminare dal database la news indicata dalla \textit{query string};
+	\item \texttt{editEvent.cgi} si occupa di verificare l'esistenza di una sessione utente e di modificare nel database l'evento indicato dalla \textit{query string} con i parametri passati dal form;
+	\item \texttt{editEventLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e generare la pagina di modifica dell'evento indicato dalla \textit{query string}; 
+	\item \texttt{editImage.cgi} si occupa di verificare l'esistenza di una sessione utente e di modificare nel database e nel filesystem l'immagine indicata dalla \textit{query string} con i parametri passati dal form;
+	\item \texttt{editImageLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e generare la pagina di modifica dell'immagine indicata dalla \textit{query string};
+	\item \texttt{editNews.cgi} si occupa di verificare l'esistenza di una sessione utente e di modificare nel database la news indicata dalla \textit{query string} con i parametri passati dal form;s
+	\item \texttt{editNewsLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e di generare la pagina di modifica della news indicata dalla \textit{query string};
+	\item \texttt{errorHandler.cgi} si occupa di generare la pagina standard di visualizzazione di un errore, popolandola con i dati prelevati dalla \textit{query string};
+	\item \texttt{eventShow.cgi} si occupa di generare la pagina di visualizzazione dell'evento indicato dalla \textit{query string};
+	\item \texttt{eventsHandler.cgi} si occupa di verificare l'esistenza di una sessione utente e di generare la pagina amministratore gestione degli eventi;
+
+\end{itemize} 
