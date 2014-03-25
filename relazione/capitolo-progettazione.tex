@@ -1,10 +1,10 @@
 \section{Progettazione}
 \subsection{XML e XMLSchema}
-Si è scelto di adottare XMLSchema al posto di DTD come linguaggio per descrivere la struttura dei file XML perchè più espressivo, e a fini propedeutici, essendo più complesso. Di seguito verranno spiegate alcune scelte riguardanti la struttura.
+Si è scelto di adottare XMLSchema al posto di DTD come linguaggio per descrivere la struttura dei file XML perchè più espressivo, e a fini didattici, essendo più complesso è stato più utile da imparare e data la sua complessità dimostra come il gruppo sa lavorare con XML. Di seguito verranno spiegate alcune scelte riguardanti la struttura.
 
 \paragraph{Scarso utilizzo degli attributi}
 
-I motivi per cui gli attributi sono poco presenti sono tre:
+I motivi per cui gli attributi sono poco presenti sono due:
 \begin{itemize}
 \item Un elemento è maggiormente estendibile rispetto ad un attributo;
 \item Un attributo viene utilizzato per descrivere metadati, mentre i dati in se sono inseriti negli elementi;
@@ -18,7 +18,7 @@ Per il tempo è invece stato utilizzato \emph{Data}, precisamente nel file log.x
 
 \paragraph{Elementi opzionali}
 Nel file riguardante il menù sono presenti elementi non obbligatori. Nel caso di elementi semplici si è scelto di utilizzare l'attributo nillable="true" per indicare che tale elemento è opzionale. Nel file XML dunque l'elemento dovrà sempre essere presente, e nel caso in cui non lo si voglia definire vi si assegnerà xsi:nil="true".  
-Nel caso di elementi complessi si è scelto di utilizzare l'attributo minOccurs="0" che permette di non inerire l'elemento nel file XML. Tale scelta è stata fatta per rendere più leggibili i file XML, che risulterebbero altrimenti appesantiti.\\ \\
+Nel caso di elementi complessi si è scelto di utilizzare l'attributo minOccurs="0" che permette di non inserire l'elemento nel file XML. Tale scelta è stata fatta per rendere più leggibili i file XML, che risulterebbero altrimenti appesantiti.\\ \\
 Questi approcci sono necessari in quanto lasciare semplicemente vuoto l'elemento comporterà un errore di validazione, tranne che per gli elementi di tipo stringa.
 
 \paragraph{Modello adottato}
@@ -48,7 +48,7 @@ I link non portano a nessuna pagina, in quanto al momento tali pagine non sono p
 \subsection{Sezione d' amministrazione}
 In questa sezione sarà possibile accedere solamente dopo aver effettuato la login nell' apposita pagina e qualora si tenti di accedere a questa sezione senza essere autenticati si verrà reindirizzati alla home page del sito. Sarà anche presente in ogni pagina un menu laterale per navigare tra le varie pagine di amministrazione e per tornare alla sezione pubblica.
 \paragraph{Dashboard}
-Questa sarà la pagina a cui si verrà reindirizzati una volta effettuata la log in, qui ci verrà fornito un messaggio che ci avvertirà con che account siamo loggati e sotto di esso sarà presente una \emph{tabella di log} che avviserà l' amministratore delle ultime azioni effettuate dagli amministratori del sito quali ad esempio l' inserimento di un nuovo evento, l' eliminazione o l' aggiunta di foto segnalando la data e l' ora di tali modifiche.
+Questa sarà la pagina a cui si verrà reindirizzati una volta effettuata la log in, qui ci verrà fornito un messaggio che ci avvertirà con che account siamo loggati e sotto di esso sarà presente una \emph{tabella di log} che avviserà l' amministratore delle ultime azioni effettuate dagli amministratori del sito quali ad esempio l' inserimento di un nuovo evento, l' eliminazione o l' aggiunta di foto segnalando la data e l' ora di tali modifiche. Tali operazioni vengono effettuate leggendo da un file xml, ma per motivi di tempo il file xml non viene aggiornato.
 \paragraph{Modifica photogallery}
 In questa sezione verrà data la possibilità all' amministratore di aggiungere nuove immagini alla galleria e modificare i dati di un' immagine quali nome, testo alternativo e titolo, di un immagine preesistente. Sono stati implementati dei controlli per non permettere il submit del form qualora ci sia uno o più campi lasciati vuoti. Inoltre appena l' amministratore inserirà il link all' immagine da caricare, verrà fornita un' anteprima della stessa migliorando l' esperienza dell 'amministratore.
 \paragraph{Inserimento nuovo evento}
@@ -56,57 +56,3 @@ Qui l' amministratore potrà creare un nuovo evento fornendone il titolo, la des
 \subparagraph{Inserimento nuova news}
 Qui i campi saranno tutti necessari, quindi l' amministratore dovrà inserire tutti i campi, e qualora cerchi di eseguire il submit in presenza di campi vuoti non verrà permessa tale azione e verranno evidenziati i campi come nelle altre pagine della sezione privata.
 
-\subsection{Perl}
-
-La codifica di script in \texttt{Perl/CGI} è stata implementata per il \texttt{back-end} dell'applicazione, ovvero la parte che si occupa dell'estrazione, manipolazione e popolamento dei dati da visualizzare. Il codice sorgente, per mancanza di tempo, non è stato commentato secondo una norma e può quindi risultare a tratti poco documentato o difficilmente comprensibile. Il gruppo considera la documentazione un punto fondamentale di qualsiasi progetto \textit{software}, soprattutto per la manutenibilità del codice. Purtroppo la ristrettezza dei tempi e la sovrapposizione di altri impegni da parte dei componenti del gruppo ha impedito di seguire rigorosamente questo principio.
-
-Fondamentalmente gli script si dividono in due categorie principali:
-
-\begin{enumerate}
-
-	\item Gli script che si occupano di popolare lo \textit{scope} dei template \texttt{XHMTL} eseguendo quindi operazioni di lettura dal database;
-	\item Gli script che si occupano di eseguire operazioni di scrittura sul database e sul filesystem nel caso di immagini.
-
-\end{enumerate}
-
-I moduli o pacchetti \texttt{CPAN} utilizzati negli script sono i seguenti:
-
-\begin{itemize}
-
-	\item \texttt{HTML::Template} come libreria di \textit{templating} per popolare correttamente i file \texttt{.tmpl} presenti;
-	\item \texttt{CGI} per il reindirizzamento e il recupero dei parametri;
-	\item \texttt{XML::LibXML} per l'interfacciamento con il database XML;
-	\item \texttt{CGI::Session} per la creazione, mantenimento ed eliminazione della sessione utente; 
-\end{itemize}
-Ciascun file \texttt{.tmpl} in particolare possiede il suo script \texttt{.cgi} che si occupa di popolarlo e visualizzarlo correttamente. \\
-Di seguito vengono descritti brevemente e in ordine alfabetico tutti gli script presenti:
-
-\begin{itemize}
-
-	\item \texttt{adminLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e di popolare correttamente la home page dell'amministratore, che sostanzialmente sarà una \textit{dashboard} con al suo interno la lista delle ultime azioni effettuate dagli amministratori;
-	\item \texttt{deleteEvent.cgi} si occupa di verificare l'esistenza di una sessione utente e di eliminare dal database l'evento indicato dalla \textit{query string};
-	\item \texttt{deleteImage.cgi} si occupa di verificare l'esistenza di una sessione utente e di eliminare dal database e dal filesystem l'immagine indicata dalla \textit{query string};
-	\item \texttt{deleteNews.cgi} si occupa di verificare l'esistenza di una sessione utente e di eliminare dal database la news indicata dalla \textit{query string};
-	\item \texttt{editImage.cgi} si occupa di verificare l'esistenza di una sessione utente e di modificare nel database e nel filesystem l'immagine indicata dalla \textit{query string} con i parametri passati dal form;
-	\item \texttt{editImageLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e generare la pagina di modifica dell'immagine indicata dalla \textit{query string};
-	\item \texttt{editNews.cgi} si occupa di verificare l'esistenza di una sessione utente e di modificare nel database la news indicata dalla \textit{query string} con i parametri passati dal form;s
-	\item \texttt{editNewsLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e di generare la pagina di modifica della news indicata dalla \textit{query string};
-	\item \texttt{errorHandler.cgi} si occupa di generare la pagina standard di visualizzazione di un errore, popolandola con i dati prelevati dalla \textit{query string};
-	\item \texttt{eventShow.cgi} si occupa di generare la pagina di visualizzazione dell'evento indicato dalla \textit{query string};
-	\item \texttt{eventsHandler.cgi} si occupa di verificare l'esistenza di una sessione utente e di generare la pagina amministratore gestione degli eventi;
-\item \texttt{eventsLoader.cgi} Si occupa di popolare correttamente la pagina di visualizzazione degli eventi, prendendo tali eventi dal relativo fai xml;
-\item \texttt{galleryAdminLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e di generare la pagina di visualizzazione e modifica della galleria;
-\item \texttt{galleryLoader.cgi} Si occupa di popolare correttamente la pagina di visualizzazione della galleria, prendendo le immagini dal relativo fai xml;
-\item \texttt{insertEvent.cgi} si occupa di verificare l'esistenza di una sessione utente e di generare la pagina di creazione di un evento;
-\item \texttt{insertEventLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e di popolare il file;
-\item \texttt{insertImage.cgi}  si occupa di verificare l'esistenza di una sessione utente e di popolare con la nuova immagine e relativi attributi il file gallery.xml;
-\item \texttt{insertImageLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e di generare la pagina di aggiunta di un'immagine;
-\item \texttt{insertNews.cgi} si occupa di verificare l'esistenza di una sessione utente e di popolare con la nuova news il file news.xml;
-\item \texttt{insertNewsLoader.cgi} si occupa di verificare l'esistenza di una sessione utente e di generare la pagina di aggiunta di una news;
-\item \texttt{login.cgi} Crea una sessione utente se la login è corretta;
-\item \texttt{loginView.cgi} Si occupa di generare la pagina necessaria ad effettuare la login.
-\item \texttt{logout.cgi} Esegue il logout distruggendo la sessione utente presente.
-\item \texttt{menuLoader.cgi} Si occupa di popolare correttamente la pagina di visualizzazione del menu, prendendo le immagini dal relativo fai xml;
-\item \texttt{newsHandler.cgi} si occupa di verificare l'esistenza di una sessione utente e digenerare la pagina per la gestione delle news;
-\item \texttt{newsLoader.cgi} Si occupa di popolare correttamente la pagina di visualizzazione delle news, prendendo le immagini dal relativo fai xml;.
-\end{itemize} 
