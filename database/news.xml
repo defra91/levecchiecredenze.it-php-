@@ -13,13 +13,15 @@
 		 </data>
 	</notizia>
 	
-	<notizia id="3">
-		<titolo>Il sito è completato</titolo>
-		<descrizione>Dopo un duro lavoro il sito è finalmente completo. </descrizione>
-		<data>
-			<giorno>25</giorno>
-			<mese>Marzo</mese>
-			<anno>2014</anno>
-		</data>
-	</notizia>
-</news>
+	
+
+		<notizia id="3">
+			<titolo>Il sito completato</titolo>
+			<descrizione>Dopo un duro lavoro il sito è finalmente completo. </descrizione>
+			<data>
+				<giorno>25</giorno>
+				<mese>Marzo</mese>
+				<anno>2014</anno>
+		
+</data>
+		</notizia></news>
