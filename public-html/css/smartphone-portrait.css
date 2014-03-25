@@ -200,10 +200,8 @@ div#social_tab img {
 /* Credits section */
 
 div.author {
-	width: 40%;
-	float: left;
-	margin-top: 5%;
-	margin-left: 5%;
+	width: 60%;
+	margin: 5% auto;
 }
 
 div.author h1 {
@@ -217,7 +215,6 @@ div.author a {
 	margin-top: 8%;
 	height: 14px;
 	text-indent: 15px;
-	float:left;
 
 }
 
@@ -256,28 +253,28 @@ div#content table {
 }
 
 
-div#content table caption {
-	font-weight: bold;
-	font-size: 1em;
-	margin-bottom: 4%;
-	padding: 2% 0;
-	border-bottom: 1px solid #FFF;
-	
-	
-}
-
 div#content table th {
-	width: 22%;
 	text-align: left;
 	font-weight: bold;
-	font-size: 0.7em;
+	font-size: 1em;
+	padding: 2% 0;
 	
 }
 
 div#content table td {
-	width: 2%;
 	text-align: left;
 	font-size: 0.6em;
+}
+
+div#content em {
+	font-size: 0.6em;
+}
+
+div#content p a {
+	text-align: justify;
+	margin-top: 4%;
+	font-size: 1em;
+	color: #ab8d77;
 }
 
 div#content em {
@@ -488,4 +485,30 @@ div#google_map_canvas {
 	width: 80%;
 	height: 200px;
 	margin: 4% auto;
+}
+
+div.image_container {
+	width: 50%;
+	overflow: hidden;
+	height: 100px;
+	float: left;
+}
+
+img.gallery_item {
+	width: 100%;
+}
+
+span#event_price {
+	float: right;
+	font-size: 1.7em;	
+}
+
+span#event_date {
+	font-size: 1em;
+	margin: 10% 2%;
+}
+
+li.event_item {
+	margin: 4% 6%;
+	font-size: 1.2em;
 }

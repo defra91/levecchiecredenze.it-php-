@@ -165,9 +165,7 @@ div#footer a {
 }
 
 div#footer img {
-
-margin-top: 15%;
-
+	margin-top: 15%;
 }
 
 /* div contenuti a dx*/ 
@@ -633,4 +631,19 @@ a#insertImageLink {
 	padding: 1%;
 	font-size: 0.8em;
 	background-color: #ab8d77;
+}
+
+span#event_price {
+	float: right;
+	font-size: 1.7em;	
+}
+
+span#event_date {
+	font-size: 1em;
+	margin: 10% 2%;
+}
+
+li.event_item {
+	margin: 4% 6%;
+	font-size: 1.2em;
 }
