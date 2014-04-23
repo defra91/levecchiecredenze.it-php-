@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	/* Imposto le due colonne con altezza uguale */
 
-	//setColumns();
+	setColumns();
 
 	/* Imposto il comportamento per le voci di menu */
 
