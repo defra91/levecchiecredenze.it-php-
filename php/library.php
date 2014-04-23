@@ -41,5 +41,9 @@
 		extractImages();
 	}
 
+	function loadNews() {
+		extractNews();
+	}
+
 
 ?>
