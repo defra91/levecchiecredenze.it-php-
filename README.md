@@ -1,20 +1,6 @@
-# AVVISO IMPORTANTE PER LA CONSEGNA
-Mr. Tresoldi sta verificando le pagine, se, rispetto al commit "bla" 6b7e8af57bd56f21f996e440a8847a6ebd39587e di davide modificate qualcosa (css e javascript compresi) aprite una issue con label da verificare per tale file.
 # Progetto Tecnologie Web
 
-La presente repository ha come scopo quello di raccogliere tutto il codice per il progetto di Tecnologie Web del gruppo [group_name]. 
-
-
-
-## Stato del progetto
-
-Version: 0.1.4
-
-* Created index.html;
-* Created screen.css;
-* Created smartphone.css;
-* Created tablet.css;
-* Created print.css.
+Il presente repository ha come scopo quello di raccogliere e versionare il progetto relativo al sito `levecchiecredenze.it`
 
 ## Link esterni per il progetto
 
