@@ -8,6 +8,7 @@ Il presente repository ha come scopo quello di raccogliere e versionare il proge
 
 | Autore  | Data della modifica | Versione | Descrizione |
 | ------------- | ------------- | -------- | ----------- |
+| Luca De Franceschi | 15/05/2014 | 1.1.0 | Creata classe PageCompositor per la composizione dinamica della sezioni comuni delle pagine |
 
 ## Standard e riferimenti
 

@@ -4,38 +4,24 @@
 
 	$compositor = new PageCompositor();
 
-	print $compositor->createPageHeader(7);
+	print $compositor->createPageHeader(3);
 
 ?>
 
-
 <body>
+
 	<div id="navigation">
-
 		<?php
-
-			print $compositor->createNavigationMenu(7);
+			print $compositor->createNavigationMenu(3);	
 			print $compositor->createFooter(1);
-
 		?>
-
 	</div>
-	
 	<div id="content">
-		<h1>News</h1>
-		<hr/>
-		<ul id="news_list">
-			<?php
-				include_once("../php/library.php");
-				loadNews();
-			?>
-		</ul>
+
 	</div>
 
 	<?php
-
 		print $compositor->createSocialTab();
-
 	?>
 
 </body>
@@ -43,5 +29,6 @@
 </html>
 
 <?php
+	include("../php/library.php");
 	addVisitor();
 ?>

@@ -1,26 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php
+	require_once("../php/PageCompositor.php");
+	$compositor = new PageCompositor();
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
-<head>
-	<title>Home page | levecchiecredenze.it</title>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-	<link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> 
-	<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen and (min-width: 1024px)" />
-	<link rel="stylesheet" type="text/css" href="css/tablet-landscape.css" media="only screen and (min-width: 480px) and (max-width: 1024px)" />
-	<link rel="stylesheet" type="text/css" href="css/smartphone-portrait.css" media="only screen and (max-width: 480px) and (orientation: portrait)" />
-	<link rel="stylesheet" type="text/css" href="css/smartphone-landscape.css" media="only screen and (max-width: 480px) and (orientation: landscape)" />
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/common.js"></script>
-</head>
+	print $compositor->createPageHeader(1);
+?>
 
 <body>
 	<div id="navigation">
 		<?php
-			require_once("../php/PageCompositor.php");
-
-			$compositor = new PageCompositor();
-
 			print $compositor->createNavigationMenu(1);	
 			print $compositor->createFooter(1);
 		?>
@@ -58,13 +45,9 @@
 		</p>
 
 	</div>
-
-	<div id="social_tab">
-		<a href="#"><img src="images/facebook-icon.png" alt="logo di Facebook" title="aggiungici su facebook" /></a>
-		<a href="#"><img src="images/twitter-icon.png" alt="logo di Twitter" title="seguici su twitter" /></a>
-		<a href="#"><img src="images/gplus-icon.png" alt="logo di Google Plus" title="aggiungici su Google+" /></a>
-		<a href="#"><img src="images/tripadvisor-icon.png" alt="logo di Tripadvisor" title="trovaci su Tripadvisor" /></a>
-	</div>
+<?php
+	print $compositor->createSocialTab();
+?>
 
 </body>
 

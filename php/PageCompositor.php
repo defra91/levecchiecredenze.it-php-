@@ -18,7 +18,7 @@ class PageCompositor
 	* 8 - raggiungerci.php
 	* 9 - contattaci.php
 	* 10 - credits.php
-	* 11 - admin.php
+	* 11 - login.php
 	*/
 
 	/**
@@ -29,19 +29,31 @@ class PageCompositor
 	/**
 	* This method provides to create the html header for each page
 	**/
-	$title;
-	// create title array TODO
+	function createPageHeader($pageId) {
+		// check if parameter has the right value
+		if ($pageId > 11 || $pageId < 1) {
+			die("Invalid parameter value!");
+		}
 
-	$html .= "<title>" . $title . "</title>
-	<meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />
-	<link rel=\"icon" href=\"images/favicon.ico\" type=\"image/x-icon\"/>
-	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/print.css\" media=\"print\" /> 
-	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/screen.css\" media=\"screen and (min-width: 1024px)\" />
-	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/tablet-landscape.css\" media=\"only screen and (min-width: 480px) and (max-width: 1024px)\" />
-	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/smartphone-portrait.css\" media=\"only screen and (max-width: 480px) and (orientation: portrait)\" />
-	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/smartphone-landscape.css\" media=\"only screen and (max-width: 480px) and (orientation: landscape)\" />
-	<script type=\"text/javascript" src="js/jquery.js\"></script>
-	<script type=\"text/javascript\" src=\"js/common.js\"></script>";
+		// create association between pages and title 
+		$title = array(1 => "Home", 2 => "La storia", 3 => "Il nostro menu", 4 => "La nostra cantina", 5 => "Galleria", 6 => "I nostri eventi", 7 => "Le nostre news", 8 => "Come raggiungerci", 9 => "Conttattaci", 10 => "Credits", 11 => "Sezione di amministrazione");
+		
+		// write header
+		$html = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
+		<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"it\" lang=\"it\">
+		<head><title>" . $title[$pageId] . "</title>
+		<meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />
+		<link rel=\"icon\" href=\"images/favicon.ico\" type=\"image/x-icon\"/>
+		<link rel=\"stylesheet\" type=\"text/css\" href=\"css/print.css\" media=\"print\" /> 
+		<link rel=\"stylesheet\" type=\"text/css\" href=\"css/screen.css\" media=\"screen and (min-width: 1024px)\" />
+		<link rel=\"stylesheet\" type=\"text/css\" href=\"css/tablet-landscape.css\" media=\"only screen and (min-width: 480px) and (max-width: 1024px)\" />
+		<link rel=\"stylesheet\" type=\"text/css\" href=\"css/smartphone-portrait.css\" media=\"only screen and (max-width: 480px) and (orientation: portrait)\" />
+		<link rel=\"stylesheet\" type=\"text/css\" href=\"css/smartphone-landscape.css\" media=\"only screen and (max-width: 480px) and (orientation: landscape)\" />
+		<script type=\"text/javascript\" src=\"js/jquery.js\"></script>
+		<script type=\"text/javascript\" src=\"js/common.js\"></script>
+			</head>";
+
+		return $html;
 	}
 
 	/**
@@ -91,7 +103,7 @@ class PageCompositor
 		// write html code for footer section
 		$html = "<div id=\"footer\">
 			<h1>Ristorante Le Vecchie Credenze</h1>
-			<a href=\"https://www.google.it/maps/place/Via+Alberassa,+16/@44.93956,7.78015,17z/data=!4m2!3m1!1s0x478809135fc4a16b:0x289899b75783023e\" target=\"_blank\">Via Alberassa, 16 Santena <abbr title=\Torino\">(TO)</abbr></a>
+			<a href=\"https://www.google.it/maps/place/Via+Alberassa,+16/@44.93956,7.78015,17z/data=!4m2!3m1!1s0x478809135fc4a16b:0x289899b75783023e\" target=\"_blank\">Via Alberassa, 16 Santena <abbr title=\"Torino\">(TO)</abbr></a>
 			<p><abbr title=\"Telefono\">Tel.</abbr> 011-9456455</p>
 			<p><abbr title=\"Partita iva\">P.IVA</abbr> 04781560489</p>
 			<a href=\"mailto:info@levecchiecredenze.it\" target=\"_blank\">info@levecchiecredenze.it</a>
@@ -127,6 +139,19 @@ class PageCompositor
 		return $html;
 	}
 
+	/**
+	* This method provides to create the social tab section of a page
+	*/
+	function createSocialTab() {
+		$html = "<div id=\"social_tab\">
+		<a href=\"#\"><img src=\"images/facebook-icon.png\" alt=\"logo di Facebook\" title=\"aggiungici su facebook\" /></a>
+		<a href=\"#\"><img src=\"images/twitter-icon.png\" alt=\"logo di Twitter\" title=\"seguici su twitter\" /></a>
+		<a href=\"#\"><img src=\"images/gplus-icon.png\" alt=\"logo di Google Plus\" title=\"aggiungici su Google+\" /></a>
+		<a href=\"#\"><img src=\"images/tripadvisor-icon.png\" alt=\"logo di Tripadvisor\" title=\"trovaci su Tripadvisor\" /></a>
+	</div>";
+
+		return $html;
+	}
 
 }
 
