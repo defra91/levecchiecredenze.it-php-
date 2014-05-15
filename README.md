@@ -18,14 +18,13 @@ Il presente repository ha come scopo quello di raccogliere e versionare il proge
 
 ## Vincoli tecnici
 
-* Il sito web dev'essere accesssibile e conforme allo standard XHTML Strict;
+* Il sito web dev'essere accesssibile e conforme allo standard XHTML Transitional;
 * Deve tenere una netta separazione tra struttura, presentazione e comportamento;
-* La base di dati di riferimento deve essere su MySQL;
+* La base di dati di riferimento deve essere su un database MySQL;
 * Il linguaggio per generare pagine dinamiche dev'essere il linguaggio php;
-* Bisogna mettere a disposizione almeno tre tipologie di operazioni dinamiche:
-  * Inserimento di dati;
-  * Estrazione di dati;
-  * Modifica di dati;
+* Bisogna mettere a disposizione due sezioni del sito:
+	* La sezione pubblica accedibile a qualsiasi visitatore;
+	* La sezione di amministrazione, accedibile solo agli amministratori del sito.
 
 ## Istruzioni per la configurazione di un database locale di prova
 
