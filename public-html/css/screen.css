@@ -107,7 +107,7 @@ li.menu_item {
 	padding: 8% 0;
 	text-align: center;
 	border-bottom: 1px solid #555;
-	font-size: 0.8em;
+	font-size: 1em;
 	cursor: pointer;
 }
 
@@ -117,7 +117,7 @@ li.menu_item_selected {
 	padding: 8% 0;
 	text-align: center;
 	border-bottom: 1px solid #555;
-	font-size: 0.8em;
+	font-size: 1em;
 	background: url(../images/list.png) left no-repeat;
 }
 
@@ -152,7 +152,7 @@ div#footer h1 {
 
 div#footer p {
 	text-align: center;
-	font-size: 0.6em;
+	font-size: 0.7em;
 	margin-top: 2%;
 }
 
@@ -160,7 +160,7 @@ div#footer a {
 	text-align: center;
 	color: #FFF;
 	display: block;
-	font-size: 0.6em;
+	font-size: 0.7em;
 	margin-top: 4%;
 }
 
@@ -210,7 +210,7 @@ div#content h3 {
 div#content p {
 	text-align: justify;
 	margin-top: 4%;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 div#content p a{

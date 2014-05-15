@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
@@ -16,35 +16,14 @@
 
 <body>
 	<div id="navigation">
-		<img src="images/banner.png" alt="Logo, composto dal nome del ristorante"/>
-			<ul>
-				<li class="menu_item_selected" lang="en">Home</li>
-				<li class="menu_item"><a href="storia.php">La storia</a></li>
-				<li class="menu_item"><a href="menu.php">Il nostro menu</a></li>
-				<li class="menu_item"><a href="cantina.php">La nostra cantina</a></li>
-				<li class="menu_item"><a href="gallery.php">Galleria</a></li>
-				<li class="menu_item"><a href="eventi.php">I nostri eventi</a></li>
-				<li class="menu_item"><a href="news.php">Le nostre news</a></li>
-				<li class="menu_item"><a href="raggiungerci.php">Come raggiungerci</a></li>
-				<li class="menu_item"><a href="contatti.php">Contattaci</a></li>
-			</ul>
+		<?php
+			require_once("../php/PageCompositor.php");
 
-		<div id="footer">
-			<h1>Ristorante Le Vecchie Credenze</h1>
-			<p>Via Alberassa, 16 Santena <abbr title="Torino">(TO)</abbr></p>
-			<p><abbr title="Telefono">Tel.</abbr> 011-9456455</p>
-			<p><abbr title="Partita iva">P.IVA</abbr> 04781560489</p>
-			<p>info@levecchiecredenze.it</p>
-			<p>Chiuso il Lunedì</p>
-			<p>Orario: 12:30 - 14:30, 19:00 - 00:00</p>
-			<a href="credits.php" lang="en">Credits</a>
-			<a href="login.php" lang="en">Admin</a> 
-			<a href="http://validator.w3.org/check?uri=referer" lang="en"><img src="images/validator.png" alt="Validatore W3C" /></a> 
-			<a href="http://jigsaw.w3.org/css-validator/check/referer" lang="en">
-        	<img src="images/validatorcss.gif" alt="Validatore W3C CSS3" /></a>
-        	<a href="http://www.w3.org/WAI/WCAG2AAA-Conformance" lang="en">
-        	<img src="images/wcag.gif" alt="Validato WCAG 2.0. AAA" /></a>
-		</div>
+			$compositor = new PageCompositor();
+
+			print $compositor->createNavigationMenu(1);	
+			print $compositor->createFooter(1);
+		?>
 
 	</div>
 	

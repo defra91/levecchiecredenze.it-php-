@@ -4,6 +4,11 @@ Il presente repository ha come scopo quello di raccogliere e versionare il proge
 
 * Vecchio sito levecchiecredenze: <http://www.levecchiecredenze.it>
 
+## Registro delle modifiche 
+
+| Autore  | Data della modifica | Versione | Descrizione |
+| ------------- | ------------- | -------- | ----------- |
+
 ## Standard e riferimenti
 
 * Standarx XHtml: <http://www.w3.org/TR/xhtml1/>
