@@ -2,7 +2,7 @@
 	require_once("../php/PageCompositor.php");
 	$compositor = new PageCompositor();
 
-	print $compositor->createPageHeader(1);
+	print $compositor->createPageHeader(-1);
 ?>
 
 <body>

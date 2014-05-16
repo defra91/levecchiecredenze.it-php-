@@ -1,10 +1,10 @@
 <?php
 
+include_once("Error.php");
 /**
 * This class is responsible to provide methods to load common section in Html pages
 */
-class PageCompositor
-{
+class PageCompositor {
 	/**
 	* The associations between pages and id is shown below:
 	*
@@ -19,10 +19,11 @@ class PageCompositor
 	* 9 - contattaci.php
 	* 10 - credits.php
 	* 11 - login.php
+	* 12 - error.php
 	*/
 
 	/**
-	* This is the constructor of the class
+	* This is the empty constructor of the class
 	*/
 	function __construct() {}
 
@@ -31,12 +32,14 @@ class PageCompositor
 	**/
 	function createPageHeader($pageId) {
 		// check if parameter has the right value
-		if ($pageId > 11 || $pageId < 1) {
-			die("Invalid parameter value!");
+		if ($pageId > 12 || $pageId < 1 || !is_int($pageId)) {
+			$error = new Error(1000, "Invalid parameter", "The value you insereted on the call to the method 'createPageHeader' is wrong. It accepts an integer value between 1 and 11");
+			$error->showErrorPage();
+			die();
 		}
 
 		// create association between pages and title 
-		$title = array(1 => "Home", 2 => "La storia", 3 => "Il nostro menu", 4 => "La nostra cantina", 5 => "Galleria", 6 => "I nostri eventi", 7 => "Le nostre news", 8 => "Come raggiungerci", 9 => "Conttattaci", 10 => "Credits", 11 => "Sezione di amministrazione");
+		$title = array(1 => "Home", 2 => "La storia", 3 => "Il nostro menu", 4 => "La nostra cantina", 5 => "Galleria", 6 => "I nostri eventi", 7 => "Le nostre news", 8 => "Come raggiungerci", 9 => "Conttattaci", 10 => "Credits", 11 => "Sezione di amministrazione", 12 => "Si è verificato un errore");
 		
 		// write header
 		$html = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">

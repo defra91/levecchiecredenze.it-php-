@@ -36,7 +36,6 @@
 				<input type="submit" lang="en" value="Login" class="submit_input" />
 			</fieldset>
 		</form>
-		<span id="loginError"><tmpl_var name="logged"></span>
 	</div>
 
 	<?php
