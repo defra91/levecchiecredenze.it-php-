@@ -32,3 +32,5 @@
 *.tdo
 *.txt
 *.*~
+
+public_html/lib/controller/Config.php
