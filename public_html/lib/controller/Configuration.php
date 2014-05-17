@@ -43,7 +43,7 @@ class Configuration {
 	}
 
 	/**
-	* The class default constructor
+	* The class constructor
 	*/
 	function __construct() {}
 }
