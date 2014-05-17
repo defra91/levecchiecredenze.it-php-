@@ -10,9 +10,9 @@ class Configuration {
 	*/
 	public static function getDeveloperConfiguration() {
 		return array(
-			"name" => "Luca",
-			"surname" => "De Franceschi",
-			"email" => "luca.defranceschi.91@gmail.com"
+			"name" => "",
+			"surname" => "",
+			"email" => "bla"
 		);
 	}	
 
