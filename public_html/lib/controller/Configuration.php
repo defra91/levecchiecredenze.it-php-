@@ -23,7 +23,7 @@ class Configuration {
 		return array(
 			"githubUrl" => "https://github.com/defra91/levecchiecredenze.it",
 			"githubRepositoryName" => "levecchiecredenze.it",
-			"githubUsername" => "defra91",
+			"githubUsername" => "defra9xsxs1",
 			"githubPassword" => "multisync91",
 			"publicDomain" => "http://www.levecchiecredenze.it"
 		);
