@@ -30,7 +30,7 @@ class Configuration {
 	}
 
 	/**
-	* This hash describes the mysql database configuration
+	* This hash describes the mysql database configuration 
 	*/
 	public static function getMysqlConfiguration() {
 		return array(
@@ -43,7 +43,7 @@ class Configuration {
 	}
 
 	/**
-	* The class constructor
+	* The class default constructor
 	*/
 	function __construct() {}
 }
