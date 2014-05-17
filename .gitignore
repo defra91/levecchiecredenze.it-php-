@@ -33,4 +33,4 @@
 *.txt
 *.*~
 
-public_html/lib/controller/Configuration.php
+/public_html/lib/controller/Configuration.php
