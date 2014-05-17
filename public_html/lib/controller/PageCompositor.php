@@ -33,9 +33,7 @@ class PageCompositor {
 	function createPageHeader($pageId) {
 		// check if parameter has the right value
 		if ($pageId > 12 || $pageId < 1 || !is_int($pageId)) {
-			$error = new Error(1000, "Invalid parameter", "The value you insereted on the call to the method 'createPageHeader' is wrong. It accepts an integer value between 1 and 11");
-			$error->showErrorPage();
-			die();
+			throw new Error(1000, "Invalid parameter", "The value you insereted on the call to the method 'createPageHeader' is wrong. It accepts an integer value between 1 and 11");
 		}
 
 		// create association between pages and title 

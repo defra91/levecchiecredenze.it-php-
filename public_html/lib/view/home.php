@@ -1,8 +1,13 @@
 <?php
 	require_once("../controller/PageCompositor.php");
+	require_once("../controller/Error.php");
 	$compositor = new PageCompositor();
-
-	print $compositor->createPageHeader(1);
+	try {
+		print $compositor->createPageHeader(-1);
+	} catch(Error $e) {
+		$e->reportOnGithub(array("bug", "home.php"));
+		$e->showErrorPage();
+	}
 ?>
 
 <body>
