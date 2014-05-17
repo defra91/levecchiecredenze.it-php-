@@ -1,8 +1,8 @@
 <?php
-	require_once("../php/PageCompositor.php");
+	require_once("../controller/PageCompositor.php");
 	$compositor = new PageCompositor();
 
-	print $compositor->createPageHeader(-1);
+	print $compositor->createPageHeader(1);
 ?>
 
 <body>
@@ -52,8 +52,3 @@
 </body>
 
 </html>
-
-<?php
-	include_once("../php/library.php");
-	addVisitor();
-?>
