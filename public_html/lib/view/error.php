@@ -1,6 +1,6 @@
 <?php
 
-	require_once("../php/PageCompositor.php");
+	require_once("../controller/PageCompositor.php");
 
 	$compositor = new PageCompositor();
 
@@ -21,21 +21,21 @@
 		<?php
 			session_start();
 			if (!isset($_SESSION['error'])) {
-				header("Location: index.php");
+				header("Location: home.php");
 			} 
 			else {
 				$error = $_SESSION['error'];
 				$html = "<h1 class=\"error\">Si è verificato un errore</h1>";
-				$html .= 
-				"<ul>
+				$html .= "
+				<ul>
 				<li>Code: " . $error['errorCode'] . "</li>"
 				. "<li>Titolo: " . $error['errorTitle'] . "</li>"
 				. "<li>Descrizione: " . $error['errorDescription'] . "</li>"
-				. "</ul>"
-				. "<h2>Azioni disponibili:</h2><ul>"
-				. "<li><a target=\"_blank\" href=\"https://github.com/defra91/levecchiecredenze.it/issues/new\">Crea una issue su github</a></li>"
+				. "</ul>
+				<p>Non ti preoccupare, è già stato riportato allo staff di <i>levecchiecredenze.it</i>. In ogni caso puoi compiere le seguenti azioni:</p>"
+				. "<ul><li><a target=\"_blank\" href=\"https://github.com/defra91/levecchiecredenze.it/issues/new\">Crea una issue su github</a></li>"
 				. "<li><a target=\"_blank\" href=\"mailto: luca.defranceschi.91@gmail.com\">Contatta lo sviluppatore</a></li>"
-				. "<li>Go to the <a href=\"help.php\">help</a> page</li>"
+				. "<li>Vai alla pagina <a href=\"help.php\">help</a></li>"
 				. "<li>Leggi la <a target=\"_blank\" href=\"https://github.com/defra91/levecchiecredenze.it/wiki\">documentazione di sviluppo</a></li>"
 				. "</ul>";
 
@@ -55,8 +55,3 @@
 </body>
 
 </html>
-
-<?php
-	include("../php/library.php");
-	addVisitor();
-?>

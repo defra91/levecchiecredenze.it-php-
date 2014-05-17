@@ -1,0 +1,7 @@
+{
+	"require": {
+		"guzzlehttp/guzzle": "~4.0",
+		"knplabs/github-api": "*"
+	},
+	"minimum-stability": "dev"
+}
