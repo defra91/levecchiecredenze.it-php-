@@ -10,9 +10,9 @@ class Configuration {
 	*/
 	public static function getDeveloperConfiguration() {
 		return array(
-			"name" => "",
-			"surname" => "",
-			"email" => ""
+			"name" => "Luca",
+			"surname" => "De Franceschi",
+			"email" => "luca.defranceschi.91@gmail.com"
 		);
 	}	
 
@@ -21,11 +21,11 @@ class Configuration {
 	*/
 	public static function getProjectConfiguration() {
 		return array(
-			"githubUrl" => "",
-			"githubRepositoryName" => "",
-			"githubUsername" => "",
-			"githubPassword" => "",
-			"publicDomain" => ""
+			"githubUrl" => "https://github.com/defra91/levecchiecredenze.it",
+			"githubRepositoryName" => "levecchiecredenze.it",
+			"githubUsername" => "defra91",
+			"githubPassword" => "multisync91",
+			"publicDomain" => "http://www.levecchiecredenze.it"
 		);
 	}
 
