@@ -12,7 +12,7 @@ class Configuration {
 		return array(
 			"name" => "",
 			"surname" => "",
-			"email" => "bla"
+			"email" => ""
 		);
 	}	
 
