@@ -10,4 +10,5 @@ return array(
     'Guzzle\\Tests' => array($vendorDir . '/guzzle/guzzle/tests'),
     'Guzzle' => array($vendorDir . '/guzzle/guzzle/src'),
     'Github\\' => array($vendorDir . '/knplabs/github-api/lib'),
+    'Carbon' => array($vendorDir . '/nesbot/carbon/src'),
 );

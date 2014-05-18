@@ -1,7 +1,8 @@
 {
 	"require": {
 		"guzzlehttp/guzzle": "~4.0",
-		"knplabs/github-api": "*"
+		"knplabs/github-api": "*",
+		"nesbot/Carbon": "*"
 	},
 	"minimum-stability": "dev"
 }
