@@ -1,6 +1,6 @@
 <?php
 
-	require_once("../php/PageCompositor.php");
+	require_once("../controller/PageCompositor.php");
 
 	$compositor = new PageCompositor();
 
@@ -25,10 +25,6 @@
 		<h1>News</h1>
 		<hr/>
 		<ul id="news_list">
-			<?php
-				include_once("../php/library.php");
-				loadNews();
-			?>
 		</ul>
 	</div>
 
@@ -43,5 +39,5 @@
 </html>
 
 <?php
-	addVisitor();
+	$compositor->registerPageLog(7);
 ?>

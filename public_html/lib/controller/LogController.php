@@ -1,5 +1,8 @@
 <?php
 require("../vendor/autoload.php");
+include("../model/LogModel.php");
+use Carbon\Carbon;
+include_once("Error.php");
 /**
 * Provides a controller for the access to LogModel
 * @author Luca De Franceschi <luca.defranceschi.91@gmail.com>
@@ -21,14 +24,14 @@ class LogController
 		}
 		else {
 			if ($category != "pageAccess" || $category != "edit" || $category != "insert" || $category != "delete") {
-				$this->category = "mics";
+				$this->category = "misc";
 			}
 			else {
 				$this->category = $category;
 			}
 		}
 		$this->dateTime = Carbon::now();
-		$this->model = LogModel->new();
+		$this->model = new LogModel($this);
 	}
 
 	/**
@@ -109,7 +112,7 @@ class LogController
 	* @access public
 	*/
 	public function registerLog() {
-		$this->model->registerLog($this);
+		$this->model->registerLog($this);	
 	}
 
 

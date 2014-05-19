@@ -1,6 +1,6 @@
 <?php
 
-	require_once("../php/PageCompositor.php");
+	require_once("../controller/PageCompositor.php");
 
 	$compositor = new PageCompositor();
 
@@ -29,6 +29,5 @@
 </html>
 
 <?php
-	include("../php/library.php");
-	addVisitor();
+	$compositor->registerPageLog(6);
 ?>

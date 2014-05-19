@@ -55,3 +55,7 @@
 </body>
 
 </html>
+
+<?php
+	$compositor->registerPageLog(12);
+?>

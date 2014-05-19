@@ -3,7 +3,7 @@
 	require_once("../controller/Error.php");
 	$compositor = new PageCompositor();
 	try {
-		print $compositor->createPageHeader(-1);
+		print $compositor->createPageHeader(1);
 	} catch(Error $e) {
 		$e->reportOnGithub(array("bug", "home.php"));
 		$e->showErrorPage();
@@ -50,10 +50,15 @@
 		</p>
 
 	</div>
-<?php
-	print $compositor->createSocialTab();
-?>
+
+	<?php
+		print $compositor->createSocialTab();
+	?>
 
 </body>
 
 </html>
+
+<?php
+	$compositor->registerPageLog(1);
+?>

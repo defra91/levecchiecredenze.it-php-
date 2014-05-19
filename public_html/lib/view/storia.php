@@ -1,5 +1,5 @@
 <?php
-	require_once("../php/PageCompositor.php");
+	require_once("../controller/PageCompositor.php");
 	$compositor = new PageCompositor();
 
 	print $compositor->createPageHeader(2);
@@ -26,7 +26,7 @@
 			Dopo 18 anni a Chieri, Vittorio apre “Le Vecchie Credenze” a Santena, un paesino di 10000 abitanti circa.
 		</p>
 
-		<img src="images/st/2.jpg" alt="Vittorio e Valeria, gestori del ristorante, davanti a una tavola apparecchiata" />
+		<img src="../../images/st/2.jpg" alt="Vittorio e Valeria, gestori del ristorante, davanti a una tavola apparecchiata" />
 
 	</div>
 
@@ -39,6 +39,5 @@
 </html>
 
 <?php
-	include("../php/library.php");
-	addVisitor();
+	$compositor->registerPageLog(2);
 ?>

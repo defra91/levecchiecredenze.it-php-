@@ -3,6 +3,7 @@
 include_once("Error.php");
 /**
 * This class is responsible to provide methods to load common section in Html pages
+* @author Luca De Franceschi <luca.defranceschi.91@gmail.com>
 */
 class PageCompositor {
 	/**
@@ -23,14 +24,18 @@ class PageCompositor {
 	*/
 
 	/**
-	* This is the empty constructor of the class
+	* Public class constructor
+	* @access public
 	*/
-	function __construct() {}
+	public function __construct() {}
 
 	/**
-	* This method provides to create the html header for each page
+	* Creates the html header for each page
+	* @param integer $pageId the id of the html page
+	* @return string html source code for header
+	* @access public
 	**/
-	function createPageHeader($pageId) {
+	public function createPageHeader($pageId) {
 		// check if parameter has the right value
 		if ($pageId > 12 || $pageId < 1 || !is_int($pageId)) {
 			throw new Error(1000, "Invalid parameter", "The value you insereted on the call to the method 'createPageHeader' is wrong. It accepts an integer value between 1 and 11");
@@ -58,15 +63,17 @@ class PageCompositor {
 	}
 
 	/**
-	* This method provides to create the navigation section for a page. It accepts the number id of a page. 
+	* Creates the navigation section for a page
+	* @param integer $pageId the html page identification number
+	* @return string html source code for navigation 
+	* @access public 
 	*/
-	function createNavigationMenu($pageId) {
+	public function createNavigationMenu($pageId) {
 		// first of all includes the upper banner, then starts an unordered list
 		$html = "<img src=\"../../images/banner.png\" alt=\"Logo, composto dal nome del ristorante\"/>\n<ul>";
 
 		// create array with label and url for each menu item
-		$items = array("Home" => "home.php", "La storia" => "storia.php", "Il nostro menu" => "menu.php", "La nostra cantina" => "cantina.php", "Galleria" => "gallery.php", "I nostri eventi" => "eventi.php", "Le nostre news" => "news.php", "Come raggiungerci" => "raggiungerci.php", "Contattaci" => "contatti.php");
-		
+		$items = array("Home" => "home.php", "La storia" => "storia.php", "Il nostro menu" => "menu.php", "La nostra cantina" => "cantina.php", "Galleria" => "gallery.php", "I nostri eventi" => "eventi.php", "Le nostre news" => "news.php", "Come raggiungerci" => "raggiungerci.php", "Contattaci" => "contatti.php");		
 		$html;
 		$cnt = 1;
 		foreach ($items as $key => $value) {
@@ -98,9 +105,31 @@ class PageCompositor {
 	}
 
 	/**
-	* This method provides to create the footer section for a page. It accepts a parameter mode, which determine the way the result is returned
+	* Register page access log
+	* @param string $pageId page id
+	* @access public
 	*/
-	function createFooter($mode) {
+	public function registerPageLog($pageId) {
+		$indexes = array(1 => "home.php", 2 => "storia.php", 3 => "menu.php", 4 => "cantina.php", 5 => "gallery.php", 6 => "eventi.php", 7 => "news.php", 8 => "raggiungerci.php", 9 => "contatti.php", 10 => "credits.php", 11 => "login.php", 12 => "error.php");
+		include_once("LogController.php");
+		$user = "";
+		if (isset($_SESSION['user'])) {
+			$user = $_SESSION['user'];
+		}
+		else {
+			$user = "Visitor";
+		}
+		$log = new LogController($user, $indexes[$pageId] . " requested and loaded", "pageAccess");
+		$log->registerLog();
+	}
+
+	/**
+	* Creates the footer section for a page
+	* @param integer $mode the way footer must be presented
+	* @return string html source code for footer section
+	* @access public
+	*/
+	public function createFooter($mode) {
 		// write html code for footer section
 		$html = "<div id=\"footer\">
 			<h1>Ristorante Le Vecchie Credenze</h1>
@@ -141,9 +170,11 @@ class PageCompositor {
 	}
 
 	/**
-	* This method provides to create the social tab section of a page
+	* Creates the social tab section of a page
+	* @return string html source code of social tab section
+	* @access public
 	*/
-	function createSocialTab() {
+	public function createSocialTab() {
 		$html = "<div id=\"social_tab\">
 		<a href=\"#\"><img src=\"../../images/facebook-icon.png\" alt=\"logo di Facebook\" title=\"aggiungici su facebook\" /></a>
 		<a href=\"#\"><img src=\"../../images/twitter-icon.png\" alt=\"logo di Twitter\" title=\"seguici su twitter\" /></a>
