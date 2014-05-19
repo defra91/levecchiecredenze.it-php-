@@ -1,6 +1,6 @@
 <?php
 
-	require_once("../php/PageCompositor.php");
+	require_once("../controller/PageCompositor.php");
 
 	$compositor = new PageCompositor();
 
@@ -54,8 +54,6 @@
 			<li><a href="#" lang="en">Tripadvisor</a></li>
 		</ul>
 
-
-
 	</div>
 
 	<?php
@@ -69,6 +67,5 @@
 </html>
 
 <?php
-	include("../php/library.php");
-	addVisitor();
+	$compositor->registerPageLog(9);
 ?>

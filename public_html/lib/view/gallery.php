@@ -1,6 +1,6 @@
 <?php
 
-	require_once("../php/PageCompositor.php");
+	require_once("../controller/PageCompositor.php");
 
 	$compositor = new PageCompositor();
 
@@ -11,7 +11,7 @@
 <body>
 	<div id="navigation">
 		<?php
-			print $compositor->createNavigationMenu(4);	
+			print $compositor->createNavigationMenu(5);	
 			print $compositor->createFooter(1);
 		?>
 	</div>
@@ -20,16 +20,10 @@
 		<h1>Gallery</h1>
 		<p>Di seguito viene riportata una galleria di immagini del nostro ristorante:</p>
 		<hr/>
-			<?php
-				include_once("../php/library.php");
-				loadGallery();
-			?>
 	</div>
 
 	<?php
-
 		print $compositor->createSocialTab();
-
 	?>
 
 </body>
@@ -37,5 +31,5 @@
 </html>
 
 <?php
-	addVisitor();
+	$compositor->registerPageLog(5);
 ?>

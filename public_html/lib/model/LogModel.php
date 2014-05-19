@@ -1,6 +1,6 @@
 <?php
 
-include_once("../controller/LogController");
+include_once("../controller/LogController.php");
 include_once("MySqlDatabase.php");
 include_once("../controller/Configuration.php");
 include_once("../controller/Error.php");
@@ -21,7 +21,7 @@ class LogModel {
 		$this->logController = $controller;
 		$config = Configuration::getMysqlConfiguration();
 		// Initialize database with data configuration
-		$this->database = MySqlDatabase->new(
+		$this->database = new MySqlDatabase(
 			$config['dbHost'],
 			$config['dbUser'],
 			$config['dbPassword'],
@@ -31,21 +31,23 @@ class LogModel {
 	}
 
 	/**
-	* Communicate with database and store the Log
+	* Communicates with database and store the Log
 	*/
 	public function registerLog() {
 		$query = "insert into log values(
-			null, " .
+			null, \"" .
 			$this->logController->getLogUser() .
-			", " . $this->logController->getLogCategory() .
-			", " . $this->logController->getLogDescription() .
-			", " . $this->logController->getLogDatetime() .
-			");";
+			"\", \"" . $this->logController->getLogCategory() .
+			"\", \"" . $this->logController->getLogDescription() .
+			"\", \"" . $this->logController->getLogDatetime() .
+			"\")";
 		try {
-			$connection = $database->dbConnect();
+			$connection = $this->database->dbConnect();
+			$this->database->executeQuery($query,$connection);
 		}
 		catch (Error $e) {
-			$e->printHtmlError()
+			$e->printHtmlError();
+			$e->reportOnGithub(array("mysql error", "log"));
 		}
 		
 		
