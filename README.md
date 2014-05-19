@@ -4,13 +4,6 @@ Il presente repository ha come scopo quello di raccogliere e versionare il proge
 
 * Vecchio sito levecchiecredenze: <http://www.levecchiecredenze.it>
 
-## Registro delle modifiche 
-
-| Autore  | Data della modifica | Versione | Descrizione |
-| ------------- | ------------- | -------- | ----------- |
-| Luca De Franceschi | 16/05/2014 | 1.2.0 | Create la classe Error per le gestione degli errori del sito |
-| Luca De Franceschi | 15/05/2014 | 1.1.0 | Creata classe PageCompositor per la composizione dinamica della sezioni comuni delle pagine |
-
 ## Standard e riferimenti
 
 * Standarx XHtml: <http://www.w3.org/TR/xhtml1/>
