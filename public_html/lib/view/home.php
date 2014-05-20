@@ -61,4 +61,5 @@
 
 <?php
 	$compositor->registerPageLog(1);
+	$compositor->registerAccess();
 ?>
