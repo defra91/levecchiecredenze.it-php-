@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'hisorange\\Traits\\' => array($vendorDir . '/hisorange/traits/src'),
+    'hisorange\\BrowserDetect\\' => array($vendorDir . '/hisorange/browser-detect/src'),
     'GuzzleHttp\\Stream\\' => array($vendorDir . '/guzzlehttp/streams/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
 );

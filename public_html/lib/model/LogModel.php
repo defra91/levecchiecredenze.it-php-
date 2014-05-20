@@ -32,6 +32,7 @@ class LogModel {
 
 	/**
 	* Communicates with database and store the Log
+	* @access public
 	*/
 	public function registerLog() {
 		$query = "insert into log values(

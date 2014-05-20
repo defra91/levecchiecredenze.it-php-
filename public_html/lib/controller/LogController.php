@@ -112,7 +112,7 @@ class LogController
 	* @access public
 	*/
 	public function registerLog() {
-		$this->model->registerLog($this);	
+		$this->model->registerLog();	
 	}
 
 

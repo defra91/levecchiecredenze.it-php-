@@ -124,6 +124,21 @@ class PageCompositor {
 	}
 
 	/**
+	* Register access session has not been setted
+	* @access public
+	*/
+	public function registerAccess() {
+		include_once("AccessController.php");
+		try {
+			$access = new AccessController();
+			$access->registerAccess();
+		}
+		catch (Exception $e) {
+			// do something or nothing
+		}
+	}
+
+	/**
 	* Creates the footer section for a page
 	* @param integer $mode the way footer must be presented
 	* @return string html source code for footer section
