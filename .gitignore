@@ -33,4 +33,4 @@
 *.txt
 *.*~
 
-/resources/library/utils/Configuration.php
+/resources/Configuration.php
