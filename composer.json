@@ -1,0 +1,30 @@
+{
+	"name": "defra91/levecchiecredenze.it",
+	"description": "a back-end website development for a restaurant",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Luca De Franceschi",
+			"email": "luca.defranceschi.91@gmail.com",
+			"homepage": "https://github.com/defra91",
+			"role": "Developer and project manager"
+		}
+	],
+	"support": 
+		{
+			"email": "luca.defranceschi.91@gmail.com",
+			"issues": "https://github.com/defra91/levecchiecredenze.it/issues",
+			"wiki": "https://github.com/defra91/levecchiecredenze.it/wiki",
+			"source": "https://github.com/defra91/levecchiecredenze.it/releases"
+		},
+	"version": "1.2.1",
+	"keywords": ["restaurant", "website", "mvc"],
+	"homepage": "http://www.levecchiecredenze.it",
+	"require": {
+		"guzzlehttp/guzzle": "~4.0",
+		"knplabs/github-api": "*",
+		"nesbot/Carbon": "*",
+		"hisorange/browser-detect": "1.*"
+	},
+	"minimum-stability": "dev"
+}
