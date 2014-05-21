@@ -1,53 +1,145 @@
-# Progetto levecchiecredenze.it
+# levecchiecredenze.it - a website php project
 
-Il presente repository ha come scopo quello di raccogliere e versionare il progetto relativo al sito `levecchiecredenze.it`
+This repository provide a versioning system for the website levecchiecredenze.it.
 
-* Vecchio sito levecchiecredenze: <http://www.levecchiecredenze.it>
+* Public domain reference: <http://www.levecchiecredenze.it> (not deployed yet, old version)
 
-## Standard e riferimenti
+## Status
 
-* Standarx XHtml: <http://www.w3.org/TR/xhtml1/>
-* Standard CSS2: <http://www.w3.org/TR/CSS2/>
+Under development. See the [release](https://github.com/defra91/levecchiecredenze.it/releases) section for more information;
+
+## Current features
+
+* Static homepage with restaurant information;
+* Static page with history of restaurant information;
+* Dynamic page with restaurant menu (not implemented);
+* Dynamic page with news list (not implemented);
+* Dynamic page with event list (not implemented);
+* Dynamic page with gallery (not implemented);
+* Static page with driving information and google maps frame;
+* Static page with form for contact;
+* Static page with credits information;
+* Static page with login form;
+* Standard error page view;
+
+## Standard and references
+
+* XHtml standard: <http://www.w3.org/TR/xhtml1/>
+* CSS2 standard: <http://www.w3.org/TR/CSS2/>
 * Javascript reference: <http://www.w3schools.com/jsref/>
 
-## Vincoli tecnici
+## Project structure
 
-* Il sito web dev'essere accesssibile e conforme allo standard XHTML Transitional;
-* Deve tenere una netta separazione tra struttura, presentazione e comportamento;
-* La base di dati di riferimento deve essere su un database MySQL;
-* Il linguaggio per generare pagine dinamiche dev'essere il linguaggio php;
-* Bisogna mettere a disposizione due sezioni del sito:
-	* La sezione pubblica accedibile a qualsiasi visitatore;
-	* La sezione di amministrazione, accedibile solo agli amministratori del sito.
+The project strictly follows the MVC design pattern. The public pages are picked on the directory `public_html`, within which reside the following directories:
 
-## Istruzioni per la configurazione di un database locale di prova
+* `images/`, where content images are stored;
+* `css/`, where css stylesheet are stored;
+* `js/`, where Javascript client-side scripts are stored;
+* `data/`, where documents and other binary stuff are stored;
 
-Il sito web per manipolare i dati fa riferimento a un database MySQL. L'accesso a tale database è per ovvie ragioni limitato solamente al gestore del repository. Allo stato attuale alcuni script restituiranno un errore, in quanto manca il file di configurazione per le ragioni esplicate. Ciònonostante chiunque può configurare liberamente un proprio database locale e rendere il sito funzionante. Di seguito sono riportate le istruzioni:
+The `resources` directories contains all the back-end. It contains the directory `library` where are stored php scripts. The `library` directory's structure is shown below:
 
-* Creare un file `config.php` dentro la directory `./mysql/`;
-* Inserire il codice php che segue e sostituire opportunamente i campi con quelli del vostro database MySQL locale o remoto:
+* `model/`, which contains script for database management;
+* `controller/`, which contains script to generate page sections and communicate with model;
+* `utils/`, which contains other php classes;
+* `vendor/`, which contains external libraries from package manager composer;ù
+* `composer.json` file, which contains the description of the package;
+
+You can also find `backup/` directory inside `resources` folder. It contains all backup files, such as mysql backups.
+
+## Requirements
+
+* PHP >= 5.3.2 with [cURL](http://php.net/manual/en/book.curl.php) extension;
+* [Composer](https://getcomposer.org/);
+* [MySQL](https://www.mysql.it/) database;
+
+## First use
+
+To make the website working you need to follow the following steps:
+
+* First of all you need to create a php configuration file class. Open a terminal and access to project's directory. You need to create a file named `Configuration.php` inside the path `./resources/`. You can run the following command:
+
+`touch ./resources/Configuration.php`
+
+* Write class code insisde `Configuration.php` file. You are free to setup your file as you wish but in order to make project working you need to follow the template shown below:
 
 ``` php
 
 <?php
-	ini_set("display_errors","Off");
 
-	// Dati della connessione
-	$db_host = 'yourHost';			// esempio 'localhost'        
-	$db_utente = 'yourUsername';
-	$password = 'yourPassword';               	
-	$db_nomedb = 'yourDbName';		
+/**
+* This class provides to describe a series of configuration in a static way
+* @author Luca De Franceschi <luca.defranceschi.91@gmail.com>
+*/
+class Configuration {
+	
+	/**
+	* Returns hash with developer information
+	* @return hash developer info
+	* @access public
+	*/
+	public static function getDeveloperConfiguration() {
+		return array(
+			"name" => "yourName",
+			"surname" => "yourSurname",
+			"email" => "yourEmail"
+		);
+	}	
 
-	// Effettuo la connessione al database
-	$connessione = mysql_connect($db_host, $db_utente, $password) 
-	or die ("Errore nella stringa di connessione al database: " . mysql_error());
-	mysql_select_db($db_nomedb) or die (mysql_error());
+	/**
+	* Returns hash with project configuration
+	* @return hash project configuration info
+	* @access public
+	*/
+	public static function getProjectConfiguration() {
+		return array(
+			// notice: github configuration is optional
+			"githubUrl" => "yourGithubUrl",
+			"githubRepositoryName" => "yourRepositoryName", // your forked project
+			"githubUsername" => "yourGithubUsername",
+			"githubPassword" => "yourGithubPassword", // need to automatically create issues
+			"publicDomain" => "(optional) yourSitePublicDomain",
+			"documentRoot" => $_SERVER['DOCUMENT_ROOT'];
+		);
+	}
 
-	// Configuro il set di caratteri a utf-8
-	mysql_query('set names utf8');
+	/**
+	* Returns description of mysql database configuration 
+	* @return hash mysql configuration info
+	*/
+	public static function getMysqlConfiguration() {
+		return array(
+			"dbHost" => "dbHost",
+			"dbUser" => "dbUser",
+			"dbPassword" => "dbPass",
+			"dbName" => "dbName",
+			"dbPort" => "dbPort"	// usually 3606
+		);
+	}
+
+	/**
+	* Public class constructor
+	* @access private
+	*/
+	private function __construct() {}
+}
+
 ?>
 
 ```
-Naturalmente il codice è a titolo di esempio, ciascuno può scrivere il proprio file come meglio crede. L'unico vincolo richiesto è la dichiarazione di una variabile chiamata `$connessione` che è un riferimento alla connessione al database MySQL.
 
-* Importare le tabelle nel proprio database (da linea di comando o da interfaccia gradica) facendo riferimento al file: `./mysql/backup.sql`. Tale file verrà aggiornato costantemente ad ogni modifica della struttura del database.
+* Import database tables structure by file upload. You can find the backup file in the following path: `./resources/backup/mysqlBackup.sql`.
+
+## Programs and tools used:
+
+* Operating system: [Ubuntu 14.04](http://www.ubuntu-it.org/download);
+* Text editor: [sublime Text 3](http://www.sublimetext.com/3);
+* Server web: [Apache 2.*](http://httpd.apache.org/);
+* MySql management: [MySql Workbench](http://www.mysql.it/products/workbench/);
+
+## External libraries used:
+
+* [guzzlehttp/guzzle](https://packagist.org/packages/guzzlehttp/guzzle);
+* [knplabs/github-api](https://packagist.org/packages/knplabs/github-api);
+* [nesbot/Carbon](https://packagist.org/packages/nesbot/carbon);
+* [hisorange/browser-detect](https://packagist.org/packages/hisorange/browser-detect);
