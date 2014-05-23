@@ -1,6 +1,5 @@
 <?php
-include_once("../model/ImageModel.php");
-
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/model/ImageModel.php");
 
 /**
 * This class is provided to describe an image and manage it, invoking methods to model and send it to the front-end
@@ -100,7 +99,7 @@ class ImageController {
 	* @return hash hash of all images
 	* @static
 	*/
-	public static getAllImages() {
+	public static function getAllImages() {
 		$images = ImageModel::selectAll();
 		return $images;
 	}

@@ -1,9 +1,9 @@
 <?php
 
-include_once("../controller/LogController.php");
-include_once("MySqlDatabase.php");
-include_once("../../Configuration.php");
-include_once("../utils/Error.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/controller/LogController.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/model/MySqlDatabase.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/Configuration.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/utils/Error.php");
 
 /**
 * Provides a model for Log and comunicate with database to store, edit, load and delete data

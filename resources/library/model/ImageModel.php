@@ -1,9 +1,8 @@
 <?php
-
-include_once("../controller/ImageController.php");
-include_once("../../Configuration.php");
-include_once("MySqlDatabase.php");
-include_once("../utils/Error.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/controller/ImageController.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/Configuration.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/model/MySqlDatabase.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/utils/Error.php");
 
 /**
 * This class provides a connection to the database and manage images
@@ -30,9 +29,11 @@ class ImageModel {
 	/**
 	* Extract all images in database
 	* @access public
+	* @return hash hash of extracted images
 	* @static
 	*/
 	public static function selectAll() {
+		$config = Configuration::getMysqlConfiguration();
 		$query = "select * from immagini";
 		try {
 			$database = new MySqlDatabase(
@@ -43,7 +44,13 @@ class ImageModel {
 				$config['dbPort']
 			);
 			$connection = $database->dbConnect();
-			$images = $database->executeQuery($query, $connection);
+			$result = $database->executeQuery($query, $connection);
+			$i = 0;
+			$images = array();
+			while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+				$images[$i] = $row;
+				$i++;
+			}
 			return $images;
 		}
 		catch (Error $e) {

@@ -56,9 +56,14 @@ class PageCompositor {
 		<link rel=\"stylesheet\" type=\"text/css\" href=\"css/smartphone-portrait.css\" media=\"only screen and (max-width: 480px) and (orientation: portrait)\" />
 		<link rel=\"stylesheet\" type=\"text/css\" href=\"css/smartphone-landscape.css\" media=\"only screen and (max-width: 480px) and (orientation: landscape)\" />
 		<script type=\"text/javascript\" src=\"js/jquery.js\"></script>
-		<script type=\"text/javascript\" src=\"js/common.js\"></script>
-			</head>";
+		<script type=\"text/javascript\" src=\"js/common.js\"></script>";
 
+		if ($pageId == 5) {
+			$html .= "<script type=\"text/javascript\" src=\"js/lightbox.js\"\></script>";
+			$html .= "<link type=\"text/css\" href=\"css/lightbox.css\" rel=\"stylesheet\" />";
+		}
+
+		$html .= "</head>";
 		return $html;
 	}
 
@@ -111,7 +116,7 @@ class PageCompositor {
 	*/
 	public function registerPageLog($pageId) {
 		$indexes = array(1 => "home.php", 2 => "storia.php", 3 => "menu.php", 4 => "cantina.php", 5 => "gallery.php", 6 => "eventi.php", 7 => "news.php", 8 => "raggiungerci.php", 9 => "contatti.php", 10 => "credits.php", 11 => "login.php", 12 => "error.php");
-		include_once("LogController.php");
+		include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/controller/LogController.php");
 		$user = "";
 		if (isset($_SESSION['user'])) {
 			$user = $_SESSION['user'];
@@ -128,7 +133,7 @@ class PageCompositor {
 	* @access public
 	*/
 	public function registerAccess() {
-		include_once("AccessController.php");
+		include_once("../controller/AccessController.php");
 		try {
 			$access = new AccessController();
 			$access->registerAccess();

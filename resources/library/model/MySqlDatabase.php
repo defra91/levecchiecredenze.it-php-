@@ -1,5 +1,5 @@
 <?php
-include_once("../utils/Error.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/utils/Error.php");
 /**
 * Provides operations for mysql database
 * @author Luca De Franceschi <luca.defranceschi.91@gmail.com>

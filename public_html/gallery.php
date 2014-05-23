@@ -20,13 +20,24 @@
 		<h1>Gallery</h1>
 		<p>Di seguito viene riportata una galleria di immagini del nostro ristorante:</p>
 		<hr/>
-		<?php
-			include_once("../resources/library/controller/ImageController.php");
+			<?php
+				include_once("../resources/library/controller/ImageController.php");
 
-			$images = ImageController::getAllImages();
-			print $images;
-
-		?>
+				$images = ImageController::getAllImages();
+				if (empty($images)) {
+					print "<p>Al momento la galleria non contiene immagini</p>";
+				}
+				else {
+					for ($i=0; $i<count($images); $i++) {
+						print 
+						"<div class=\"image_container\">
+							<a data-lightbox=\"roadtrip\" href=\"" . $images[$i]['percorso_immagine'] . "full/" . $images[$i]['nome_immagine'] . "\">
+								<img class=\"gallery_item\" alt=\"" . $images[$i]['alt'] . "\" title=\"" . $images[$i]['title'] . "\" src=\"" . $images[$i]['percorso_immagine'] . "thumbs/" . $images[$i]['nome_immagine'] . "\" />
+							</a>
+						</div>"; 
+					}
+				}
+			?>
 	</div>
 
 	<?php

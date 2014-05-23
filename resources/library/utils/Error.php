@@ -1,5 +1,5 @@
 <?php
-include_once("../Configuration.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/Configuration.php");
 
 /**
 * This class is provided to describe and manage errors occured during methods execution

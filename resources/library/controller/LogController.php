@@ -1,8 +1,9 @@
 <?php
-require("../vendor/autoload.php");
-include("../model/LogModel.php");
+require($_SERVER['DOCUMENT_ROOT'] . "resources/library/vendor/autoload.php");
+include($_SERVER['DOCUMENT_ROOT'] . "resources/library/model/LogModel.php");
 use Carbon\Carbon;
-include_once("../utils/Error.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/utils/Error.php");
+
 /**
 * Provides a controller for the access to LogModel
 * @author Luca De Franceschi <luca.defranceschi.91@gmail.com>
