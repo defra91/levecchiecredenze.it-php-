@@ -17,7 +17,7 @@
 			"wiki": "https://github.com/defra91/levecchiecredenze.it/wiki",
 			"source": "https://github.com/defra91/levecchiecredenze.it/releases"
 		},
-	"version": "1.1.0",
+	"version": "1.2.1",
 	"keywords": ["restaurant", "website", "mvc"],
 	"homepage": "http://www.levecchiecredenze.it",
 	"require": {

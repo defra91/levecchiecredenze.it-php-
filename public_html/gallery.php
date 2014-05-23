@@ -20,6 +20,13 @@
 		<h1>Gallery</h1>
 		<p>Di seguito viene riportata una galleria di immagini del nostro ristorante:</p>
 		<hr/>
+		<?php
+			include_once("../resources/library/controller/ImageController.php");
+
+			$images = ImageController::getAllImages();
+			print $images;
+
+		?>
 	</div>
 
 	<?php
