@@ -109,7 +109,7 @@ class Error extends Exception {
 
 		$_SESSION['error'] = $this->toHash();
 
-		header("Location: ../../../public_html/error.php");
+		header("Location: " . $_SERVER['DOCUMENT_ROOT'] . "public_html/error.php");
 
 	}
 
@@ -123,7 +123,7 @@ class Error extends Exception {
 		if (!isset($labels)) {
 			$labels = array();
 		}
-		require_once '../vendor/autoload.php';
+		require_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/vendor/autoload.php");
 		try {
 			$client = new \Github\Client();
 			$client->authenticate($config['githubUsername'], $config['githubPassword'], Github\Client::AUTH_HTTP_PASSWORD);
