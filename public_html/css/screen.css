@@ -220,12 +220,6 @@ div#content p a{
 	color: #ab8d77;
 }
 
-div#content img {
-	margin: 4% auto;
-	display: block;
-	width: 70%;
-}
-
 div#social_tab {
 	position: fixed;
 	left: 95%;
@@ -511,9 +505,11 @@ input.text_input {
 }
 
 input.submit_input {
-	width: 10%;
+	width: 15%;
 	padding: 1%;
 	margin: 2% 0;
+	float: left;
+	margin-right: 5%;
 }
 
 div#content select {
@@ -671,4 +667,43 @@ span#event_date {
 li.event_item {
 	margin: 4% 6%;
 	font-size: 1.2em;
+}
+
+/************
+
+Subscribe	
+
+************/
+
+span.note {
+	float: right;
+	font-style: italic;
+	font-size: 0.6em;
+	margin-bottom: 5%;
+}
+
+img.wait {
+	width: 10%;
+	-webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+    margin: 5% 45%;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+h2#wait_message {
+	clear: right;
+	margin-top: 4%;
+}
+
+h3.error {
+	color: rgb(200,0,0);
+}
+
+h3.success {
+	
 }

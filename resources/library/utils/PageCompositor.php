@@ -21,6 +21,7 @@ class PageCompositor {
 	* 10 - credits.php
 	* 11 - login.php
 	* 12 - error.php
+	* 13 - subscribe.php
 	*/
 
 	/**
@@ -37,17 +38,17 @@ class PageCompositor {
 	**/
 	public function createPageHeader($pageId) {
 		// check if parameter has the right value
-		if ($pageId > 12 || $pageId < 1 || !is_int($pageId)) {
+		if ($pageId > 13 || $pageId < 1 || !is_int($pageId)) {
 			throw new Error(1000, "Invalid parameter", "The value you insereted on the call to the method 'createPageHeader' is wrong. It accepts an integer value between 1 and 11");
 		}
 
 		// create association between pages and title 
-		$title = array(1 => "Home", 2 => "La storia", 3 => "Il nostro menu", 4 => "La nostra cantina", 5 => "Galleria", 6 => "I nostri eventi", 7 => "Le nostre news", 8 => "Come raggiungerci", 9 => "Conttattaci", 10 => "Credits", 11 => "Sezione di amministrazione", 12 => "Si è verificato un errore");
+		$title = array(1 => "Home", 2 => "La storia", 3 => "Il nostro menu", 4 => "La nostra cantina", 5 => "Galleria", 6 => "I nostri eventi", 7 => "Le nostre news", 8 => "Come raggiungerci", 9 => "Conttattaci", 10 => "Credits", 11 => "Sezione di amministrazione", 12 => "Si è verificato un errore", 13 => "Iscriviti alla neswletter");
 		
 		// write header
 		$html = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
 		<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"it\" lang=\"it\">
-		<head><title>" . $title[$pageId] . "</title>
+		<head><title>" . $title[$pageId] . " | levecchiecredenze.it</title>
 		<meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />
 		<link rel=\"icon\" href=\"images/favicon.ico\" type=\"image/x-icon\"/>
 		<link rel=\"stylesheet\" type=\"text/css\" href=\"css/print.css\" media=\"print\" /> 
@@ -115,7 +116,7 @@ class PageCompositor {
 	* @access public
 	*/
 	public function registerPageLog($pageId) {
-		$indexes = array(1 => "home.php", 2 => "storia.php", 3 => "menu.php", 4 => "cantina.php", 5 => "gallery.php", 6 => "eventi.php", 7 => "news.php", 8 => "raggiungerci.php", 9 => "contatti.php", 10 => "credits.php", 11 => "login.php", 12 => "error.php");
+		$indexes = array(1 => "home.php", 2 => "storia.php", 3 => "menu.php", 4 => "cantina.php", 5 => "gallery.php", 6 => "eventi.php", 7 => "news.php", 8 => "raggiungerci.php", 9 => "contatti.php", 10 => "credits.php", 11 => "login.php", 12 => "error.php", 13 => "subscribe.php");
 		include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/controller/LogController.php");
 		$user = "";
 		if (isset($_SESSION['user'])) {

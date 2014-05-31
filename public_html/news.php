@@ -41,7 +41,7 @@
 		?>
 		</ul>
 
-		<a href="#" id="news_subscribe">Iscriviti alla nostra newsletter</a>
+		<a href="subscribe.php" id="news_subscribe">Iscriviti alla nostra newsletter</a>
 
 	</div>
 
