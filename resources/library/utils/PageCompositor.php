@@ -133,7 +133,7 @@ class PageCompositor {
 	* @access public
 	*/
 	public function registerAccess() {
-		include_once("../controller/AccessController.php");
+		include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/controller/AccessController.php");
 		try {
 			$access = new AccessController();
 			$access->registerAccess();

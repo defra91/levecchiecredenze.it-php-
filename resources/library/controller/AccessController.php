@@ -1,10 +1,10 @@
 <?php
-include_once("../model/AccessModel.php");
-require("../vendor/autoload.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/model/AccessModel.php");
+require($_SERVER['DOCUMENT_ROOT'] . "resources/library/vendor/autoload.php");
 use Carbon\Carbon;
-include_once("../utils/Error.php");
+include_once($_SERVER['DOCUMENT_ROOT'] . "resources/library/utils/Error.php");
 
-'providers' => array(
+/*'providers' => array(
     // ...
     'hisorange\BrowserDetect\Provider\BrowserDetectService',
     // ...
@@ -13,7 +13,7 @@ include_once("../utils/Error.php");
 'aliases' => array(
     // ...
     'BrowserDetect' => 'hisorange\BrowserDetect\Facade\Parser',
-);
+);*/
 
 
 /**

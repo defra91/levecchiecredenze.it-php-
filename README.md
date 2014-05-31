@@ -13,7 +13,7 @@ Under development. See the [release](https://github.com/defra91/levecchiecredenz
 * Static homepage with restaurant information;
 * Static page with history of restaurant information;
 * Dynamic page with restaurant menu (not implemented);
-* Dynamic page with news list (not implemented);
+* Dynamic page with news list;
 * Dynamic page with event list (not implemented);
 * Dynamic page with gallery (not implemented);
 * Static page with driving information and google maps frame;
