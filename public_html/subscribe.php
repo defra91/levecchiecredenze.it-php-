@@ -33,7 +33,7 @@
 		<hr/>
 
 		<p>Compila il form sottostante inserendo i tuoi dati:</p>
-		<form method="post" action="">
+		<form method="post" action="" id="submitForm">
 			<fieldset>
 				<legend>I tuoi dati</legend>
 				<label for="nome">Nome</label>

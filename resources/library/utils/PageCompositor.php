@@ -63,6 +63,9 @@ class PageCompositor {
 			$html .= "<script type=\"text/javascript\" src=\"js/lightbox.js\"\></script>";
 			$html .= "<link type=\"text/css\" href=\"css/lightbox.css\" rel=\"stylesheet\" />";
 		}
+		if ($pageId == 13) {
+			$html .= "<script type=\"text/javascript\" src=\"js/subscribe.js\"></script>";
+		}
 
 		$html .= "</head>";
 		return $html;
